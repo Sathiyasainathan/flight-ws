@@ -1,0 +1,11 @@
+<beans>
+    <service xmlns="http://xfire.codehaus.org/config/1.0">
+        <name>FlightService</name>
+        <namespace>http://org.iesc.flightws.service</namespace>
+        <serviceClass>org.iesc.flightws.service.FlightServiceWSDelegator</serviceClass>
+        <!-- use default generated WSDL for now since using a specified
+             WSDL has issues 
+        <wsdlURL>org/iesc/flightws/service/FlightService.wsdl</wsdlURL>
+        -->
+    </service>
+</beans>
