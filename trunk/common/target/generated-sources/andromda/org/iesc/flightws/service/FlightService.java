@@ -14,6 +14,16 @@ public interface FlightService
     /**
      * 
      */
-    public org.iesc.flightws.vo.FlightwsStubVO stubWebmethod();
+    public org.iesc.flightws.vo.FlightSearchResultsVO getFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria);
+
+    /**
+     * 
+     */
+    public java.lang.Long createBooking(org.iesc.flightws.vo.BookingVO booking);
+
+    /**
+     * 
+     */
+    public org.iesc.flightws.vo.CityVO[] getDestinationCitiesByDepartureCity(org.iesc.flightws.vo.CityVO departureCity);
 
 }

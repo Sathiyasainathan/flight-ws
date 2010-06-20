@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSLCustomization_0="http:///DSLCustomization_0_4hmc9nfwEd-SzqnCc3kJXw.profile.uml2" xmlns:MagicDrawProfile_0="http:///MagicDrawProfile_0_4hwN8HfwEd-SzqnCc3kJXw.profile.uml2" xmlns:common_0="http:///common_0_4hmc8HfwEd-SzqnCc3kJXw.profile.uml2" xmlns:persistence_0="http:///persistence_0_4hmc8nfwEd-SzqnCc3kJXw.profile.uml2" xmlns:service_0="http:///service_0_4hmc-HfwEd-SzqnCc3kJXw.profile.uml2" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xmlns:webservice_0="http:///webservice_0_4hmc83fwEd-SzqnCc3kJXw.profile.uml2" xsi:schemaLocation="http:///DSLCustomization_0_4hmc9nfwEd-SzqnCc3kJXw.profile.uml2 UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml2#_4soEQ3fwEd-SzqnCc3kJXw http:///MagicDrawProfile_0_4hwN8HfwEd-SzqnCc3kJXw.profile.uml2 UML_Standard_Profile.MagicDraw_Profile.profile.uml2#_4sfCBHfwEd-SzqnCc3kJXw http:///common_0_4hmc8HfwEd-SzqnCc3kJXw.profile.uml2 org.andromda.profile.common.profile.uml2#_4se3RHfwEd-SzqnCc3kJXw http:///persistence_0_4hmc8nfwEd-SzqnCc3kJXw.profile.uml2 org.andromda.profile.persistence.profile.uml2#_4se34HfwEd-SzqnCc3kJXw http:///service_0_4hmc-HfwEd-SzqnCc3kJXw.profile.uml2 org.andromda.profile.service.profile.uml2#_4soFBnfwEd-SzqnCc3kJXw http:///webservice_0_4hmc83fwEd-SzqnCc3kJXw.profile.uml2 org.andromda.profile.webservice.profile.uml2#_4sfAB3fwEd-SzqnCc3kJXw" xmi:id="eee_1045467100313_135436_1" name="Data" appliedProfile="_11_5_e240333_1154527625671_782614_56profileApplicationData _11_5_e240333_1154527578125_463523_83profileApplicationData _11_5_e240333_1154527540265_181005_899profileApplicationData _11_5_e240333_1154527483875_483206_35profileApplicationData _11_5_e240333_1154527189593_272453_14profileApplicationData _11_5_e240333_1154527253281_154549_26profileApplicationData _11_5_be00301_1153310565718_226811_161profileApplicationData _11_5_f720368_1159529670215_231387_1profileApplicationData _11_5_e240333_1154527425687_111873_349profileApplicationData _be00301_1073394351331_445580_2profileApplicationData _11_5_e240333_1154527378140_885914_432profileApplicationData _9_0_be00301_1108050582343_527400_10847profileApplicationData _be00301_1066743716538_320440_0profileApplicationData _12_0_12ab03bf_1166898799812_358986_99profileApplicationData">
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSLCustomization_0="http:///DSLCustomization_0_YHKJZXuqEd-0Kr02zFWHKA.profile.uml2" xmlns:MagicDrawProfile_0="http:///MagicDrawProfile_0_YHA_cHuqEd-0Kr02zFWHKA.profile.uml2" xmlns:common_0="http:///common_0_YHA_cXuqEd-0Kr02zFWHKA.profile.uml2" xmlns:persistence_0="http:///persistence_0_YHA_cnuqEd-0Kr02zFWHKA.profile.uml2" xmlns:service_0="http:///service_0_YHKJZ3uqEd-0Kr02zFWHKA.profile.uml2" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xmlns:webservice_0="http:///webservice_0_YHKJaHuqEd-0Kr02zFWHKA.profile.uml2" xsi:schemaLocation="http:///DSLCustomization_0_YHKJZXuqEd-0Kr02zFWHKA.profile.uml2 UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml2#_YRJgKXuqEd-0Kr02zFWHKA http:///MagicDrawProfile_0_YHA_cHuqEd-0Kr02zFWHKA.profile.uml2 UML_Standard_Profile.MagicDraw_Profile.profile.uml2#_YRJVWXuqEd-0Kr02zFWHKA http:///common_0_YHA_cXuqEd-0Kr02zFWHKA.profile.uml2 org.andromda.profile.common.profile.uml2#_YRJWyXuqEd-0Kr02zFWHKA http:///persistence_0_YHA_cnuqEd-0Kr02zFWHKA.profile.uml2 org.andromda.profile.persistence.profile.uml2#_YRJL1HuqEd-0Kr02zFWHKA http:///service_0_YHKJZ3uqEd-0Kr02zFWHKA.profile.uml2 org.andromda.profile.service.profile.uml2#_YRJXfXuqEd-0Kr02zFWHKA http:///webservice_0_YHKJaHuqEd-0Kr02zFWHKA.profile.uml2 org.andromda.profile.webservice.profile.uml2#_YRJeJHuqEd-0Kr02zFWHKA" xmi:id="eee_1045467100313_135436_1" name="Data" appliedProfile="_be00301_1073394351331_445580_2profileApplicationData _11_5_e240333_1154527625671_782614_56profileApplicationData _11_5_e240333_1154527540265_181005_899profileApplicationData _11_5_e240333_1154527253281_154549_26profileApplicationData _9_0_be00301_1108050582343_527400_10847profileApplicationData _11_5_f720368_1159529670215_231387_1profileApplicationData _be00301_1066743716538_320440_0profileApplicationData _11_5_e240333_1154527189593_272453_14profileApplicationData _11_5_be00301_1153310565718_226811_161profileApplicationData _12_0_12ab03bf_1166898799812_358986_99profileApplicationData _11_5_e240333_1154527425687_111873_349profileApplicationData _11_5_e240333_1154527483875_483206_35profileApplicationData _11_5_e240333_1154527578125_463523_83profileApplicationData _11_5_e240333_1154527378140_885914_432profileApplicationData">
   <ownedComment xmi:id="_16_0_225904e4_1236245903686_28566_230" body="Author:.&#xA;Created:3/5/09 10:38 AM.&#xA;Title:.&#xA;Comment:.&#xA;" annotatedElement="eee_1045467100313_135436_1"/>
   <packageImport xmi:id="_EfRZoK86EdieaYgxtVWN8QprimitiveTypeData">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_EfRZoK86EdieaYgxtVWN8Q"/>
@@ -7,149 +7,388 @@
   <packageImport xmi:id="_RjmyoK86EdieaYgxtVWN8QjavaPrimitiveTypeData">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML2_LIBRARIES/JavaPrimitiveTypes.library.uml2#_RjmyoK86EdieaYgxtVWN8Q"/>
   </packageImport>
-  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527625671_782614_56profileApplicationData">
-    <eAnnotations xmi:id="_4soDNHfwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDNXfwEd-SzqnCc3kJXw" key="version" value="0"/>
-    </eAnnotations>
-    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.common.profile.uml2#_11_5_e240333_1154527625671_782614_56"/>
-    <importedProfile href="org.andromda.profile.common.profile.uml2#_11_5_e240333_1154527625671_782614_56"/>
-  </packageImport>
-  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527578125_463523_83profileApplicationData">
-    <eAnnotations xmi:id="_4soDN3fwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDOHfwEd-SzqnCc3kJXw" key="version" value="0"/>
-    </eAnnotations>
-    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.process.profile.uml2#_11_5_e240333_1154527578125_463523_83"/>
-    <importedProfile href="org.andromda.profile.process.profile.uml2#_11_5_e240333_1154527578125_463523_83"/>
-  </packageImport>
-  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527540265_181005_899profileApplicationData">
-    <eAnnotations xmi:id="_4soDOnfwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDO3fwEd-SzqnCc3kJXw" key="version" value="0"/>
-    </eAnnotations>
-    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.persistence.profile.uml2#_11_5_e240333_1154527540265_181005_899"/>
-    <importedProfile href="org.andromda.profile.persistence.profile.uml2#_11_5_e240333_1154527540265_181005_899"/>
-  </packageImport>
-  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527483875_483206_35profileApplicationData">
-    <eAnnotations xmi:id="_4soDPXfwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDPnfwEd-SzqnCc3kJXw" key="version" value="0"/>
-    </eAnnotations>
-    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.webservice.profile.uml2#_11_5_e240333_1154527483875_483206_35"/>
-    <importedProfile href="org.andromda.profile.webservice.profile.uml2#_11_5_e240333_1154527483875_483206_35"/>
-  </packageImport>
-  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527189593_272453_14profileApplicationData">
-    <eAnnotations xmi:id="_4soDQHfwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDQXfwEd-SzqnCc3kJXw" key="version" value="0"/>
-    </eAnnotations>
-    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.xml.profile.uml2#_11_5_e240333_1154527189593_272453_14"/>
-    <importedProfile href="org.andromda.profile.xml.profile.uml2#_11_5_e240333_1154527189593_272453_14"/>
-  </packageImport>
-  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527253281_154549_26profileApplicationData">
-    <eAnnotations xmi:id="_4soDQ3fwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDRHfwEd-SzqnCc3kJXw" key="version" value="0"/>
-    </eAnnotations>
-    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.meta.profile.uml2#_11_5_e240333_1154527253281_154549_26"/>
-    <importedProfile href="org.andromda.profile.meta.profile.uml2#_11_5_e240333_1154527253281_154549_26"/>
-  </packageImport>
-  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_be00301_1153310565718_226811_161profileApplicationData">
-    <eAnnotations xmi:id="_4soDRnfwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDR3fwEd-SzqnCc3kJXw" key="version" value="0"/>
-    </eAnnotations>
-    <importedPackage xmi:type="uml:Profile" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml2#_11_5_be00301_1153310565718_226811_161"/>
-    <importedProfile href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml2#_11_5_be00301_1153310565718_226811_161"/>
-  </packageImport>
-  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_f720368_1159529670215_231387_1profileApplicationData">
-    <eAnnotations xmi:id="_4soDSXfwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDSnfwEd-SzqnCc3kJXw" key="version" value="0"/>
-    </eAnnotations>
-    <importedPackage xmi:type="uml:Profile" href="UML_Standard_Profile.Validation_Profile.profile.uml2#_11_5_f720368_1159529670215_231387_1"/>
-    <importedProfile href="UML_Standard_Profile.Validation_Profile.profile.uml2#_11_5_f720368_1159529670215_231387_1"/>
-  </packageImport>
-  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527425687_111873_349profileApplicationData">
-    <eAnnotations xmi:id="_4soDTHfwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDTXfwEd-SzqnCc3kJXw" key="version" value="0"/>
-    </eAnnotations>
-    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.service.profile.uml2#_11_5_e240333_1154527425687_111873_349"/>
-    <importedProfile href="org.andromda.profile.service.profile.uml2#_11_5_e240333_1154527425687_111873_349"/>
-  </packageImport>
   <packageImport xmi:type="uml:ProfileApplication" xmi:id="_be00301_1073394351331_445580_2profileApplicationData">
-    <eAnnotations xmi:id="_4soDT3fwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDUHfwEd-SzqnCc3kJXw" key="version" value="0"/>
+    <eAnnotations xmi:id="_YRJeh3uqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJeiHuqEd-0Kr02zFWHKA" key="version" value="0"/>
     </eAnnotations>
     <importedPackage xmi:type="uml:Profile" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#_be00301_1073394351331_445580_2"/>
     <importedProfile href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#_be00301_1073394351331_445580_2"/>
   </packageImport>
-  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527378140_885914_432profileApplicationData">
-    <eAnnotations xmi:id="_4soDUnfwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDU3fwEd-SzqnCc3kJXw" key="version" value="0"/>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527625671_782614_56profileApplicationData">
+    <eAnnotations xmi:id="_YRJeinuqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJei3uqEd-0Kr02zFWHKA" key="version" value="0"/>
     </eAnnotations>
-    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.presentation.profile.uml2#_11_5_e240333_1154527378140_885914_432"/>
-    <importedProfile href="org.andromda.profile.presentation.profile.uml2#_11_5_e240333_1154527378140_885914_432"/>
+    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.common.profile.uml2#_11_5_e240333_1154527625671_782614_56"/>
+    <importedProfile href="org.andromda.profile.common.profile.uml2#_11_5_e240333_1154527625671_782614_56"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527540265_181005_899profileApplicationData">
+    <eAnnotations xmi:id="_YRJejXuqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJejnuqEd-0Kr02zFWHKA" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.persistence.profile.uml2#_11_5_e240333_1154527540265_181005_899"/>
+    <importedProfile href="org.andromda.profile.persistence.profile.uml2#_11_5_e240333_1154527540265_181005_899"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527253281_154549_26profileApplicationData">
+    <eAnnotations xmi:id="_YRJekHuqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJekXuqEd-0Kr02zFWHKA" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.meta.profile.uml2#_11_5_e240333_1154527253281_154549_26"/>
+    <importedProfile href="org.andromda.profile.meta.profile.uml2#_11_5_e240333_1154527253281_154549_26"/>
   </packageImport>
   <packageImport xmi:type="uml:ProfileApplication" xmi:id="_9_0_be00301_1108050582343_527400_10847profileApplicationData">
-    <eAnnotations xmi:id="_4soDVXfwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDVnfwEd-SzqnCc3kJXw" key="version" value="0"/>
+    <eAnnotations xmi:id="_YRJek3uqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJelHuqEd-0Kr02zFWHKA" key="version" value="0"/>
     </eAnnotations>
     <importedPackage xmi:type="uml:Profile" href="UML_Standard_Profile.UML_Standard_Profile.profile.uml2#_9_0_be00301_1108050582343_527400_10847"/>
     <importedProfile href="UML_Standard_Profile.UML_Standard_Profile.profile.uml2#_9_0_be00301_1108050582343_527400_10847"/>
   </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_f720368_1159529670215_231387_1profileApplicationData">
+    <eAnnotations xmi:id="_YRJelnuqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJel3uqEd-0Kr02zFWHKA" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="UML_Standard_Profile.Validation_Profile.profile.uml2#_11_5_f720368_1159529670215_231387_1"/>
+    <importedProfile href="UML_Standard_Profile.Validation_Profile.profile.uml2#_11_5_f720368_1159529670215_231387_1"/>
+  </packageImport>
   <packageImport xmi:type="uml:ProfileApplication" xmi:id="_be00301_1066743716538_320440_0profileApplicationData">
-    <eAnnotations xmi:id="_4soDWHfwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDWXfwEd-SzqnCc3kJXw" key="version" value="0"/>
+    <eAnnotations xmi:id="_YRJemXuqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJemnuqEd-0Kr02zFWHKA" key="version" value="0"/>
     </eAnnotations>
     <importedPackage xmi:type="uml:Profile" href="UseCase_Description_Profile.profile.uml2#_be00301_1066743716538_320440_0"/>
     <importedProfile href="UseCase_Description_Profile.profile.uml2#_be00301_1066743716538_320440_0"/>
   </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527189593_272453_14profileApplicationData">
+    <eAnnotations xmi:id="_YRJenHuqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJenXuqEd-0Kr02zFWHKA" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.xml.profile.uml2#_11_5_e240333_1154527189593_272453_14"/>
+    <importedProfile href="org.andromda.profile.xml.profile.uml2#_11_5_e240333_1154527189593_272453_14"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_be00301_1153310565718_226811_161profileApplicationData">
+    <eAnnotations xmi:id="_YRJen3uqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJeoHuqEd-0Kr02zFWHKA" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml2#_11_5_be00301_1153310565718_226811_161"/>
+    <importedProfile href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml2#_11_5_be00301_1153310565718_226811_161"/>
+  </packageImport>
   <packageImport xmi:type="uml:ProfileApplication" xmi:id="_12_0_12ab03bf_1166898799812_358986_99profileApplicationData">
-    <eAnnotations xmi:id="_4soDW3fwEd-SzqnCc3kJXw" source="attributes">
-      <details xmi:id="_4soDXHfwEd-SzqnCc3kJXw" key="version" value="0"/>
+    <eAnnotations xmi:id="_YRJeonuqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJeo3uqEd-0Kr02zFWHKA" key="version" value="0"/>
     </eAnnotations>
     <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.messaging.profile.uml2#_12_0_12ab03bf_1166898799812_358986_99"/>
     <importedProfile href="org.andromda.profile.messaging.profile.uml2#_12_0_12ab03bf_1166898799812_358986_99"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527425687_111873_349profileApplicationData">
+    <eAnnotations xmi:id="_YRJepXuqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJepnuqEd-0Kr02zFWHKA" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.service.profile.uml2#_11_5_e240333_1154527425687_111873_349"/>
+    <importedProfile href="org.andromda.profile.service.profile.uml2#_11_5_e240333_1154527425687_111873_349"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527483875_483206_35profileApplicationData">
+    <eAnnotations xmi:id="_YRJeqHuqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJeqXuqEd-0Kr02zFWHKA" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.webservice.profile.uml2#_11_5_e240333_1154527483875_483206_35"/>
+    <importedProfile href="org.andromda.profile.webservice.profile.uml2#_11_5_e240333_1154527483875_483206_35"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527578125_463523_83profileApplicationData">
+    <eAnnotations xmi:id="_YRJeq3uqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJerHuqEd-0Kr02zFWHKA" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.process.profile.uml2#_11_5_e240333_1154527578125_463523_83"/>
+    <importedProfile href="org.andromda.profile.process.profile.uml2#_11_5_e240333_1154527578125_463523_83"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_e240333_1154527378140_885914_432profileApplicationData">
+    <eAnnotations xmi:id="_YRJernuqEd-0Kr02zFWHKA" source="attributes">
+      <details xmi:id="_YRJer3uqEd-0Kr02zFWHKA" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="org.andromda.profile.presentation.profile.uml2#_11_5_e240333_1154527378140_885914_432"/>
+    <importedProfile href="org.andromda.profile.presentation.profile.uml2#_11_5_e240333_1154527378140_885914_432"/>
   </packageImport>
   <ownedMember xmi:type="uml:Package" xmi:id="_16_0_1_b7802e8_1241861611639_203969_3133" name="org">
     <ownedMember xmi:type="uml:Package" xmi:id="_16_0_1_b7802e8_1251300749528_807504_3039" name="iesc">
       <ownedMember xmi:type="uml:Package" xmi:id="_16_0_1_b7802e8_1251300756262_889213_3040" name="flightws">
         <ownedMember xmi:type="uml:Package" xmi:id="_16_0_1_b7802e8_1251300769184_750831_3041" name="domain">
-          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276549813625_821610_2124" name="Flight">
-            <eAnnotations xmi:id="_4sxyMnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-              <contents xmi:type="persistence_0:persistence__Entity" xmi:id="_4sxyM3fwEd-SzqnCc3kJXw"/>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276549813625_821610_2124" name="Flight" clientDependency="_16_0_1_46d01c0_1276951962109_63937_2738">
+            <eAnnotations xmi:id="_YSMUsHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="persistence_0:persistence__Entity" xmi:id="_YSMUsXuqEd-0Kr02zFWHKA"/>
             </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948621968_748842_2292" name="code" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948828687_714511_2323" name="departureCity" type="_16_0_1_46d01c0_1276948238484_345049_1830" association="_16_0_1_46d01c0_1276948828687_68675_2322" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276948862984_950942_2335" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276948862984_58369_2334" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948913875_636889_2346" name="destinationCity" type="_16_0_1_46d01c0_1276948238484_345049_1830" association="_16_0_1_46d01c0_1276948913875_746022_2345" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276948940921_861502_2358" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276948940921_931103_2357" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948988437_356123_2366" name="departureDates" type="_16_0_1_46d01c0_1276948276921_36571_1853" association="_16_0_1_46d01c0_1276948988437_543774_2365">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276949010546_73092_2382" value="-1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276949010546_542088_2381"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_16_0_1_46d01c0_1276959130421_321864_3223" name="getFlightsByCriteria" isStatic="true" type="_9_0_1fe00f9_1119336925531_331753_26">
+              <returnResult xmi:id="_16_0_1_46d01c0_1276959225437_163248_3226" type="_9_0_1fe00f9_1119336925531_331753_26" direction="return"/>
+              <ownedParameter xmi:id="_16_0_1_46d01c0_1276959240375_401216_3227" name="searchCriteria" type="_16_0_1_b7802e8_1251300832089_143249_3090"/>
+            </ownedOperation>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276948132875_460241_1761" name="User">
+            <eAnnotations xmi:id="_YSCjsnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="persistence_0:persistence__Entity" xmi:id="_YSCjs3uqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948403671_119190_2276" name="email" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948425484_219555_2278" name="password" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948435906_702004_2280" name="name" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948443250_73912_2282" name="surname" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948652156_43102_2298" name="bookings" type="_16_0_1_46d01c0_1276948296453_541561_1899" association="_16_0_1_46d01c0_1276948652156_194850_2297">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276948775343_477571_2310" value="-1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276948775343_204984_2309"/>
+            </ownedAttribute>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276948138328_932635_1784" name="Passenger">
+            <eAnnotations xmi:id="_YSCjtHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="persistence_0:persistence__Entity" xmi:id="_YSCjtXuqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948466187_582062_2284" name="type" type="_9_0_1fe00f9_1119336925531_227130_59"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948484953_61440_2286" name="name" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948497843_703260_2288" name="surname" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948507562_84061_2290" name="passportCode" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276948147140_316778_1807" name="Plane">
+            <eAnnotations xmi:id="_YSMUuHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="persistence_0:persistence__Entity" xmi:id="_YSMUuXuqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276949038203_739272_2383" name="type" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276949605703_203891_2385" name="capacity" type="_9_0_1fe00f9_1119336925531_227130_59"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276948238484_345049_1830" name="City">
+            <eAnnotations xmi:id="_YSCjtnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="persistence_0:persistence__Entity" xmi:id="_YSCjt3uqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276950647234_581299_2387" name="name" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276950653828_696475_2389" name="codeIATA" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276948276921_36571_1853" name="FlightDate">
+            <eAnnotations xmi:id="_YSMUsnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="persistence_0:persistence__Entity" xmi:id="_YSMUs3uqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276950684875_670129_2395" name="plane" type="_16_0_1_46d01c0_1276948147140_316778_1807" association="_16_0_1_46d01c0_1276950684875_328323_2394" aggregation="composite">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276950702031_68262_2407" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276950702031_81268_2406" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276950859203_392855_2410" name="departureDate" type="_9_0_1fe00f9_1119336925531_433788_5"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276951092937_973411_2412" name="arrivalDate" type="_9_0_1fe00f9_1119336925531_433788_5"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276951120421_568043_2422" name="prices" type="_16_0_1_46d01c0_1276948290703_870709_1876" association="_16_0_1_46d01c0_1276951120421_144398_2421">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276951165812_921456_2440" value="-1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276951165812_595388_2439" value="1"/>
+            </ownedAttribute>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276948290703_870709_1876" name="Price">
+            <eAnnotations xmi:id="_YSMUtHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="persistence_0:persistence__Entity" xmi:id="_YSMUtXuqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276951120421_519674_2423" name="flightDate" type="_16_0_1_46d01c0_1276948276921_36571_1853" association="_16_0_1_46d01c0_1276951120421_144398_2421">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276951169375_137840_2442" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276951169375_812660_2441" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276951183781_125371_2445" name="passengerType" type="_9_0_1fe00f9_1119336925531_227130_59"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276951205875_156601_2447" name="price" type="_9_0_1fe00f9_1119336925531_221770_56"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276948296453_541561_1899" name="Booking" clientDependency="_16_0_1_46d01c0_1276956529390_22971_3213">
+            <eAnnotations xmi:id="_YSMUtnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="persistence_0:persistence__Entity" xmi:id="_YSMUt3uqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276948652156_474839_2299" name="user" type="_16_0_1_46d01c0_1276948132875_460241_1761" association="_16_0_1_46d01c0_1276948652156_194850_2297">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276948782734_381065_2316" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276948782734_799948_2315" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276951265859_214948_2457" name="flightDates" type="_16_0_1_46d01c0_1276948276921_36571_1853" association="_16_0_1_46d01c0_1276951265859_613536_2456">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276951280812_343839_2469" value="-1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276951280812_714894_2468" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276951299906_89516_2489" name="passengers" type="_16_0_1_46d01c0_1276948138328_932635_1784" association="_16_0_1_46d01c0_1276951299906_65439_2488">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276951310187_859206_2501" value="-1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276951310187_35447_2500" value="1"/>
+            </ownedAttribute>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Association" xmi:id="_16_0_1_46d01c0_1276948652156_194850_2297" memberEnd="_16_0_1_46d01c0_1276948652156_474839_2299 _16_0_1_46d01c0_1276948652156_43102_2298"/>
+          <ownedMember xmi:type="uml:Association" xmi:id="_16_0_1_46d01c0_1276948828687_68675_2322" memberEnd="_16_0_1_46d01c0_1276948828687_30800_2324 _16_0_1_46d01c0_1276948828687_714511_2323">
+            <ownedEnd xmi:id="_16_0_1_46d01c0_1276948828687_30800_2324" visibility="private" type="_16_0_1_46d01c0_1276549813625_821610_2124" association="_16_0_1_46d01c0_1276948828687_68675_2322"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Association" xmi:id="_16_0_1_46d01c0_1276948913875_746022_2345" memberEnd="_16_0_1_46d01c0_1276948913875_59716_2347 _16_0_1_46d01c0_1276948913875_636889_2346">
+            <ownedEnd xmi:id="_16_0_1_46d01c0_1276948913875_59716_2347" visibility="private" type="_16_0_1_46d01c0_1276549813625_821610_2124" association="_16_0_1_46d01c0_1276948913875_746022_2345"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Association" xmi:id="_16_0_1_46d01c0_1276948988437_543774_2365" memberEnd="_16_0_1_46d01c0_1276948988437_356123_2366 _16_0_1_46d01c0_1276948988437_819727_2367">
+            <ownedEnd xmi:id="_16_0_1_46d01c0_1276948988437_819727_2367" visibility="private" type="_16_0_1_46d01c0_1276549813625_821610_2124" association="_16_0_1_46d01c0_1276948988437_543774_2365"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Association" xmi:id="_16_0_1_46d01c0_1276950684875_328323_2394" memberEnd="_16_0_1_46d01c0_1276950684875_864571_2396 _16_0_1_46d01c0_1276950684875_670129_2395">
+            <ownedEnd xmi:id="_16_0_1_46d01c0_1276950684875_864571_2396" visibility="private" type="_16_0_1_46d01c0_1276948276921_36571_1853" association="_16_0_1_46d01c0_1276950684875_328323_2394"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Association" xmi:id="_16_0_1_46d01c0_1276951120421_144398_2421" memberEnd="_16_0_1_46d01c0_1276951120421_568043_2422 _16_0_1_46d01c0_1276951120421_519674_2423"/>
+          <ownedMember xmi:type="uml:Association" xmi:id="_16_0_1_46d01c0_1276951265859_613536_2456" memberEnd="_16_0_1_46d01c0_1276951265859_782567_2458 _16_0_1_46d01c0_1276951265859_214948_2457">
+            <ownedEnd xmi:id="_16_0_1_46d01c0_1276951265859_782567_2458" visibility="private" type="_16_0_1_46d01c0_1276948296453_541561_1899" association="_16_0_1_46d01c0_1276951265859_613536_2456"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Association" xmi:id="_16_0_1_46d01c0_1276951299906_65439_2488" memberEnd="_16_0_1_46d01c0_1276951299906_970254_2490 _16_0_1_46d01c0_1276951299906_89516_2489">
+            <ownedEnd xmi:id="_16_0_1_46d01c0_1276951299906_970254_2490" visibility="private" type="_16_0_1_46d01c0_1276948296453_541561_1899" association="_16_0_1_46d01c0_1276951299906_65439_2488"/>
           </ownedMember>
         </ownedMember>
         <ownedMember xmi:type="uml:Package" xmi:id="_16_0_1_b7802e8_1251300774418_572671_3042" name="service">
-          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_b7802e8_1251300808230_210163_3067" name="FlightService">
-            <eAnnotations xmi:id="_4sxyNHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-              <contents xmi:type="webservice_0:webservice__WebService" xmi:id="_4sxyNXfwEd-SzqnCc3kJXw"/>
-              <contents xmi:type="service_0:service__Service" xmi:id="_41aw2HfwEd-SzqnCc3kJXw"/>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_b7802e8_1251300808230_210163_3067" name="FlightService" clientDependency="_16_0_1_46d01c0_1276951701109_981880_2670 _16_0_1_46d01c0_1276951747078_421557_2679 _16_0_1_46d01c0_1276951753687_241917_2688 _16_0_1_46d01c0_1276951751203_766997_2685 _16_0_1_46d01c0_1276951698421_482091_2667 _16_0_1_46d01c0_1276951749031_878547_2682 _16_0_1_46d01c0_1276951741796_261969_2676 _16_0_1_46d01c0_1276951702859_496583_2673">
+            <eAnnotations xmi:id="_Ynf2YHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="service_0:service__Service" xmi:id="_Ynf2YXuqEd-0Kr02zFWHKA"/>
+              <contents xmi:type="webservice_0:webservice__WebService" xmi:id="_YnpnUHuqEd-0Kr02zFWHKA"/>
             </eAnnotations>
-            <ownedOperation xmi:id="_16_0_1_b7802e8_1251300890571_727339_3112" name="stubWebmethod" type="_16_0_1_b7802e8_1251300832089_143249_3090">
-              <returnResult xmi:id="_16_0_1_b7802e8_1251300899446_400637_3114" type="_16_0_1_b7802e8_1251300832089_143249_3090" direction="return"/>
+            <ownedOperation xmi:id="_16_0_1_b7802e8_1251300890571_727339_3112" name="getFlightsByCriteria" type="_16_0_1_46d01c0_1276952820500_11454_2782">
+              <returnResult xmi:id="_16_0_1_b7802e8_1251300899446_400637_3114" type="_16_0_1_46d01c0_1276952820500_11454_2782" direction="return"/>
+              <ownedParameter xmi:id="_16_0_1_46d01c0_1276952975171_900601_2806" name="searchCriteria" type="_16_0_1_b7802e8_1251300832089_143249_3090"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_16_0_1_46d01c0_1276956563593_435584_3215" name="createBooking" type="_9_0_1fe00f9_1119336925531_227130_59">
+              <returnResult xmi:id="_16_0_1_46d01c0_1276956579515_652034_3217" type="_9_0_1fe00f9_1119336925531_227130_59" direction="return"/>
+              <ownedParameter xmi:id="_16_0_1_46d01c0_1276956590828_187070_3218" name="booking" type="_16_0_1_46d01c0_1276954742234_846871_2812"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_16_0_1_46d01c0_1276956616296_915077_3219" name="getDestinationCitiesByDepartureCity" type="_16_0_1_46d01c0_1276955345750_649479_3136">
+              <returnResult xmi:id="_16_0_1_46d01c0_1276956634343_911879_3221" type="_16_0_1_46d01c0_1276955345750_649479_3136" direction="return"/>
+              <ownedParameter xmi:id="_16_0_1_46d01c0_1276956649531_983208_3222" name="departureCity" type="_16_0_1_46d01c0_1276955232937_52010_2971"/>
             </ownedOperation>
           </ownedMember>
+          <ownedMember xmi:type="uml:Dependency" xmi:id="_16_0_1_46d01c0_1276951698421_482091_2667" client="_16_0_1_b7802e8_1251300808230_210163_3067" supplier="_16_0_1_46d01c0_1276948276921_36571_1853"/>
+          <ownedMember xmi:type="uml:Dependency" xmi:id="_16_0_1_46d01c0_1276951701109_981880_2670" client="_16_0_1_b7802e8_1251300808230_210163_3067" supplier="_16_0_1_46d01c0_1276948132875_460241_1761"/>
+          <ownedMember xmi:type="uml:Dependency" xmi:id="_16_0_1_46d01c0_1276951702859_496583_2673" client="_16_0_1_b7802e8_1251300808230_210163_3067" supplier="_16_0_1_46d01c0_1276948138328_932635_1784"/>
+          <ownedMember xmi:type="uml:Dependency" xmi:id="_16_0_1_46d01c0_1276951741796_261969_2676" client="_16_0_1_b7802e8_1251300808230_210163_3067" supplier="_16_0_1_46d01c0_1276948147140_316778_1807"/>
+          <ownedMember xmi:type="uml:Dependency" xmi:id="_16_0_1_46d01c0_1276951747078_421557_2679" client="_16_0_1_b7802e8_1251300808230_210163_3067" supplier="_16_0_1_46d01c0_1276948238484_345049_1830"/>
+          <ownedMember xmi:type="uml:Dependency" xmi:id="_16_0_1_46d01c0_1276951749031_878547_2682" client="_16_0_1_b7802e8_1251300808230_210163_3067" supplier="_16_0_1_46d01c0_1276948290703_870709_1876"/>
+          <ownedMember xmi:type="uml:Dependency" xmi:id="_16_0_1_46d01c0_1276951751203_766997_2685" client="_16_0_1_b7802e8_1251300808230_210163_3067" supplier="_16_0_1_46d01c0_1276549813625_821610_2124"/>
+          <ownedMember xmi:type="uml:Dependency" xmi:id="_16_0_1_46d01c0_1276951753687_241917_2688" client="_16_0_1_b7802e8_1251300808230_210163_3067" supplier="_16_0_1_46d01c0_1276948296453_541561_1899"/>
+          <ownedMember xmi:type="uml:Dependency" xmi:id="_16_0_1_46d01c0_1276951962109_63937_2738" client="_16_0_1_46d01c0_1276549813625_821610_2124" supplier="_16_0_1_46d01c0_1276951954000_543358_2717"/>
+          <ownedMember xmi:type="uml:Dependency" xmi:id="_16_0_1_46d01c0_1276956529390_22971_3213" client="_16_0_1_46d01c0_1276948296453_541561_1899" supplier="_16_0_1_46d01c0_1276954742234_846871_2812"/>
         </ownedMember>
         <ownedMember xmi:type="uml:Package" xmi:id="_16_0_1_b7802e8_1251300778965_870168_3043" name="vo">
-          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_b7802e8_1251300832089_143249_3090" name="FlightwsStubVO">
-            <eAnnotations xmi:id="_4sxyMHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-              <contents xmi:type="common_0:common__ValueObject" xmi:id="_4sxyMXfwEd-SzqnCc3kJXw"/>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_b7802e8_1251300832089_143249_3090" name="FlightSearchCriteriaVO">
+            <eAnnotations xmi:id="_YRcGznuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="common_0:common__ValueObject" xmi:id="_YRcGz3uqEd-0Kr02zFWHKA"/>
             </eAnnotations>
-            <ownedAttribute xmi:id="_16_0_1_b7802e8_1251300851416_795094_3110" name="prop" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_b7802e8_1251300851416_795094_3110" name="departureCity" type="_9_0_1fe00f9_1119336925531_227130_59">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276952707640_689884_2766" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276952707640_802591_2765" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276952674468_989555_2761" name="arrivalCity" type="_9_0_1fe00f9_1119336925531_227130_59">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276952700453_984646_2764" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276952700453_429836_2763"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276952732484_569382_2767" name="departureDate" type="_9_0_1fe00f9_1119336925531_227130_59">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276952759906_228424_2770" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276952759906_581134_2769"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276952766406_148035_2771" name="nrPassengers" type="_9_0_1fe00f9_1119336925531_227130_59">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276952791953_207851_2774" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276952791953_849934_2773"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276952801171_737971_2775" name="flightType" type="_9_0_1fe00f9_1119336925531_227130_59">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0_1_46d01c0_1276952810390_418733_2778" value="1"/>
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0_1_46d01c0_1276952810390_182726_2777"/>
+            </ownedAttribute>
           </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276951923875_567770_2694" name="FlightSearchContextVO">
+            <eAnnotations xmi:id="_YRcG0HuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="common_0:common__ValueObject" xmi:id="_YRcG0XuqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276952010375_854467_2741" name="FlightVO[]"/>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276951954000_543358_2717" name="FlightVO">
+            <eAnnotations xmi:id="_YRl3ynuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="common_0:common__ValueObject" xmi:id="_YRl3y3uqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276953034484_648453_2807" name="code" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955809109_357793_3183" name="flightDates" type="_16_0_1_46d01c0_1276955275859_25656_3056"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955844765_844183_3186" name="destinationCity" type="_16_0_1_46d01c0_1276955232937_52010_2971"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955856812_271373_3189" name="departureCity" type="_16_0_1_46d01c0_1276955232937_52010_2971"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276954742234_846871_2812" name="BookingVO">
+            <eAnnotations xmi:id="_YRl3xnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="common_0:common__ValueObject" xmi:id="_YRl3x3uqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955141187_895290_2873" name="user" type="_16_0_1_46d01c0_1276955158609_256037_2879"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955647546_743286_3165" name="flightDates" type="_16_0_1_46d01c0_1276955275859_25656_3056"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955705828_340475_3168" name="passengers" type="_16_0_1_46d01c0_1276955286218_956669_3076"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276952820500_11454_2782" name="FlightSearchResultsVO">
+            <eAnnotations xmi:id="_YRcG0nuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="common_0:common__ValueObject" xmi:id="_YRcG03uqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276952835578_205771_2802" name="results" type="_16_0_1_46d01c0_1276952010375_854467_2741"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276952844578_868828_2804" name="searchCriteria" type="_16_0_1_b7802e8_1251300832089_143249_3090"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276955300296_622861_3096" name="PriceVO[]"/>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276955259781_745527_3015" name="PlaneVO[]"/>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276955179796_796865_2925" name="PriceVO">
+            <eAnnotations xmi:id="_YRl3yHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="common_0:common__ValueObject" xmi:id="_YRl3yXuqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955773843_343018_3179" name="passengerType" type="_9_0_1fe00f9_1119336925531_227130_59"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955775171_46956_3181" name="price" type="_9_0_1fe00f9_1119336925531_221770_56"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276955158609_256037_2879" name="UserVO">
+            <eAnnotations xmi:id="_YRl3xHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="common_0:common__ValueObject" xmi:id="_YRl3xXuqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955935015_227479_3202" name="email" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955936218_937795_3204" name="password" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955945703_443808_3208" name="name" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955937328_145114_3206" name="surname" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955959750_296435_3210" name="bookings" type="_16_0_1_46d01c0_1276955311968_712592_3116"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276955286218_956669_3076" name="PassengerVO[]"/>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276955243640_468588_2994" name="FlightDateVO">
+            <eAnnotations xmi:id="_YRl3wnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="common_0:common__ValueObject" xmi:id="_YRl3w3uqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955426031_99894_3161" name="departureDate" type="_9_0_1fe00f9_1119336925531_227130_59"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955427625_722375_3163" name="arrivalDate" type="_9_0_1fe00f9_1119336925531_227130_59"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955890609_628975_3196" name="plane" type="_16_0_1_46d01c0_1276955221578_756841_2948"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276955269125_763563_3035" name="UserVO[]"/>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276955166859_438963_2902" name="PassengerVO">
+            <eAnnotations xmi:id="_YRl3zHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="common_0:common__ValueObject" xmi:id="_YRl3zXuqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955728593_221033_3171" name="type" type="_9_0_1fe00f9_1119336925531_227130_59"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955760406_61183_3173" name="name" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955761890_401860_3175" name="surname" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955763312_91167_3177" name="passportCode" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276955232937_52010_2971" name="CityVO">
+            <eAnnotations xmi:id="_YRl3wHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="common_0:common__ValueObject" xmi:id="_YRl3wXuqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955878343_554416_3192" name="name" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955879890_747457_3194" name="codeIATA" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276955221578_756841_2948" name="PlaneVO">
+            <eAnnotations xmi:id="_YSCjsHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+              <contents xmi:type="common_0:common__ValueObject" xmi:id="_YSCjsXuqEd-0Kr02zFWHKA"/>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955914140_390944_3198" name="type" type="_9_0_1fe00f9_1119336925531_364079_66"/>
+            <ownedAttribute xmi:id="_16_0_1_46d01c0_1276955915656_54974_3200" name="capacity" type="_9_0_1fe00f9_1119336925531_227130_59"/>
+          </ownedMember>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276955275859_25656_3056" name="FlightDateVO[]"/>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276955311968_712592_3116" name="BookingVO[]"/>
+          <ownedMember xmi:type="uml:Class" xmi:id="_16_0_1_46d01c0_1276955345750_649479_3136" name="CityVO[]"/>
         </ownedMember>
       </ownedMember>
     </ownedMember>
   </ownedMember>
   <ownedMember xmi:type="uml:Package" xmi:id="magicdraw_uml_standard_profile_v_0001" name="UML Standard Profile">
-    <eAnnotations xmi:id="_41kiFXfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-      <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__auxiliaryResource" xmi:id="_41kiFnfwEd-SzqnCc3kJXw"/>
+    <eAnnotations xmi:id="_YRcGwnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+      <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__auxiliaryResource" xmi:id="_YRcGw3uqEd-0Kr02zFWHKA"/>
     </eAnnotations>
     <ownedComment xmi:id="_be00301_1078843546940_242228_131" body="UML Standard Profile contains several popular stereotypes, tag definitions and constraints described in UML  2 Specifications." annotatedElement="magicdraw_uml_standard_profile_v_0001"/>
   </ownedMember>
   <ownedMember xmi:type="uml:Package" xmi:id="_12_1_be00301_1174898649439_552747_98" name="andromda_customization">
-    <eAnnotations xmi:id="_41trwHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-      <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__auxiliaryResource" xmi:id="_41trwXfwEd-SzqnCc3kJXw"/>
+    <eAnnotations xmi:id="_YRcGwHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+      <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__auxiliaryResource" xmi:id="_YRcGwXuqEd-0Kr02zFWHKA"/>
     </eAnnotations>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1174919501553_762535_691" name="Customization of PersistentAssociation">
-      <eAnnotations xmi:id="_4tXoEnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4tXoE3fwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YgpAbHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgpAbXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.association.cache&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.association.cache.distributed&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.persistence.table&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -158,8 +397,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314410420_852603_1692" name="hibernate">
-        <eAnnotations xmi:id="_4xQCknfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xQCk3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YmwPenuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YmwPe3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.hibernate.association.cache</properties>
             <properties>@andromda.hibernate.association.cache.distributed</properties>
           </contents>
@@ -167,8 +406,8 @@
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314451039_758155_1790" name="ejb">
-        <eAnnotations xmi:id="_4w8gjHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4w8gjXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_Ynf2UHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ynf2UXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.ejb.generateVOreference</properties>
             <properties>@andromda.ejb.generateCMR</properties>
           </contents>
@@ -176,8 +415,8 @@
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314466271_273019_1884" name="persistence">
-        <eAnnotations xmi:id="_4xZMgHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xZMgXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnDKYnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnDKY3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.persistence.table</properties>
           </contents>
         </eAnnotations>
@@ -185,23 +424,23 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1174919502093_804695_709" name="Customization of PersistentElement">
-      <eAnnotations xmi:id="_4utr4nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4utr43fwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YfmelnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yfmel3uqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.lazy&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate-3.2.xml.tagName&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314410771_819301_1731" name="hibernate">
-        <eAnnotations xmi:id="_4w8gjnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4w8gj3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_Ym5ZbHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ym5ZbXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.hibernate.lazy</properties>
           </contents>
         </eAnnotations>
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314671185_811081_2181" name="xml">
-        <eAnnotations xmi:id="_4xZMeHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xZMeXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YmmednuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ymmed3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.hibernate-3.2.xml.tagName</properties>
           </contents>
         </eAnnotations>
@@ -209,14 +448,14 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1174919502284_928295_715" name="Customization of Transient">
-      <eAnnotations xmi:id="_4uHO8HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uHO8XfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YgMUeHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgMUeXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.formula&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314410821_921088_1738" name="hibernate">
-        <eAnnotations xmi:id="_4xZMdnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xZMd3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnWFUnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnWFU3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.hibernate.formula</properties>
           </contents>
         </eAnnotations>
@@ -224,8 +463,8 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1174919501923_741028_703" name="Customization of PersistentAttribute">
-      <eAnnotations xmi:id="_4t0UCHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t0UCXfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_Yh1TNHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yh1TNXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.property.update&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.property.insert&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.persistence.column.definition&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -241,8 +480,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314410601_107900_1722" name="hibernate">
-        <eAnnotations xmi:id="_4wzWmnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4wzWm3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnWFUHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnWFUXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.hibernate.property.update</properties>
             <properties>@andromda.hibernate.property.insert</properties>
           </contents>
@@ -250,8 +489,8 @@
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314466291_576830_1910" name="persistence">
-        <eAnnotations xmi:id="_4xZMcnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xZMc3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnWFVHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnWFVXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.persistence.column.definition</properties>
             <properties>@andromda.persistence.column.insert</properties>
             <properties>@andromda.persistence.column.length</properties>
@@ -268,8 +507,8 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1174919501362_157275_685" name="Customization of FinderMethod">
-      <eAnnotations xmi:id="_4uj67nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uj673fwEd-SzqnCc3kJXw">
+      <eAnnotations xmi:id="_YgpAYnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgpAY3uqEd-0Kr02zFWHKA">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.query&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.query.useCache&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.ejb.query.weblogic&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -279,8 +518,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314410150_817519_1683" name="hibernate">
-        <eAnnotations xmi:id="_4w8giHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4w8giXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnDKbHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnDKbXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.hibernate.query</properties>
             <properties>@andromda.hibernate.query.useCache</properties>
           </contents>
@@ -288,8 +527,8 @@
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314451019_220255_1758" name="ejb">
-        <eAnnotations xmi:id="_4xZMcHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xZMcXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnDKanuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnDKa3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.ejb.query.weblogic</properties>
             <properties>@andromda.ejb.query.useCache</properties>
             <properties>@andromda.ejb.query</properties>
@@ -300,8 +539,8 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1174919501182_579006_679" name="Customization of Entity">
-      <eAnnotations xmi:id="_4s68InfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4s68I3fwEd-SzqnCc3kJXw">
+      <eAnnotations xmi:id="_YhFsUHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhFsUXuqEd-0Kr02zFWHKA">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.entity.proxy&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.entity.dynamicUpdate&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.entity.dynamicInsert&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -330,8 +569,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314410130_791001_1652" name="hibernate">
-        <eAnnotations xmi:id="_4xGRkHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xGRkXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_Ym5ZaHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ym5ZaXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.hibernate.entity.proxy</properties>
             <properties>@andromda.hibernate.entity.dynamicUpdate</properties>
             <properties>@andromda.hibernate.entity.dynamicInsert</properties>
@@ -350,8 +589,8 @@
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314451009_504678_1745" name="ejb">
-        <eAnnotations xmi:id="_4wzWlHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4wzWlXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YmwPdHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YmwPdXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.ejb.resource-ref.res-auth</properties>
             <properties>@andromda.ejb.resource-ref.jndi-name</properties>
             <properties>@andromda.ejb.noSyntheticCreateMethod</properties>
@@ -361,8 +600,8 @@
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314466140_471297_1822" name="persistence">
-        <eAnnotations xmi:id="_4xi9enfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xi9e3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YmwPeHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YmwPeXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.persistence.discriminator.column.name</properties>
             <properties>@andromda.persistence.discriminator.column.length</properties>
             <properties>@andromda.persistence.discriminator.column.definition</properties>
@@ -377,13 +616,13 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1174919500992_83206_673" name="Customization of Criteria">
-      <eAnnotations xmi:id="_4utr5HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4utr5XfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhsJSnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhsJS3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1174919501743_619437_697" name="Customization of PersistentAssociationEnd">
-      <eAnnotations xmi:id="_4trKEHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4trKEXfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YhPdUHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhPdUXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate-3.2.xml.embed&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>SN&lt;/title>&lt;/head>&lt;body>&lt;p>DOCUMENTATION_HYPERLINKS&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>SN&lt;/title>&lt;/head>&lt;body>&lt;p>INNER_ELEMENTS&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -467,8 +706,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314410500_891886_1701" name="hibernate">
-        <eAnnotations xmi:id="_4xGRhHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xGRhXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_Ynf2VHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ynf2VXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.hibernate.cascade</properties>
             <properties>@andromda.hibernate.collection.type</properties>
             <properties>@andromda.hibernate.collection.index</properties>
@@ -482,16 +721,16 @@
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314451049_787240_1799" name="ejb">
-        <eAnnotations xmi:id="_4wzWlnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4wzWl3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnWFXnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnWFX3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.ejb.generateVOreference</properties>
           </contents>
         </eAnnotations>
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314466281_375185_1891" name="persistence">
-        <eAnnotations xmi:id="_4xQCiHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xQCiXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_Ym5ZZnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ym5ZZ3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.persistence.association.cache</properties>
             <properties>@andromda.persistence.cascade.type</properties>
             <properties>@andromda.persistence.collection.type</properties>
@@ -504,8 +743,8 @@
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314671175_5014_2174" name="xml">
-        <eAnnotations xmi:id="_4w8ginfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4w8gi3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnM7cHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnM7cXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.hibernate-3.2.xml.embed</properties>
           </contents>
         </eAnnotations>
@@ -513,8 +752,8 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1175241898477_8373_344" name="Customization of Identifier">
-      <eAnnotations xmi:id="_4utr5nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4utr53fwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YfctmnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yfctm3uqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.persistence.generator.allocation.size&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.persistence.generator.initial.value&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.persistence.generator.name&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -525,8 +764,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314466251_520003_1854" name="persistence">
-        <eAnnotations xmi:id="_4xi9dnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xi9d3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnWFWHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnWFWXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.persistence.generator.allocation.size</properties>
             <properties>@andromda.persistence.generator.initial.value</properties>
             <properties>@andromda.persistence.generator.name</properties>
@@ -540,8 +779,8 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1175242554069_378132_616" name="Customization of ServiceElement">
-      <eAnnotations xmi:id="_4uaw_HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uaw_XfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YfctlHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YfctlXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.service.security.denyAll&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.service.security.permitAll&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.ejb.viewType&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -550,8 +789,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314451239_988712_1813" name="ejb">
-        <eAnnotations xmi:id="_4xi9eHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xi9eXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnWFXHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnWFXXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.ejb.viewType</properties>
             <properties>@andromda.ejb.transaction.type</properties>
           </contents>
@@ -559,8 +798,8 @@
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314571672_675001_2142" name="service">
-        <eAnnotations xmi:id="_4wzWmHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4wzWmXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnM7anuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnM7a3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.service.security.denyAll</properties>
             <properties>@andromda.service.security.permitAll</properties>
           </contents>
@@ -569,8 +808,8 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1175242577783_333274_622" name="Customization of Service">
-      <eAnnotations xmi:id="_4uQ_9HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uQ_9XfwEd-SzqnCc3kJXw">
+      <eAnnotations xmi:id="_YgpAZHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgpAZXuqEd-0Kr02zFWHKA">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.service.security.realm&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.service.type&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.spring.service.config.only&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -583,16 +822,16 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314451049_83497_1806" name="ejb">
-        <eAnnotations xmi:id="_4xi9cHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xi9cXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_Ynf2UnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ynf2U3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.ejb.transaction.management</properties>
           </contents>
         </eAnnotations>
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314571662_169768_2121" name="service">
-        <eAnnotations xmi:id="_4xGRjnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xGRj3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YmwPcHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YmwPcXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.service.security.realm</properties>
             <properties>@andromda.service.type</properties>
             <properties>@andromda.spring.service.config.only</properties>
@@ -607,8 +846,8 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1175243302235_767574_698" name="Customization of PersistentProperty">
-      <eAnnotations xmi:id="_4t0UBnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t0UB3fwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YgWFe3uqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgWFfHuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>SN&lt;/title>&lt;/head>&lt;body>&lt;p>persistence&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HN&lt;/title>&lt;/head>&lt;body>&lt;p>hibernate&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HN&lt;/title>&lt;/head>&lt;body>&lt;p>ejb&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -679,8 +918,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314466351_231750_1946" name="persistence">
-        <eAnnotations xmi:id="_4w8ggHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4w8ggXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_Ynf2VnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ynf2V3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.persistence.column</properties>
             <properties>@andromda.persistence.column.equality</properties>
             <properties>@andromda.persistence.fetch.type</properties>
@@ -691,21 +930,21 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1175243516373_399935_720" name="Customization of EmbeddedValue">
-      <eAnnotations xmi:id="_4tEtIHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4tEtIXfwEd-SzqnCc3kJXw"/>
+      <eAnnotations xmi:id="_YgWFcHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgWFcXuqEd-0Kr02zFWHKA"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_1_be00301_1175243552375_952765_726" name="Customization of PersistentClass">
-      <eAnnotations xmi:id="_4uj66HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uj66XfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YhFsVnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhFsV3uqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.persistence.table&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.persistence.dummyload.size&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.persistence.immutable&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314466301_789347_1935" name="persistence">
-        <eAnnotations xmi:id="_4xZMfHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xZMfXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnM7ZHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnM7ZXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.persistence.table</properties>
             <properties>@andromda.persistence.dummyload.size</properties>
             <properties>@andromda.persistence.immutable</properties>
@@ -715,16 +954,16 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1178890598459_683567_523" name="Customization of FrontEndUseCase">
-      <eAnnotations xmi:id="_4trKGHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4trKGXfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YhFsUnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhFsU3uqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.usecase.activity&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.web.action.form.key&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <quickApplyingFor>uml2::UseCase</quickApplyingFor>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314488413_425815_2061" name="presentation">
-        <eAnnotations xmi:id="_4xGRjHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xGRjXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnDKZnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnDKZ3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.presentation.usecase.activity</properties>
             <properties>@andromda.presentation.web.action.form.key</properties>
           </contents>
@@ -733,15 +972,15 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1178890844142_892087_555" name="Customization of FrontEndView">
-      <eAnnotations xmi:id="_4sxyNnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4sxyN3fwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YhsJRnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhsJR3uqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.web.view.type&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <quickApplyingFor>uml2::State</quickApplyingFor>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314488413_321727_2070" name="presentation">
-        <eAnnotations xmi:id="_4xQCgnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xQCg3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnDKaHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnDKaXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.presentation.web.view.type</properties>
           </contents>
         </eAnnotations>
@@ -749,53 +988,53 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1178891014237_858413_573" name="Customization of ServiceRef">
-      <eAnnotations xmi:id="_4utr4HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4utr4XfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhFsWnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhFsW3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1178890945017_226541_565" name="Customization of EntityRef">
-      <eAnnotations xmi:id="_4trKFnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4trKF3fwEd-SzqnCc3kJXw"/>
+      <eAnnotations xmi:id="_Yg77UHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yg77UXuqEd-0Kr02zFWHKA"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1178892738416_826741_1238" name="Customization of Exception">
-      <eAnnotations xmi:id="_4u3c4nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4u3c43fwEd-SzqnCc3kJXw"/>
+      <eAnnotations xmi:id="_YhFsVHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhFsVXuqEd-0Kr02zFWHKA"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179139969567_133518_675" name="Customization of CreateMethod">
-      <eAnnotations xmi:id="_4uaw8nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uaw83fwEd-SzqnCc3kJXw"/>
+      <eAnnotations xmi:id="_YgWFcnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgWFc3uqEd-0Kr02zFWHKA"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179234275111_73378_1600" name="Customization of Unique">
-      <eAnnotations xmi:id="_4thZGHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4thZGXfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YgWFeXuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgWFenuqEd-0Kr02zFWHKA" hideMetatype="false">
           <quickApplyingFor>uml2::Property</quickApplyingFor>
         </contents>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238159998_59167_1777" name="Customization of After Signal">
-      <eAnnotations xmi:id="_4uQ_9nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uQ_93fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YfTjonuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YfTjo3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238160178_154728_1789" name="Customization of Business Process">
-      <eAnnotations xmi:id="_4thZHHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4thZHXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhYnSnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhYnS3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238264798_840563_1909" name="Customization of EnumerationLiteral">
-      <eAnnotations xmi:id="_4uj65HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uj65XfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YhYnTHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhYnTXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.persistence.enumeration.type&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.persistence.enumeration.member.variable&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.persistence.enumeration.literal.parameters&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314466241_99820_1843" name="persistence">
-        <eAnnotations xmi:id="_4xGRgHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xGRgXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YmwPcnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YmwPc3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.persistence.enumeration.type</properties>
             <properties>@andromda.persistence.enumeration.member.variable</properties>
             <properties>@andromda.persistence.enumeration.literal.parameters</properties>
@@ -805,18 +1044,18 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238138847_154405_1699" name="Customization of DataSource">
-      <eAnnotations xmi:id="_4tOeIHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4tOeIXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgDKhHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgDKhXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238160088_658413_1783" name="Customization of Before Signal">
-      <eAnnotations xmi:id="_4thZFnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4thZF3fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgDKhnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgDKh3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238265359_394139_1933" name="Customization of CriteriaAttribute">
-      <eAnnotations xmi:id="_4uQ_-nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uQ_-3fwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YhsJSHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhsJSXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.criteria.order.relevance&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.criteria.order.direction&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.hibernate.criteria.nullable&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -826,8 +1065,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314410060_479487_1635" name="hibernate">
-        <eAnnotations xmi:id="_4xQCjnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xQCj3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnWFWnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnWFW3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.hibernate.criteria.order.relevance</properties>
             <properties>@andromda.hibernate.criteria.order.direction</properties>
             <properties>@andromda.hibernate.criteria.nullable</properties>
@@ -839,8 +1078,8 @@
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314522081_100454_2085" name="criteria">
-        <eAnnotations xmi:id="_4xQChnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xQCh3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YmwPfHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YmwPfXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.hibernate.criteria.order.relevance</properties>
             <properties>@andromda.hibernate.criteria.order.direction</properties>
             <properties>@andromda.hibernate.criteria.nullable</properties>
@@ -853,8 +1092,8 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238176622_476141_1825" name="Customization of FrontEndField">
-      <eAnnotations xmi:id="_4tXoGnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4tXoG3fwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_Yf5ZgnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yf5Zg3uqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.web.view.field.calendar&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.web.view.field.equal&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.web.view.field.reset&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -872,8 +1111,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314488382_432235_2004" name="presentation">
-        <eAnnotations xmi:id="_4xGRiHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xGRiXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnDKbnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnDKb3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.presentation.web.view.field.calendar</properties>
             <properties>@andromda.presentation.web.view.field.equal</properties>
             <properties>@andromda.presentation.web.view.field.reset</properties>
@@ -894,8 +1133,8 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238176872_507080_1837" name="Customization of FrontEndAction">
-      <eAnnotations xmi:id="_4t0UBHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t0UBXfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YhYnQHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhYnQXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.web.action.form.reset&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.web.action.tablelink&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.web.action.type&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -905,8 +1144,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314488282_824704_1973" name="presentation">
-        <eAnnotations xmi:id="_4wzWkHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4wzWkXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_Ym5ZYHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ym5ZYXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.presentation.web.action.form.reset</properties>
             <properties>@andromda.presentation.web.action.tablelink</properties>
             <properties>@andromda.presentation.web.action.type</properties>
@@ -919,30 +1158,30 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238264167_6825_1885" name="Customization of FirstResult">
-      <eAnnotations xmi:id="_4tEtKnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4tEtK3fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhsJQnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhsJQ3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238336602_433568_2023" name="Customization of EnvEntry">
-      <eAnnotations xmi:id="_4t0UAnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t0UA3fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgMUcnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgMUc3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238177072_733844_1849" name="Customization of FrontEndSessionObject">
-      <eAnnotations xmi:id="_4trKEnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4trKE3fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgyxZnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgyxZ3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238177172_548697_1855" name="Customization of FrontEndMessage">
-      <eAnnotations xmi:id="_4t-FAHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t-FAXfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YhPdVHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhPdVXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.action.warning.message&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.action.success.message&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314488392_796125_2037" name="presentation">
-        <eAnnotations xmi:id="_4xQCgHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xQCgXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnDKYHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnDKYXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.presentation.action.warning.message</properties>
             <properties>@andromda.presentation.action.success.message</properties>
           </contents>
@@ -951,14 +1190,14 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238176491_559007_1819" name="Customization of FrontEndException">
-      <eAnnotations xmi:id="_4uj65nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uj653fwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_Ygf2dHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Ygf2dXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.exception.type&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314488372_905326_1997" name="presentation">
-        <eAnnotations xmi:id="_4xQChHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xQChXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_Ynf2WnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ynf2W3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.presentation.exception.type</properties>
           </contents>
         </eAnnotations>
@@ -966,14 +1205,14 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238176972_955256_1843" name="Customization of FrontEndController">
-      <eAnnotations xmi:id="_4thZFHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4thZFXfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_Yf5ZgHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yf5ZgXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.controller.usecase&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314488372_380281_1990" name="presentation">
-        <eAnnotations xmi:id="_4w8ghnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4w8gh3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_Ym5ZYnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ym5ZY3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.presentation.controller.usecase</properties>
           </contents>
         </eAnnotations>
@@ -981,13 +1220,13 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238336712_964796_2029" name="Customization of ExceptionRef">
-      <eAnnotations xmi:id="_4s68JHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4s68JXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgDKiHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgDKiXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238176752_84513_1831" name="Customization of FrontEndTable">
-      <eAnnotations xmi:id="_4uHO9nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uHO93fwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YfmekHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YfmekXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.view.table.columns&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.view.table&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.presentation.view.table.sortable&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -996,8 +1235,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314488402_766201_2046" name="presentation">
-        <eAnnotations xmi:id="_4xQClHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xQClXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnDKZHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnDKZXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.presentation.view.table.columns</properties>
             <properties>@andromda.presentation.view.table</properties>
             <properties>@andromda.presentation.view.table.sortable</properties>
@@ -1009,26 +1248,26 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238177363_721759_1867" name="Customization of FrontEndApplication">
-      <eAnnotations xmi:id="_4t-FAnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t-FA3fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgpAaHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgpAaXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238177262_48710_1861" name="Customization of FrontEndRegistration">
-      <eAnnotations xmi:id="_4tXoFHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4tXoFXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgpAYHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgpAYXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238139488_86330_1729" name="Customization of PersistenceContext">
-      <eAnnotations xmi:id="_4t0UAHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t0UAXfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_Yh1TMHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yh1TMXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.service.persistence.context.unit.type&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.service.persistence.context.unit.name&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.service.persistence.context.datasource&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314466261_221082_1873" name="persistence">
-        <eAnnotations xmi:id="_4xi9dHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xi9dXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_Ynf2WHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ynf2WXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.service.persistence.context.unit.type</properties>
             <properties>@andromda.service.persistence.context.unit.name</properties>
             <properties>@andromda.service.persistence.context.datasource</properties>
@@ -1037,8 +1276,8 @@
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314571652_897915_2110" name="service">
-        <eAnnotations xmi:id="_4w8ggnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4w8gg3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnM7bHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnM7bXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.service.persistence.context.unit.type</properties>
             <properties>@andromda.service.persistence.context.unit.name</properties>
             <properties>@andromda.service.persistence.context.datasource</properties>
@@ -1048,13 +1287,13 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238265630_875661_1945" name="Customization of MappedSuperclass">
-      <eAnnotations xmi:id="_4uaw9HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uaw9XfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YfmelHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YfmelXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238138326_782289_1675" name="Customization of MessageDriven">
-      <eAnnotations xmi:id="_4s68KnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4s68K3fwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YgMUcHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgMUcXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.ejb.mdb.pool.size.min&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.ejb.mdb.destination.type&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.ejb.mdb.selector&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -1065,8 +1304,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314451029_514734_1771" name="ejb">
-        <eAnnotations xmi:id="_4xGRhnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xGRh3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnM7ZnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnM7Z3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.ejb.mdb.pool.size.min</properties>
             <properties>@andromda.ejb.mdb.destination.type</properties>
             <properties>@andromda.ejb.mdb.selector</properties>
@@ -1080,14 +1319,14 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238138967_86108_1705" name="Customization of Interceptor">
-      <eAnnotations xmi:id="_4uHO-nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uHO-3fwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YfvognuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yfvog3uqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.service.interceptor.default&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314571642_398231_2102" name="service">
-        <eAnnotations xmi:id="_4wzWnHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4wzWnXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YmmecnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ymmec3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.service.interceptor.default</properties>
           </contents>
         </eAnnotations>
@@ -1095,34 +1334,34 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238301822_289893_1987" name="Customization of metafacade">
-      <eAnnotations xmi:id="_4uQ_8HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uQ_8XfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_Ygf2cHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Ygf2cXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238336521_617998_2017" name="Customization of Nullable">
-      <eAnnotations xmi:id="_4uaw9nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uaw93fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhPdVnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhPdV3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238160388_455018_1801" name="Customization of Node Leave">
-      <eAnnotations xmi:id="_4uaw-nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uaw-3fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhiYRnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhiYR3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238301741_775955_1981" name="Customization of metaclass">
-      <eAnnotations xmi:id="_4tEtJHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4tEtJXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgDKgHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgDKgXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238301912_814546_1993" name="Customization of MetaGeneralization">
-      <eAnnotations xmi:id="_4tEtJnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4tEtJ3fwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YhsJQHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhsJQXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.meta.generalization.precedence&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314506789_826513_2077" name="meta">
-        <eAnnotations xmi:id="_4wzWknfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4wzWk3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_Ym5ZZHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ym5ZZXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.meta.generalization.precedence</properties>
           </contents>
         </eAnnotations>
@@ -1130,124 +1369,124 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238265489_582374_1939" name="Customization of MaxResult">
-      <eAnnotations xmi:id="_4t-FCnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t-FC3fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhiYQHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhiYQXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238138727_743976_1693" name="Customization of Listener">
-      <eAnnotations xmi:id="_4s68JnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4s68J3fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgyxYnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgyxY3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238160288_76010_1795" name="Customization of Node Enter">
-      <eAnnotations xmi:id="_4thZEnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4thZE3fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YfctkHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YfctkXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238265209_768070_1927" name="Customization of Manageable">
-      <eAnnotations xmi:id="_4vAm13fwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4vAm2HfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhPdUnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhPdU3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238138196_344591_1669" name="Customization of PostActivate">
-      <eAnnotations xmi:id="_4trKFHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4trKFXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YfctlnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yfctl3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238264658_757320_1903" name="Customization of PostLoad">
-      <eAnnotations xmi:id="_4uHO9HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uHO9XfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhYnSHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhYnSXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238138467_592594_1681" name="Customization of PostConstruct">
-      <eAnnotations xmi:id="_4t-FCHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t-FCXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgpAanuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgpAa3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238264037_639710_1879" name="Customization of PostUpdate">
-      <eAnnotations xmi:id="_4uaw8HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uaw8XfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YetGsHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YetGsXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238264939_130601_1915" name="Customization of PreRemove">
-      <eAnnotations xmi:id="_4uj66nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uj663fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhsJRHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhsJRXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238265069_145203_1921" name="Customization of PrePersist">
-      <eAnnotations xmi:id="_4t-FDHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t-FDXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YfTjpHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YfTjpXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238263897_118697_1873" name="Customization of PostRemove">
-      <eAnnotations xmi:id="_4uQ__HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uQ__XfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YfvogHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YfvogXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238139909_41940_1747" name="Customization of PrePassivate">
-      <eAnnotations xmi:id="_4t0UDHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t0UDXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YfctmHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YfctmXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238264438_226713_1897" name="Customization of PostPersist">
-      <eAnnotations xmi:id="_4u3c4HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4u3c4XfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_Yg77VHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yg77VXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238139779_882044_1741" name="Customization of PreDestroy">
-      <eAnnotations xmi:id="_4uj64HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uj64XfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgDKinuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgDKi3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238301992_747376_1999" name="Customization of PSMmetaclass">
-      <eAnnotations xmi:id="_4tOeKXfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4tOeKnfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgyxanuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Ygyxa3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238139648_301743_1735" name="Customization of ResourceRef">
-      <eAnnotations xmi:id="_4vKX0HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4vKX0XfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YfmeknuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yfmek3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238264298_23240_1891" name="Customization of PreUpdate">
-      <eAnnotations xmi:id="_4uHO-HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uHO-XfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgDKgnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgDKg3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238336431_142799_2011" name="Customization of Role">
-      <eAnnotations xmi:id="_4uQ_8nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uQ_83fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhiYQnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhiYQ3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238139368_664556_1723" name="Customization of RunAs">
-      <eAnnotations xmi:id="_4tEtKHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4tEtKXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhYnRHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhYnRXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238265900_507863_1957" name="Customization of SelectMethod">
-      <eAnnotations xmi:id="_4uHO8nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uHO83fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_Ygf2enuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Ygf2e3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238139228_745093_1717" name="Customization of ServiceOperation">
-      <eAnnotations xmi:id="_4t-FBHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t-FBXfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_Ygf2cnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Ygf2c3uqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.service.persistence.flush.mode&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.service.interceptor.excludeClass&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.service.interceptor.excludeDefault&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314466361_812708_1959" name="persistence">
-        <eAnnotations xmi:id="_4xZMdHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xZMdXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnM7YHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnM7YXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.service.persistence.flush.mode</properties>
           </contents>
         </eAnnotations>
         <type xmi:type="uml:PrimitiveType" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#eee_1045467100323_249638_60"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_12_5_be00301_1179314571682_817349_2151" name="service">
-        <eAnnotations xmi:id="_4xZMfnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xZMf3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YmwPdnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YmwPd3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.service.interceptor.excludeClass</properties>
             <properties>@andromda.service.interceptor.excludeDefault</properties>
             <properties>@andromda.service.persistence.flush.mode</properties>
@@ -1257,24 +1496,24 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238138607_498932_1687" name="Customization of Timeout">
-      <eAnnotations xmi:id="_4tXoEHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4tXoEXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_Yh1TMnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yh1TM3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238160578_691292_1813" name="Customization of Timer">
-      <eAnnotations xmi:id="_4thZHnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4thZH3fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgMUdnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgMUd3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238265760_800666_1951" name="Customization of TemporalElement">
-      <eAnnotations xmi:id="_4thZEHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4thZEXfwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_Yg77WHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yg77WXuqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.persistence.temporal.type&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314466361_529453_1966" name="persistence">
-        <eAnnotations xmi:id="_4w8ghHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4w8ghXfwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnM7aHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnM7aXuqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.persistence.temporal.type</properties>
           </contents>
         </eAnnotations>
@@ -1282,51 +1521,51 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238160488_982939_1807" name="Customization of Task">
-      <eAnnotations xmi:id="_4s68IHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4s68IXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_Ygf2dnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Ygf2d3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238336341_853484_2005" name="Customization of UnexpectedException">
-      <eAnnotations xmi:id="_4trKGnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4trKG3fwEd-SzqnCc3kJXw"/>
+      <eAnnotations xmi:id="_Ygf2eHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Ygf2eXuqEd-0Kr02zFWHKA"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238138036_844952_1663" name="Customization of UserTransaction">
-      <eAnnotations xmi:id="_4tEtLHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4tEtLXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YfmemHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YfmemXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238266210_921005_1969" name="Customization of ValueRef">
-      <eAnnotations xmi:id="_4t-FBnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t-FB3fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YfctknuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yfctk3uqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238266371_345391_1975" name="Customization of Version">
-      <eAnnotations xmi:id="_4uaw_nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uaw_3fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgyxZHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgyxZXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238140429_156695_1771" name="Customization of XmlSchemaType">
-      <eAnnotations xmi:id="_4tXoGHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4tXoGXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhiYRHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhiYRXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238140169_281625_1759" name="Customization of WebServiceOperation">
-      <eAnnotations xmi:id="_4t0UCnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4t0UC3fwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YgMUdHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YgMUdXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238140029_862707_1753" name="Customization of WebServiceNature">
-      <eAnnotations xmi:id="_4uj64nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uj643fwEd-SzqnCc3kJXw" hideMetatype="false">
+      <eAnnotations xmi:id="_YhYnQnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhYnQ3uqEd-0Kr02zFWHKA" hideMetatype="false">
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.webservice.provider&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.webservice.style&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
           <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>@andromda.webservice.use&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_12_5_be00301_1179314597439_432461_2162" name="webservice">
-        <eAnnotations xmi:id="_4xGRinfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_4xGRi3fwEd-SzqnCc3kJXw" useAsNode="true">
+        <eAnnotations xmi:id="_YnWFVnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+          <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_YnWFV3uqEd-0Kr02zFWHKA" useAsNode="true">
             <properties>@andromda.webservice.provider</properties>
             <properties>@andromda.webservice.style</properties>
             <properties>@andromda.webservice.use</properties>
@@ -1336,28 +1575,28 @@
       </ownedAttribute>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179238140279_610080_1765" name="Customization of XmlAttribute">
-      <eAnnotations xmi:id="_4s68KHfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4s68KXfwEd-SzqnCc3kJXw" hideMetatype="false"/>
+      <eAnnotations xmi:id="_YhPdWHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YhPdWXuqEd-0Kr02zFWHKA" hideMetatype="false"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179312206591_55779_1590" name="Customization of ApplicationException">
-      <eAnnotations xmi:id="_4uHO_HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uHO_XfwEd-SzqnCc3kJXw"/>
+      <eAnnotations xmi:id="_Yg77VnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yg77V3uqEd-0Kr02zFWHKA"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179312206772_332702_1596" name="Customization of Enumeration">
-      <eAnnotations xmi:id="_4thZGnfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4thZG3fwEd-SzqnCc3kJXw"/>
+      <eAnnotations xmi:id="_YfTjpnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YfTjp3uqEd-0Kr02zFWHKA"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1179312207773_770978_1638" name="Customization of ValueObject">
-      <eAnnotations xmi:id="_4vAm0HfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4vAm0XfwEd-SzqnCc3kJXw"/>
+      <eAnnotations xmi:id="_YfTjoHuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_YfTjoXuqEd-0Kr02zFWHKA"/>
       </eAnnotations>
     </ownedMember>
     <ownedMember xmi:type="uml:Class" xmi:id="_12_5_be00301_1180446070508_540969_1322" name="Customization of WebService">
-      <eAnnotations xmi:id="_4uQ__nfwEd-SzqnCc3kJXw" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_4uQ__3fwEd-SzqnCc3kJXw"/>
+      <eAnnotations xmi:id="_Yg77UnuqEd-0Kr02zFWHKA" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_Yg77U3uqEd-0Kr02zFWHKA"/>
       </eAnnotations>
     </ownedMember>
   </ownedMember>

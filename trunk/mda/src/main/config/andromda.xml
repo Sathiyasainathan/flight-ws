@@ -42,9 +42,8 @@
         <namespace name="spring">
             <properties>
 				<property name="hibernateCacheConfigurationFile">flightws.ehcache.xml</property>
-				<property name="importResource">classpath:flightws.ehcache.jmx.xml</property>
-				<property name="hibernateGenerateStatistics">true</property>
-				<property name="hibernateEnableCache">true</property>
+				<property name="hibernateGenerateStatistics">false</property>
+				<property name="hibernateEnableCache">false</property>
                 <property name="jmsProvider">ActiveMQ</property>
                 <property name="jmsProviderUrl">failover://(tcp://192.168.5.82:61616,tcp://192.168.5.82:62616)?randomize=false</property> 
                 <property name="dataSource">${dataSource}</property>
@@ -75,8 +74,8 @@
         </namespace>
         <namespace name="hibernate">
             <properties>
-                <property name="hibernateEnableCache">true</property>
-                <property name="hibernateEnableAssociationsCache">true</property>
+                <property name="hibernateEnableCache">false</property>
+                <property name="hibernateEnableAssociationsCache">false</property>
                 <property name="hibernateTypeMappingsUri">Hibernate</property>
                 <property name="hibernateInheritanceStrategy">${hibernate.inheritance.strategy}</property>
                 <property name="defaultHibernateGeneratorClass">${hibernate.generatorClass}</property>

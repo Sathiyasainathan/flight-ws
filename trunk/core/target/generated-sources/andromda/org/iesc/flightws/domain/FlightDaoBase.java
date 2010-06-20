@@ -156,6 +156,54 @@ public abstract class FlightDaoBase
     }
 
     /**
+     * @see org.iesc.flightws.domain.FlightDao#create(java.lang.String)
+     */
+    public org.iesc.flightws.domain.Flight create(
+        java.lang.String code)
+    {
+        return (org.iesc.flightws.domain.Flight)this.create(TRANSFORM_NONE, code);
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDao#create(int, java.lang.String)
+     */
+    public java.lang.Object create(
+        final int transform,
+        java.lang.String code)
+    {
+        org.iesc.flightws.domain.Flight entity = new org.iesc.flightws.domain.FlightImpl();
+        entity.setCode(code);
+        return this.create(transform, entity);
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDao#create(java.lang.String, org.iesc.flightws.domain.City, org.iesc.flightws.domain.City)
+     */
+    public org.iesc.flightws.domain.Flight create(
+        java.lang.String code,
+        org.iesc.flightws.domain.City departureCity,
+        org.iesc.flightws.domain.City destinationCity)
+    {
+        return (org.iesc.flightws.domain.Flight)this.create(TRANSFORM_NONE, code, departureCity, destinationCity);
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDao#create(int, java.lang.String, org.iesc.flightws.domain.City, org.iesc.flightws.domain.City)
+     */
+    public java.lang.Object create(
+        final int transform,
+        java.lang.String code,
+        org.iesc.flightws.domain.City departureCity,
+        org.iesc.flightws.domain.City destinationCity)
+    {
+        org.iesc.flightws.domain.Flight entity = new org.iesc.flightws.domain.FlightImpl();
+        entity.setCode(code);
+        entity.setDepartureCity(departureCity);
+        entity.setDestinationCity(destinationCity);
+        return this.create(transform, entity);
+    }
+
+    /**
      * @see org.iesc.flightws.domain.FlightDao#update(org.iesc.flightws.domain.Flight)
      */
     public void update(org.iesc.flightws.domain.Flight flight)
@@ -237,11 +285,45 @@ public abstract class FlightDaoBase
         this.getHibernateTemplate().deleteAll(entities);
     }
     /**
+     * @see org.iesc.flightws.domain.FlightDao#getFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO)
+     */
+    public java.util.Collection getFlightsByCriteria(final org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria)
+    {
+        if (searchCriteria == null)
+        {
+            throw new IllegalArgumentException(
+                "org.iesc.flightws.domain.FlightDao.getFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria) - 'searchCriteria' can not be null");
+        }
+        try
+        {
+            return this.handleGetFlightsByCriteria(searchCriteria);
+        }
+        catch (Throwable th)
+        {
+            throw new java.lang.RuntimeException(
+            "Error performing 'org.iesc.flightws.domain.FlightDao.getFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria)' --> " + th,
+            th);
+        }
+    }
+
+     /**
+      * Performs the core logic for {@link #getFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO)}
+      */
+    protected abstract java.util.Collection handleGetFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria)
+        throws java.lang.Exception;
+
+    /**
      * Allows transformation of entities into value objects
      * (or something else for that matter), when the <code>transform</code>
      * flag is set to one of the constants defined in <code>org.iesc.flightws.domain.FlightDao</code>, please note
      * that the {@link #TRANSFORM_NONE} constant denotes no transformation, so the entity itself
      * will be returned.
+     * <p>
+     * This method will return instances of these types:
+     * <ul>
+     *   <li>{@link org.iesc.flightws.domain.Flight} - {@link #TRANSFORM_NONE}</li>
+     *   <li>{@link org.iesc.flightws.vo.FlightVO} - {@link TRANSFORM_FLIGHTVO}</li>
+     * </ul>
      *
      * If the integer argument value is unknown {@link #TRANSFORM_NONE} is assumed.
      *
@@ -257,6 +339,9 @@ public abstract class FlightDaoBase
         {
             switch (transform)
             {
+                case TRANSFORM_FLIGHTVO :
+                    target = toFlightVO(entity);
+                    break;
                 case TRANSFORM_NONE : // fall-through
                 default:
                     target = entity;
@@ -280,6 +365,9 @@ public abstract class FlightDaoBase
     {
         switch (transform)
         {
+            case TRANSFORM_FLIGHTVO :
+                toFlightVOCollection(entities);
+                break;
             case TRANSFORM_NONE : // fall-through
                 default:
                 // do nothing;
@@ -337,6 +425,135 @@ public abstract class FlightDaoBase
             }
         }
         return target;
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDao#toFlightVOCollection(java.util.Collection)
+     */
+    public final void toFlightVOCollection(java.util.Collection entities)
+    {
+        if (entities != null)
+        {
+            org.apache.commons.collections.CollectionUtils.transform(entities, FLIGHTVO_TRANSFORMER);
+        }
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDao#toFlightVOArray(java.util.Collection)
+     */
+    public final org.iesc.flightws.vo.FlightVO[] toFlightVOArray(java.util.Collection entities)
+    {
+        org.iesc.flightws.vo.FlightVO[] result = null;
+        if (entities != null)
+        {
+            final java.util.Collection collection = new java.util.ArrayList(entities);
+            this.toFlightVOCollection(collection);
+            result = (org.iesc.flightws.vo.FlightVO[]) collection.toArray(new org.iesc.flightws.vo.FlightVO[0]);
+        }
+        return result;
+    }
+
+    /**
+     * Default implementation for transforming the results of a report query into a value object. This
+     * implementation exists for convenience reasons only. It needs only be overridden in the
+     * {@link FlightDaoImpl} class if you intend to use reporting queries.
+     * @see org.iesc.flightws.domain.FlightDao#toFlightVO(org.iesc.flightws.domain.Flight)
+     */
+    protected org.iesc.flightws.vo.FlightVO toFlightVO(java.lang.Object[] row)
+    {
+        return this.toFlightVO(this.toEntity(row));
+    }
+
+    /**
+     * This anonymous transformer is designed to transform entities or report query results
+     * (which result in an array of objects) to {@link org.iesc.flightws.vo.FlightVO}
+     * using the Jakarta Commons-Collections Transformation API.
+     */
+    private org.apache.commons.collections.Transformer FLIGHTVO_TRANSFORMER =
+        new org.apache.commons.collections.Transformer()
+        {
+            public java.lang.Object transform(java.lang.Object input)
+            {
+                java.lang.Object result = null;
+                if (input instanceof org.iesc.flightws.domain.Flight)
+                {
+                    result = toFlightVO((org.iesc.flightws.domain.Flight)input);
+                }
+                else if (input instanceof java.lang.Object[])
+                {
+                    result = toFlightVO((java.lang.Object[])input);
+                }
+                return result;
+            }
+        };
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDao#flightVOToEntityCollection(java.util.Collection)
+     */
+    public final void flightVOToEntityCollection(java.util.Collection instances)
+    {
+        if (instances != null)
+        {
+            for (final java.util.Iterator iterator = instances.iterator(); iterator.hasNext();)
+            {
+                // - remove an objects that are null or not of the correct instance
+                if (!(iterator.next() instanceof org.iesc.flightws.vo.FlightVO))
+                {
+                    iterator.remove();
+                }
+            }
+            org.apache.commons.collections.CollectionUtils.transform(instances, FlightVOToEntityTransformer);
+        }
+    }
+
+    private final org.apache.commons.collections.Transformer FlightVOToEntityTransformer =
+        new org.apache.commons.collections.Transformer()
+        {
+            public java.lang.Object transform(java.lang.Object input)
+            {
+                return flightVOToEntity((org.iesc.flightws.vo.FlightVO)input);
+            }
+        };
+
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDao#toFlightVO(org.iesc.flightws.domain.Flight, org.iesc.flightws.vo.FlightVO)
+     */
+    public void toFlightVO(
+        org.iesc.flightws.domain.Flight source,
+        org.iesc.flightws.vo.FlightVO target)
+    {
+        target.setCode(source.getCode());
+        // No conversion for target.destinationCity (can't convert source.getDestinationCity():org.iesc.flightws.domain.City to org.iesc.flightws.vo.CityVO)
+        // No conversion for target.departureCity (can't convert source.getDepartureCity():org.iesc.flightws.domain.City to org.iesc.flightws.vo.CityVO)
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDao#toFlightVO(org.iesc.flightws.domain.Flight)
+     */
+    public org.iesc.flightws.vo.FlightVO toFlightVO(final org.iesc.flightws.domain.Flight entity)
+    {
+        org.iesc.flightws.vo.FlightVO target = null;
+        if (entity != null)
+        {
+            target = new org.iesc.flightws.vo.FlightVO();
+            this.toFlightVO(entity, target);
+        }
+        return target;
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDao#flightVOToEntity(org.iesc.flightws.vo.FlightVO, org.iesc.flightws.domain.Flight)
+     */
+    public void flightVOToEntity(
+        org.iesc.flightws.vo.FlightVO source,
+        org.iesc.flightws.domain.Flight target,
+        boolean copyIfNull)
+    {
+        if (copyIfNull || source.getCode() != null)
+        {
+            target.setCode(source.getCode());
+        }
     }
 
     /**

@@ -1,25 +1,34 @@
-// license-header java merge-point
-/**
- * This is only generated once! It will never be overwritten.
- * You can (and have to!) safely modify it by hand.
- */
 package org.iesc.flightws.service;
 
-/**
- * @see org.iesc.flightws.service.FlightService
- */
-public class FlightServiceImpl
-    extends org.iesc.flightws.service.FlightServiceBase
-{
+import java.util.List;
+import org.iesc.flightws.domain.Flight;
+import org.iesc.flightws.vo.BookingVO;
+import org.iesc.flightws.vo.CityVO;
+import org.iesc.flightws.vo.FlightSearchCriteriaVO;
+import org.iesc.flightws.vo.FlightSearchResultsVO;
+import org.iesc.flightws.vo.FlightVO;
 
-    /**
-     * @see org.iesc.flightws.service.FlightService#stubWebmethod()
-     */
-    protected  org.iesc.flightws.vo.FlightwsStubVO handleStubWebmethod()
-        throws java.lang.Exception
-    {
-        // @todo implement protected  org.iesc.flightws.vo.FlightwsStubVO handleStubWebmethod()
-        throw new java.lang.UnsupportedOperationException("org.iesc.flightws.service.FlightService.handleStubWebmethod() Not implemented!");
+/**
+ * Main webservice implementation.
+ */
+public class FlightServiceImpl extends FlightServiceBase {
+
+    protected FlightSearchResultsVO handleGetFlightsByCriteria(FlightSearchCriteriaVO searchCriteria) throws Exception {
+        FlightSearchResultsVO result = new FlightSearchResultsVO();
+        FlightVO[] results = null;
+
+        List<Flight> flightsCol = (List<Flight>)getFlightDao().getFlightsByCriteria(searchCriteria);
+        results = getFlightDao().toFlightVOArray(flightsCol);
+        result.setResults(results);
+
+        return result;
     }
 
+    protected Long handleCreateBooking(BookingVO booking) throws Exception {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    protected CityVO[] handleGetDestinationCitiesByDepartureCity(CityVO departureCity) throws Exception {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 }

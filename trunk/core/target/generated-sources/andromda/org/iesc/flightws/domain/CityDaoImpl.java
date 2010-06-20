@@ -5,9 +5,9 @@
 //
 package org.iesc.flightws.domain;
 /**
- * @see org.iesc.flightws.domain.Flight
+ * @see org.iesc.flightws.domain.City
  */
-public class FlightDaoImpl
-    extends org.iesc.flightws.domain.FlightDaoBase
+public class CityDaoImpl
+    extends org.iesc.flightws.domain.CityDaoBase
 {
 }
