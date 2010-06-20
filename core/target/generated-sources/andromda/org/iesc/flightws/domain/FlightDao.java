@@ -29,6 +29,62 @@ public interface FlightDao
     public void toEntities(final java.util.Collection results);
 
     /**
+     * This constant is used as a transformation flag; entities can be converted automatically into value objects
+     * or other types, different methods in a class implementing this interface support this feature: look for
+     * an <code>int</code> parameter called <code>transform</code>.
+     * <p>
+     * This specific flag denotes entities must be transformed into objects of type
+     * {@link org.iesc.flightws.vo.FlightVO}.
+     */
+    public final static int TRANSFORM_FLIGHTVO = 1;
+
+    /**
+     * Copies the fields of the specified entity to the target value object. This method is similar to
+     * toFlightVO(), but it does not handle any attributes in the target
+     * value object that are "read-only" (as those do not have setter methods exposed).
+     */
+    public void toFlightVO(
+        org.iesc.flightws.domain.Flight source,
+        org.iesc.flightws.vo.FlightVO target);
+
+
+    /**
+     * Converts this DAO's entity to an object of type {@link org.iesc.flightws.vo.FlightVO}.
+     */
+    public org.iesc.flightws.vo.FlightVO toFlightVO(org.iesc.flightws.domain.Flight entity);
+
+    /**
+     * Converts this DAO's entity to a Collection of instances of type {@link org.iesc.flightws.vo.FlightVO}.
+     */
+    public void toFlightVOCollection(java.util.Collection entities);
+
+    /**
+     * Converts this DAO's entity to an array of instances of type {@link org.iesc.flightws.vo.FlightVO}.
+     */
+    public org.iesc.flightws.vo.FlightVO[] toFlightVOArray(java.util.Collection entities);
+
+    /**
+     * Copies the fields of {@link org.iesc.flightws.vo.FlightVO} to the specified entity.
+     * @param copyIfNull If FALSE, the value object's field will not be copied to the entity if the value is NULL. If TRUE,
+     * it will be copied regardless of its value.
+     */
+    public void flightVOToEntity(
+        org.iesc.flightws.vo.FlightVO source,
+        org.iesc.flightws.domain.Flight target,
+        boolean copyIfNull);
+
+    /**
+     * Converts an instance of type {@link org.iesc.flightws.vo.FlightVO} to this DAO's entity.
+     */
+    public org.iesc.flightws.domain.Flight flightVOToEntity(org.iesc.flightws.vo.FlightVO flightVO);
+
+    /**
+     * Converts a Collection of instances of type {@link org.iesc.flightws.vo.FlightVO} to this
+     * DAO's entity.
+     */
+    public void flightVOToEntityCollection(java.util.Collection instances);
+
+    /**
      * Loads an instance of org.iesc.flightws.domain.Flight from the persistent store.
      */
     public org.iesc.flightws.domain.Flight load(java.lang.Long id);
@@ -139,6 +195,57 @@ public interface FlightDao
      */
     public java.util.Collection create(int transform, java.util.Collection entities);
 
+    /**
+     * <p>
+     * Creates a new <code>org.iesc.flightws.domain.Flight</code>
+     * instance from <strong>all</strong> attributes and adds it to
+     * the persistent store.
+     * </p>
+     */
+    public org.iesc.flightws.domain.Flight create(
+        java.lang.String code);
+
+    /**
+     * <p>
+     * Does the same thing as {@link #create(java.lang.String)} with an
+     * additional flag called <code>transform</code>. If this flag is set to <code>TRANSFORM_NONE</code> then
+     * the returned entity will <strong>NOT</strong> be transformed. If this flag is any of the other constants
+     * defined here then the result <strong>WILL BE</strong> passed through an operation which can optionally
+     * transform the entity (into a value object for example). By default, transformation does
+     * not occur.
+     * </p>
+     */
+    public Object create(
+        int transform,
+        java.lang.String code);
+
+    /**
+     * <p>
+     * Creates a new <code>org.iesc.flightws.domain.Flight</code>
+     * instance from only <strong>required</strong> properties (attributes
+     * and association ends) and adds it to the persistent store.
+     * </p>
+     */
+    public org.iesc.flightws.domain.Flight create(
+        java.lang.String code,
+        org.iesc.flightws.domain.City departureCity,
+        org.iesc.flightws.domain.City destinationCity);
+
+    /**
+     * <p>
+     * Does the same thing as {@link #create(java.lang.String)} with an
+     * additional flag called <code>transform</code>. If this flag is set to <code>TRANSFORM_NONE</code> then
+     * the returned entity will <strong>NOT</strong> be transformed. If this flag is any of the other constants
+     * defined here then the result <strong>WILL BE</strong> passed through an operation which can optionally
+     * transform the entity (into a value object for example). By default, transformation does
+     * not occur.
+     * </p>
+     */
+    public Object create(
+        int transform,
+        java.lang.String code,
+        org.iesc.flightws.domain.City departureCity,
+        org.iesc.flightws.domain.City destinationCity);
 
     /**
      * Updates the <code>flight</code> instance in the persistent store.
@@ -165,6 +272,11 @@ public interface FlightDao
      * Removes all entities in the given <code>entities</code> collection.
      */
     public void remove(java.util.Collection entities);
+
+    /**
+     * 
+     */
+    public java.util.Collection getFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria);
 
 
     /**

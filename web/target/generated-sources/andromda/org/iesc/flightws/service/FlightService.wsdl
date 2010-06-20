@@ -14,29 +14,389 @@
                     targetNamespace="http://org.iesc.flightws.service"
                     xmlns:impl="http://org.iesc.flightws.service"
                     xmlns="http://www.w3.org/2001/XMLSchema">
-            <xsd:element name="stubWebmethod">
+            <xsd:element name="createBooking">
                 <xsd:annotation>
                     <xsd:documentation>
                         
                     </xsd:documentation>
                 </xsd:annotation>
-                <xsd:complexType/>
-            </xsd:element>
-            <xsd:element name="stubWebmethodResponse">
                 <xsd:complexType>
                     <xsd:sequence>
-                        <xsd:element name="stubWebmethodReturn" type="impl:FlightwsStubVO"/>
+                        <xsd:element name="booking" type="impl:BookingVO" nillable="false">
+                            <xsd:annotation>
+                                <xsd:documentation>
+                                    
+                                </xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
                     </xsd:sequence>
                 </xsd:complexType>
             </xsd:element>
-            <xsd:complexType name="FlightwsStubVO">
+            <xsd:element name="createBookingResponse">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="createBookingReturn" type="xsd:long"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="getDestinationCitiesByDepartureCity">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        
+                    </xsd:documentation>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="departureCity" type="impl:CityVO" nillable="false">
+                            <xsd:annotation>
+                                <xsd:documentation>
+                                    
+                                </xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="getDestinationCitiesByDepartureCityResponse">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="getDestinationCitiesByDepartureCityReturn" type="impl:ArrayOfCityVO"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="getFlightsByCriteria">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        
+                    </xsd:documentation>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="searchCriteria" type="impl:FlightSearchCriteriaVO" nillable="false">
+                            <xsd:annotation>
+                                <xsd:documentation>
+                                    
+                                </xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="getFlightsByCriteriaResponse">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="getFlightsByCriteriaReturn" type="impl:FlightSearchResultsVO"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:complexType name="BookingVO">
                 <xsd:annotation>
                     <xsd:documentation>
                         
                     </xsd:documentation>
                 </xsd:annotation>
                 <xsd:all>
-                    <xsd:element name="prop" nillable="false" type="xsd:string">
+                    <xsd:element name="user" nillable="false" type="impl:UserVO">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="flightDates" nillable="false" type="impl:ArrayOfFlightDateVO">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="passengers" nillable="false" type="impl:ArrayOfPassengerVO">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                </xsd:all>
+            </xsd:complexType>
+            <xsd:complexType name="ArrayOfBookingVO">
+                <xsd:sequence>
+                    <xsd:element name="bookingVO" minOccurs="0" maxOccurs="unbounded" form="qualified" type="impl:BookingVO" />
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="CityVO">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        
+                    </xsd:documentation>
+                </xsd:annotation>
+                <xsd:all>
+                    <xsd:element name="name" nillable="false" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="codeIATA" nillable="false" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                </xsd:all>
+            </xsd:complexType>
+            <xsd:complexType name="ArrayOfCityVO">
+                <xsd:sequence>
+                    <xsd:element name="cityVO" minOccurs="0" maxOccurs="unbounded" form="qualified" type="impl:CityVO" />
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="FlightDateVO">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        
+                    </xsd:documentation>
+                </xsd:annotation>
+                <xsd:all>
+                    <xsd:element name="departureDate" nillable="false" type="xsd:long">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="arrivalDate" nillable="false" type="xsd:long">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="plane" nillable="false" type="impl:PlaneVO">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                </xsd:all>
+            </xsd:complexType>
+            <xsd:complexType name="ArrayOfFlightDateVO">
+                <xsd:sequence>
+                    <xsd:element name="flightDateVO" minOccurs="0" maxOccurs="unbounded" form="qualified" type="impl:FlightDateVO" />
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="FlightSearchCriteriaVO">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        
+                    </xsd:documentation>
+                </xsd:annotation>
+                <xsd:all>
+                    <xsd:element name="departureCity" nillable="false" type="xsd:long">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="arrivalCity" nillable="true" type="xsd:long">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="departureDate" nillable="true" type="xsd:long">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="nrPassengers" nillable="true" type="xsd:long">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="flightType" nillable="true" type="xsd:long">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                </xsd:all>
+            </xsd:complexType>
+            <xsd:complexType name="FlightSearchResultsVO">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        
+                    </xsd:documentation>
+                </xsd:annotation>
+                <xsd:all>
+                    <xsd:element name="results" nillable="false" type="impl:ArrayOfFlightVO">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="searchCriteria" nillable="false" type="impl:FlightSearchCriteriaVO">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                </xsd:all>
+            </xsd:complexType>
+            <xsd:complexType name="FlightVO">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        
+                    </xsd:documentation>
+                </xsd:annotation>
+                <xsd:all>
+                    <xsd:element name="code" nillable="false" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="flightDates" nillable="false" type="impl:ArrayOfFlightDateVO">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="destinationCity" nillable="false" type="impl:CityVO">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="departureCity" nillable="false" type="impl:CityVO">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                </xsd:all>
+            </xsd:complexType>
+            <xsd:complexType name="ArrayOfFlightVO">
+                <xsd:sequence>
+                    <xsd:element name="flightVO" minOccurs="0" maxOccurs="unbounded" form="qualified" type="impl:FlightVO" />
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="PassengerVO">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        
+                    </xsd:documentation>
+                </xsd:annotation>
+                <xsd:all>
+                    <xsd:element name="type" nillable="false" type="xsd:long">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="name" nillable="false" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="surname" nillable="false" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="passportCode" nillable="false" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                </xsd:all>
+            </xsd:complexType>
+            <xsd:complexType name="ArrayOfPassengerVO">
+                <xsd:sequence>
+                    <xsd:element name="passengerVO" minOccurs="0" maxOccurs="unbounded" form="qualified" type="impl:PassengerVO" />
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="PlaneVO">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        
+                    </xsd:documentation>
+                </xsd:annotation>
+                <xsd:all>
+                    <xsd:element name="type" nillable="false" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="capacity" nillable="false" type="xsd:long">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                </xsd:all>
+            </xsd:complexType>
+            <xsd:complexType name="UserVO">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        
+                    </xsd:documentation>
+                </xsd:annotation>
+                <xsd:all>
+                    <xsd:element name="email" nillable="false" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="password" nillable="false" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="name" nillable="false" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="surname" nillable="false" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="bookings" nillable="false" type="impl:ArrayOfBookingVO">
                         <xsd:annotation>
                             <xsd:documentation>
                                 
@@ -49,35 +409,83 @@
     </wsdl:types>
 
     <!-- Messages -->
-    <wsdl:message name="stubWebmethodRequest">
-        <wsdl:part element="impl:stubWebmethod" name="parameters"/>
+    <wsdl:message name="createBookingRequest">
+        <wsdl:part element="impl:createBooking" name="parameters"/>
     </wsdl:message>
-    <wsdl:message name="stubWebmethodResponse">
-        <wsdl:part element="impl:stubWebmethodResponse" name="parameters"/>
+    <wsdl:message name="createBookingResponse">
+        <wsdl:part element="impl:createBookingResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getDestinationCitiesByDepartureCityRequest">
+        <wsdl:part element="impl:getDestinationCitiesByDepartureCity" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getDestinationCitiesByDepartureCityResponse">
+        <wsdl:part element="impl:getDestinationCitiesByDepartureCityResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getFlightsByCriteriaRequest">
+        <wsdl:part element="impl:getFlightsByCriteria" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getFlightsByCriteriaResponse">
+        <wsdl:part element="impl:getFlightsByCriteriaResponse" name="parameters"/>
     </wsdl:message>
 
     <!-- Port Type -->
     <wsdl:portType name="FlightServicePortType">
-        <wsdl:operation name="stubWebmethod">
+        <wsdl:operation name="createBooking">
             <wsdl:documentation>
                 
             </wsdl:documentation>
-            <wsdl:input message="impl:stubWebmethodRequest"
-                        name="stubWebmethodRequest"/>
-            <wsdl:output message="impl:stubWebmethodResponse"
-                         name="stubWebmethodResponse"/>
+            <wsdl:input message="impl:createBookingRequest"
+                        name="createBookingRequest"/>
+            <wsdl:output message="impl:createBookingResponse"
+                         name="createBookingResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getDestinationCitiesByDepartureCity">
+            <wsdl:documentation>
+                
+            </wsdl:documentation>
+            <wsdl:input message="impl:getDestinationCitiesByDepartureCityRequest"
+                        name="getDestinationCitiesByDepartureCityRequest"/>
+            <wsdl:output message="impl:getDestinationCitiesByDepartureCityResponse"
+                         name="getDestinationCitiesByDepartureCityResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="getFlightsByCriteria">
+            <wsdl:documentation>
+                
+            </wsdl:documentation>
+            <wsdl:input message="impl:getFlightsByCriteriaRequest"
+                        name="getFlightsByCriteriaRequest"/>
+            <wsdl:output message="impl:getFlightsByCriteriaResponse"
+                         name="getFlightsByCriteriaResponse"/>
         </wsdl:operation>
     </wsdl:portType>
 
     <!-- WSDL Binding -->
     <wsdl:binding name="FlightServiceSoapBinding" type="impl:FlightServicePortType">
         <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
-        <wsdl:operation name="stubWebmethod">
-            <wsdlsoap:operation soapAction="stubWebmethod" style="document"/>
-            <wsdl:input name="stubWebmethodRequest">
+        <wsdl:operation name="createBooking">
+            <wsdlsoap:operation soapAction="createBooking" style="document"/>
+            <wsdl:input name="createBookingRequest">
                 <wsdlsoap:body use="literal"/>
             </wsdl:input>
-            <wsdl:output name="stubWebmethodResponse">
+            <wsdl:output name="createBookingResponse">
+                <wsdlsoap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getDestinationCitiesByDepartureCity">
+            <wsdlsoap:operation soapAction="getDestinationCitiesByDepartureCity" style="document"/>
+            <wsdl:input name="getDestinationCitiesByDepartureCityRequest">
+                <wsdlsoap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getDestinationCitiesByDepartureCityResponse">
+                <wsdlsoap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="getFlightsByCriteria">
+            <wsdlsoap:operation soapAction="getFlightsByCriteria" style="document"/>
+            <wsdl:input name="getFlightsByCriteriaRequest">
+                <wsdlsoap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getFlightsByCriteriaResponse">
                 <wsdlsoap:body use="literal"/>
             </wsdl:output>
         </wsdl:operation>

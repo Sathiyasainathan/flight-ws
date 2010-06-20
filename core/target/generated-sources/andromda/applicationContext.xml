@@ -16,6 +16,13 @@
             <list>
                 <!-- applicationContext hibernateMappingLocations merge-point -->
                 <value>classpath:org/iesc/flightws/domain/Flight.hbm.xml</value>
+                <value>classpath:org/iesc/flightws/domain/User.hbm.xml</value>
+                <value>classpath:org/iesc/flightws/domain/Passenger.hbm.xml</value>
+                <value>classpath:org/iesc/flightws/domain/Plane.hbm.xml</value>
+                <value>classpath:org/iesc/flightws/domain/City.hbm.xml</value>
+                <value>classpath:org/iesc/flightws/domain/FlightDate.hbm.xml</value>
+                <value>classpath:org/iesc/flightws/domain/Price.hbm.xml</value>
+                <value>classpath:org/iesc/flightws/domain/Booking.hbm.xml</value>
             </list>
          </property>
     </bean>
@@ -56,6 +63,132 @@
         </property>
     </bean>
 
+    <!-- User Entity Proxy with inner User Entity implementation -->
+    <bean id="userDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target">
+            <bean class="org.iesc.flightws.domain.UserDaoImpl">
+                <property name="sessionFactory"><ref local="sessionFactory"/></property>
+                <!-- User entity property merge-point -->
+            </bean>
+        </property>
+        <property name="proxyInterfaces">
+            <value>org.iesc.flightws.domain.UserDao</value>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- Passenger Entity Proxy with inner Passenger Entity implementation -->
+    <bean id="passengerDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target">
+            <bean class="org.iesc.flightws.domain.PassengerDaoImpl">
+                <property name="sessionFactory"><ref local="sessionFactory"/></property>
+                <!-- Passenger entity property merge-point -->
+            </bean>
+        </property>
+        <property name="proxyInterfaces">
+            <value>org.iesc.flightws.domain.PassengerDao</value>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- Plane Entity Proxy with inner Plane Entity implementation -->
+    <bean id="planeDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target">
+            <bean class="org.iesc.flightws.domain.PlaneDaoImpl">
+                <property name="sessionFactory"><ref local="sessionFactory"/></property>
+                <!-- Plane entity property merge-point -->
+            </bean>
+        </property>
+        <property name="proxyInterfaces">
+            <value>org.iesc.flightws.domain.PlaneDao</value>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- City Entity Proxy with inner City Entity implementation -->
+    <bean id="cityDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target">
+            <bean class="org.iesc.flightws.domain.CityDaoImpl">
+                <property name="sessionFactory"><ref local="sessionFactory"/></property>
+                <!-- City entity property merge-point -->
+            </bean>
+        </property>
+        <property name="proxyInterfaces">
+            <value>org.iesc.flightws.domain.CityDao</value>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- FlightDate Entity Proxy with inner FlightDate Entity implementation -->
+    <bean id="flightDateDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target">
+            <bean class="org.iesc.flightws.domain.FlightDateDaoImpl">
+                <property name="sessionFactory"><ref local="sessionFactory"/></property>
+                <!-- FlightDate entity property merge-point -->
+            </bean>
+        </property>
+        <property name="proxyInterfaces">
+            <value>org.iesc.flightws.domain.FlightDateDao</value>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- Price Entity Proxy with inner Price Entity implementation -->
+    <bean id="priceDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target">
+            <bean class="org.iesc.flightws.domain.PriceDaoImpl">
+                <property name="sessionFactory"><ref local="sessionFactory"/></property>
+                <!-- Price entity property merge-point -->
+            </bean>
+        </property>
+        <property name="proxyInterfaces">
+            <value>org.iesc.flightws.domain.PriceDao</value>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- Booking Entity Proxy with inner Booking Entity implementation -->
+    <bean id="bookingDao" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target">
+            <bean class="org.iesc.flightws.domain.BookingDaoImpl">
+                <property name="sessionFactory"><ref local="sessionFactory"/></property>
+                <!-- Booking entity property merge-point -->
+            </bean>
+        </property>
+        <property name="proxyInterfaces">
+            <value>org.iesc.flightws.domain.BookingDao</value>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>hibernateInterceptor</value>
+            </list>
+        </property>
+    </bean>
+
     <!-- ========================= Start of SERVICE DEFINITIONS ========================= -->
 
     <!-- Service Transactional Interceptor -->
@@ -63,7 +196,9 @@
         <property name="transactionManager"><ref bean="transactionManager"/></property>
         <property name="transactionAttributeSource">
             <value>
-                org.iesc.flightws.service.FlightService.stubWebmethod=PROPAGATION_REQUIRED
+                org.iesc.flightws.service.FlightService.getFlightsByCriteria=PROPAGATION_REQUIRED
+                org.iesc.flightws.service.FlightService.createBooking=PROPAGATION_REQUIRED
+                org.iesc.flightws.service.FlightService.getDestinationCitiesByDepartureCity=PROPAGATION_REQUIRED
             </value>
         </property>
     <!-- applicationContext serviceTransactionInterceptor merge-point -->
@@ -73,6 +208,14 @@
     <bean id="flightService" class="org.springframework.aop.framework.ProxyFactoryBean">
         <property name="target">
             <bean class="org.iesc.flightws.service.FlightServiceImpl">
+                <property name="flightDateDao"><ref bean="flightDateDao"/></property>
+                <property name="userDao"><ref bean="userDao"/></property>
+                <property name="passengerDao"><ref bean="passengerDao"/></property>
+                <property name="planeDao"><ref bean="planeDao"/></property>
+                <property name="cityDao"><ref bean="cityDao"/></property>
+                <property name="priceDao"><ref bean="priceDao"/></property>
+                <property name="flightDao"><ref bean="flightDao"/></property>
+                <property name="bookingDao"><ref bean="bookingDao"/></property>
                 <!-- FlightService service property merge-point -->
             </bean>
         </property>
@@ -90,6 +233,5 @@
     <!-- ========================= End of SERVICE DEFINITIONS ========================= -->
 
 
-	<import resource="classpath:flightws.ehcache.jmx.xml" />
 
 </beans>

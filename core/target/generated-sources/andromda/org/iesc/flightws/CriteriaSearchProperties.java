@@ -21,6 +21,13 @@ package org.iesc.flightws;
     static
     {
         initialize1();
+        initialize2();
+        initialize3();
+        initialize4();
+        initialize5();
+        initialize6();
+        initialize7();
+        initialize8();
     }
     
     private static final void initialize1()
@@ -33,7 +40,133 @@ package org.iesc.flightws;
             null);
         navigableAssociationEndsByType.put(
             org.iesc.flightws.domain.FlightImpl.class,
+            java.util.Arrays.asList(
+                new PropertyType[] 
+                {
+                    new PropertyType("departureCity", org.iesc.flightws.domain.CityImpl.class), 
+                    new PropertyType("destinationCity", org.iesc.flightws.domain.CityImpl.class), 
+                    new PropertyType("departureDates", org.iesc.flightws.domain.FlightDateImpl.class)
+                }
+            )
+        );
+    }
+    
+    private static final void initialize2()
+    {
+        embeddedValueNamesByType.put(
+            org.iesc.flightws.domain.UserImpl.class,
             null);
+        embeddedValuesByType.put(
+            org.iesc.flightws.domain.UserImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            org.iesc.flightws.domain.UserImpl.class,
+            java.util.Arrays.asList(
+                new PropertyType[] 
+                {
+                    new PropertyType("bookings", org.iesc.flightws.domain.BookingImpl.class)
+                }
+            )
+        );
+    }
+    
+    private static final void initialize3()
+    {
+        embeddedValueNamesByType.put(
+            org.iesc.flightws.domain.PassengerImpl.class,
+            null);
+        embeddedValuesByType.put(
+            org.iesc.flightws.domain.PassengerImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            org.iesc.flightws.domain.PassengerImpl.class,
+            null);
+    }
+    
+    private static final void initialize4()
+    {
+        embeddedValueNamesByType.put(
+            org.iesc.flightws.domain.PlaneImpl.class,
+            null);
+        embeddedValuesByType.put(
+            org.iesc.flightws.domain.PlaneImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            org.iesc.flightws.domain.PlaneImpl.class,
+            null);
+    }
+    
+    private static final void initialize5()
+    {
+        embeddedValueNamesByType.put(
+            org.iesc.flightws.domain.CityImpl.class,
+            null);
+        embeddedValuesByType.put(
+            org.iesc.flightws.domain.CityImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            org.iesc.flightws.domain.CityImpl.class,
+            null);
+    }
+    
+    private static final void initialize6()
+    {
+        embeddedValueNamesByType.put(
+            org.iesc.flightws.domain.FlightDateImpl.class,
+            null);
+        embeddedValuesByType.put(
+            org.iesc.flightws.domain.FlightDateImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            org.iesc.flightws.domain.FlightDateImpl.class,
+            java.util.Arrays.asList(
+                new PropertyType[] 
+                {
+                    new PropertyType("prices", org.iesc.flightws.domain.PriceImpl.class), 
+                    new PropertyType("plane", org.iesc.flightws.domain.PlaneImpl.class)
+                }
+            )
+        );
+    }
+    
+    private static final void initialize7()
+    {
+        embeddedValueNamesByType.put(
+            org.iesc.flightws.domain.PriceImpl.class,
+            null);
+        embeddedValuesByType.put(
+            org.iesc.flightws.domain.PriceImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            org.iesc.flightws.domain.PriceImpl.class,
+            java.util.Arrays.asList(
+                new PropertyType[] 
+                {
+                    new PropertyType("flightDate", org.iesc.flightws.domain.FlightDateImpl.class)
+                }
+            )
+        );
+    }
+    
+    private static final void initialize8()
+    {
+        embeddedValueNamesByType.put(
+            org.iesc.flightws.domain.BookingImpl.class,
+            null);
+        embeddedValuesByType.put(
+            org.iesc.flightws.domain.BookingImpl.class,
+            null);
+        navigableAssociationEndsByType.put(
+            org.iesc.flightws.domain.BookingImpl.class,
+            java.util.Arrays.asList(
+                new PropertyType[] 
+                {
+                    new PropertyType("user", org.iesc.flightws.domain.UserImpl.class), 
+                    new PropertyType("flightDates", org.iesc.flightws.domain.FlightDateImpl.class), 
+                    new PropertyType("passengers", org.iesc.flightws.domain.PassengerImpl.class)
+                }
+            )
+        );
     }
     
     /**

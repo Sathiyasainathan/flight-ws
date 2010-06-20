@@ -31,13 +31,45 @@ public class FlightServiceWSDelegator
     }
 
     /**
-     * @see org.iesc.flightws.service.FlightService#stubWebmethod()
+     * @see org.iesc.flightws.service.FlightService#getFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO)
      */
-    public org.iesc.flightws.vo.FlightwsStubVO stubWebmethod()
+    public org.iesc.flightws.vo.FlightSearchResultsVO getFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria)
     {
         try
         {
-            return getFlightService().stubWebmethod();
+            return getFlightService().getFlightsByCriteria(searchCriteria);
+        }
+        catch (Exception exception)
+        {
+            final Throwable cause = getRootCause(exception);
+            throw new java.lang.RuntimeException(cause);
+        }
+    }
+
+    /**
+     * @see org.iesc.flightws.service.FlightService#createBooking(org.iesc.flightws.vo.BookingVO)
+     */
+    public java.lang.Long createBooking(org.iesc.flightws.vo.BookingVO booking)
+    {
+        try
+        {
+            return getFlightService().createBooking(booking);
+        }
+        catch (Exception exception)
+        {
+            final Throwable cause = getRootCause(exception);
+            throw new java.lang.RuntimeException(cause);
+        }
+    }
+
+    /**
+     * @see org.iesc.flightws.service.FlightService#getDestinationCitiesByDepartureCity(org.iesc.flightws.vo.CityVO)
+     */
+    public org.iesc.flightws.vo.CityVO[] getDestinationCitiesByDepartureCity(org.iesc.flightws.vo.CityVO departureCity)
+    {
+        try
+        {
+            return getFlightService().getDestinationCitiesByDepartureCity(departureCity);
         }
         catch (Exception exception)
         {

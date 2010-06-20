@@ -17,7 +17,7 @@ public class FlightServiceException
     /** 
      * The serial version UID of this class. Needed for serialization. 
      */
-    private static final long serialVersionUID = 3315894608979594909L;
+    private static final long serialVersionUID = -1681685680629737563L;
 
     /**
      * The default constructor for <code>FlightServiceException</code>.

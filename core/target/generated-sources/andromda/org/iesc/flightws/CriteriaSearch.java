@@ -136,7 +136,6 @@ public class CriteriaSearch
         {
             this.rootCriteria.setMaxResults(this.configuration.getMaximumResultSize().intValue());
         }
-        this.rootCriteria.setCacheable(true);
         return this.rootCriteria.list();
     }
 
