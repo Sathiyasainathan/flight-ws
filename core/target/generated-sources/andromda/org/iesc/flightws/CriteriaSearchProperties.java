@@ -43,9 +43,9 @@ package org.iesc.flightws;
             java.util.Arrays.asList(
                 new PropertyType[] 
                 {
+                    new PropertyType("departureDates", org.iesc.flightws.domain.FlightDateImpl.class), 
                     new PropertyType("departureCity", org.iesc.flightws.domain.CityImpl.class), 
-                    new PropertyType("destinationCity", org.iesc.flightws.domain.CityImpl.class), 
-                    new PropertyType("departureDates", org.iesc.flightws.domain.FlightDateImpl.class)
+                    new PropertyType("destinationCity", org.iesc.flightws.domain.CityImpl.class)
                 }
             )
         );
@@ -122,6 +122,7 @@ package org.iesc.flightws;
             java.util.Arrays.asList(
                 new PropertyType[] 
                 {
+                    new PropertyType("flight", org.iesc.flightws.domain.FlightImpl.class), 
                     new PropertyType("prices", org.iesc.flightws.domain.PriceImpl.class), 
                     new PropertyType("plane", org.iesc.flightws.domain.PlaneImpl.class)
                 }

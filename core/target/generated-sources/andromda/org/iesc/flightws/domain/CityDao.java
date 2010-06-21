@@ -29,6 +29,62 @@ public interface CityDao
     public void toEntities(final java.util.Collection results);
 
     /**
+     * This constant is used as a transformation flag; entities can be converted automatically into value objects
+     * or other types, different methods in a class implementing this interface support this feature: look for
+     * an <code>int</code> parameter called <code>transform</code>.
+     * <p>
+     * This specific flag denotes entities must be transformed into objects of type
+     * {@link org.iesc.flightws.vo.CityVO}.
+     */
+    public final static int TRANSFORM_CITYVO = 1;
+
+    /**
+     * Copies the fields of the specified entity to the target value object. This method is similar to
+     * toCityVO(), but it does not handle any attributes in the target
+     * value object that are "read-only" (as those do not have setter methods exposed).
+     */
+    public void toCityVO(
+        org.iesc.flightws.domain.City source,
+        org.iesc.flightws.vo.CityVO target);
+
+
+    /**
+     * Converts this DAO's entity to an object of type {@link org.iesc.flightws.vo.CityVO}.
+     */
+    public org.iesc.flightws.vo.CityVO toCityVO(org.iesc.flightws.domain.City entity);
+
+    /**
+     * Converts this DAO's entity to a Collection of instances of type {@link org.iesc.flightws.vo.CityVO}.
+     */
+    public void toCityVOCollection(java.util.Collection entities);
+
+    /**
+     * Converts this DAO's entity to an array of instances of type {@link org.iesc.flightws.vo.CityVO}.
+     */
+    public org.iesc.flightws.vo.CityVO[] toCityVOArray(java.util.Collection entities);
+
+    /**
+     * Copies the fields of {@link org.iesc.flightws.vo.CityVO} to the specified entity.
+     * @param copyIfNull If FALSE, the value object's field will not be copied to the entity if the value is NULL. If TRUE,
+     * it will be copied regardless of its value.
+     */
+    public void cityVOToEntity(
+        org.iesc.flightws.vo.CityVO source,
+        org.iesc.flightws.domain.City target,
+        boolean copyIfNull);
+
+    /**
+     * Converts an instance of type {@link org.iesc.flightws.vo.CityVO} to this DAO's entity.
+     */
+    public org.iesc.flightws.domain.City cityVOToEntity(org.iesc.flightws.vo.CityVO cityVO);
+
+    /**
+     * Converts a Collection of instances of type {@link org.iesc.flightws.vo.CityVO} to this
+     * DAO's entity.
+     */
+    public void cityVOToEntityCollection(java.util.Collection instances);
+
+    /**
      * Loads an instance of org.iesc.flightws.domain.City from the persistent store.
      */
     public org.iesc.flightws.domain.City load(java.lang.Long id);

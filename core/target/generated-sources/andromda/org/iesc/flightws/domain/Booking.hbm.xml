@@ -16,11 +16,13 @@
         <many-to-one name="user" class="org.iesc.flightws.domain.UserImpl" foreign-key="BOOKING_USER_FKC" not-null="true" lazy="proxy" fetch="select">
             <column name="USER_FK" not-null="true" sql-type="BIGINT"/>
         </many-to-one>
-        <set name="flightDates" order-by="BOOKING_FK" lazy="true" fetch="select" inverse="false">
-            <key foreign-key="FLIGHT_DATE_BOOKING_FKC">
-                <column name="BOOKING_FK" sql-type="BIGINT"/>
+        <set name="flightDates" table="BOOKINGS2FLIGHT_DATES" order-by="FLIGHT_DATES_FK" lazy="true" fetch="select" inverse="false">
+            <key foreign-key="FLIGHT_DATE_BOOKINGS_FKC">
+                <column name="BOOKINGS_FK" sql-type="BIGINT"/>
             </key>
-            <one-to-many class="org.iesc.flightws.domain.FlightDateImpl" not-found="exception"/>
+            <many-to-many class="org.iesc.flightws.domain.FlightDateImpl" foreign-key="BOOKING_FLIGHT_DATES_FKC">
+                <column name="FLIGHT_DATES_FK" sql-type="BIGINT"/>
+            </many-to-many>
         </set>
         <set name="passengers" order-by="BOOKING_FK" lazy="true" fetch="select" inverse="false">
             <key foreign-key="PASSENGER_BOOKING_FKC">

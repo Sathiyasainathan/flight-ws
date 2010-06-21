@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project name="flightws" resourceRoot="" soapui-version="3.5" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="FlightServiceHttpBinding" type="wsdl" bindingName="{http://org.iesc.flightws.service}FlightServiceHttpBinding" soapVersion="1_1" anonymous="optional" definition="http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService?wsdl"><con:part><con:url>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService?wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://org.iesc.flightws.service" xmlns:ns1="http://vo.flightws.iesc.org" xmlns:soapenc12="http://www.w3.org/2003/05/soap-encoding" xmlns:tns="http://org.iesc.flightws.service" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap11="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc11="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <wsdl:types>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://vo.flightws.iesc.org">
+      <xsd:complexType name="CityVO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="codeIATA" nillable="true" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="name" nillable="true" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfCityVO">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" minOccurs="0" name="CityVO" nillable="true" type="ns1:CityVO"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="FlightSearchCriteriaVO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="arrivalCity" nillable="true" type="xsd:long"/>
+          <xsd:element minOccurs="0" name="departureCity" nillable="true" type="xsd:long"/>
+          <xsd:element minOccurs="0" name="departureDate" nillable="true" type="xsd:long"/>
+          <xsd:element minOccurs="0" name="flightType" nillable="true" type="xsd:long"/>
+          <xsd:element minOccurs="0" name="nrPassengers" nillable="true" type="xsd:long"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="FlightSearchResultsVO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="results" nillable="true" type="ns1:ArrayOfFlightVO"/>
+          <xsd:element minOccurs="0" name="searchCriteria" nillable="true" type="ns1:FlightSearchCriteriaVO"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfFlightVO">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" minOccurs="0" name="FlightVO" nillable="true" type="ns1:FlightVO"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="FlightVO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="code" nillable="true" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="departureCity" nillable="true" type="ns1:CityVO"/>
+          <xsd:element minOccurs="0" name="destinationCity" nillable="true" type="ns1:CityVO"/>
+          <xsd:element minOccurs="0" name="flightDates" nillable="true" type="ns1:ArrayOfFlightDateVO"/>
+          <xsd:element minOccurs="0" name="id" nillable="true" type="xsd:long"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfFlightDateVO">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" minOccurs="0" name="FlightDateVO" nillable="true" type="ns1:FlightDateVO"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="FlightDateVO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="arrivalDate" nillable="true" type="xsd:long"/>
+          <xsd:element minOccurs="0" name="departureDate" nillable="true" type="xsd:long"/>
+          <xsd:element minOccurs="0" name="plane" nillable="true" type="ns1:PlaneVO"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="PlaneVO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="capacity" nillable="true" type="xsd:long"/>
+          <xsd:element minOccurs="0" name="type" nillable="true" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BookingVO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="flightDates" nillable="true" type="ns1:ArrayOfFlightDateVO"/>
+          <xsd:element minOccurs="0" name="passengers" nillable="true" type="ns1:ArrayOfPassengerVO"/>
+          <xsd:element minOccurs="0" name="user" nillable="true" type="ns1:UserVO"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfPassengerVO">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" minOccurs="0" name="PassengerVO" nillable="true" type="ns1:PassengerVO"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="PassengerVO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="name" nillable="true" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="passportCode" nillable="true" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="surname" nillable="true" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="type" nillable="true" type="xsd:long"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="UserVO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="bookings" nillable="true" type="ns1:ArrayOfBookingVO"/>
+          <xsd:element minOccurs="0" name="email" nillable="true" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="name" nillable="true" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="password" nillable="true" type="xsd:string"/>
+          <xsd:element minOccurs="0" name="surname" nillable="true" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfBookingVO">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" minOccurs="0" name="BookingVO" nillable="true" type="ns1:BookingVO"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://org.iesc.flightws.service">
+      <xsd:element name="getDestinationCitiesByDepartureCity">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="departureCity" nillable="true" type="ns1:CityVO"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getDestinationCitiesByDepartureCityResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="ns1:ArrayOfCityVO"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getFlightsByCriteria">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="searchCriteria" nillable="true" type="ns1:FlightSearchCriteriaVO"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getFlightsByCriteriaResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="ns1:FlightSearchResultsVO"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="getBeanRefFactory">
+        <xsd:complexType/>
+      </xsd:element>
+      <xsd:element name="getBeanRefFactoryResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="createBooking">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="booking" nillable="true" type="ns1:BookingVO"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="createBookingResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:long"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="setBeanRefFactory">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="beanRefFactory" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="setBeanRefFactoryResponse">
+        <xsd:complexType/>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="setBeanRefFactoryResponse">
+    <wsdl:part name="parameters" element="tns:setBeanRefFactoryResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getFlightsByCriteriaResponse">
+    <wsdl:part name="parameters" element="tns:getFlightsByCriteriaResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDestinationCitiesByDepartureCityRequest">
+    <wsdl:part name="parameters" element="tns:getDestinationCitiesByDepartureCity"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getBeanRefFactoryResponse">
+    <wsdl:part name="parameters" element="tns:getBeanRefFactoryResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="setBeanRefFactoryRequest">
+    <wsdl:part name="parameters" element="tns:setBeanRefFactory"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createBookingResponse">
+    <wsdl:part name="parameters" element="tns:createBookingResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getBeanRefFactoryRequest">
+    <wsdl:part name="parameters" element="tns:getBeanRefFactory"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getDestinationCitiesByDepartureCityResponse">
+    <wsdl:part name="parameters" element="tns:getDestinationCitiesByDepartureCityResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createBookingRequest">
+    <wsdl:part name="parameters" element="tns:createBooking"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getFlightsByCriteriaRequest">
+    <wsdl:part name="parameters" element="tns:getFlightsByCriteria"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="FlightServicePortType">
+    <wsdl:operation name="getDestinationCitiesByDepartureCity">
+      <wsdl:input name="getDestinationCitiesByDepartureCityRequest" message="tns:getDestinationCitiesByDepartureCityRequest"></wsdl:input>
+      <wsdl:output name="getDestinationCitiesByDepartureCityResponse" message="tns:getDestinationCitiesByDepartureCityResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFlightsByCriteria">
+      <wsdl:input name="getFlightsByCriteriaRequest" message="tns:getFlightsByCriteriaRequest"></wsdl:input>
+      <wsdl:output name="getFlightsByCriteriaResponse" message="tns:getFlightsByCriteriaResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getBeanRefFactory">
+      <wsdl:input name="getBeanRefFactoryRequest" message="tns:getBeanRefFactoryRequest"></wsdl:input>
+      <wsdl:output name="getBeanRefFactoryResponse" message="tns:getBeanRefFactoryResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createBooking">
+      <wsdl:input name="createBookingRequest" message="tns:createBookingRequest"></wsdl:input>
+      <wsdl:output name="createBookingResponse" message="tns:createBookingResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setBeanRefFactory">
+      <wsdl:input name="setBeanRefFactoryRequest" message="tns:setBeanRefFactoryRequest"></wsdl:input>
+      <wsdl:output name="setBeanRefFactoryResponse" message="tns:setBeanRefFactoryResponse"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FlightServiceHttpBinding" type="tns:FlightServicePortType">
+    <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getDestinationCitiesByDepartureCity">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="getDestinationCitiesByDepartureCityRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getDestinationCitiesByDepartureCityResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFlightsByCriteria">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="getFlightsByCriteriaRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getFlightsByCriteriaResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getBeanRefFactory">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="getBeanRefFactoryRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getBeanRefFactoryResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createBooking">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="createBookingRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createBookingResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setBeanRefFactory">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="setBeanRefFactoryRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="setBeanRefFactoryResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FlightService">
+    <wsdl:port name="FlightServiceHttpPort" binding="tns:FlightServiceHttpBinding">
+      <wsdlsoap:address location="http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService</con:endpoint></con:endpoints><con:operation isOneWay="false" action="" name="createBooking" bindingOperationName="createBooking" type="Request-Response" outputName="createBookingResponse" inputName="createBookingRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:org="http://org.iesc.flightws.service" xmlns:vo="http://vo.flightws.iesc.org">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <org:createBooking>
+         <org:booking>
+            <!--Optional:-->
+            <vo:flightDates>
+               <!--Zero or more repetitions:-->
+               <vo:FlightDateVO>
+                  <!--Optional:-->
+                  <vo:arrivalDate>?</vo:arrivalDate>
+                  <!--Optional:-->
+                  <vo:departureDate>?</vo:departureDate>
+                  <!--Optional:-->
+                  <vo:plane>
+                     <!--Optional:-->
+                     <vo:capacity>?</vo:capacity>
+                     <!--Optional:-->
+                     <vo:type>?</vo:type>
+                  </vo:plane>
+               </vo:FlightDateVO>
+            </vo:flightDates>
+            <!--Optional:-->
+            <vo:passengers>
+               <!--Zero or more repetitions:-->
+               <vo:PassengerVO>
+                  <!--Optional:-->
+                  <vo:name>?</vo:name>
+                  <!--Optional:-->
+                  <vo:passportCode>?</vo:passportCode>
+                  <!--Optional:-->
+                  <vo:surname>?</vo:surname>
+                  <!--Optional:-->
+                  <vo:type>?</vo:type>
+               </vo:PassengerVO>
+            </vo:passengers>
+            <!--Optional:-->
+            <vo:user>
+               <!--Optional:-->
+               <vo:bookings>
+                  <!--Zero or more repetitions:-->
+                  <vo:BookingVO/>
+               </vo:bookings>
+               <!--Optional:-->
+               <vo:email>?</vo:email>
+               <!--Optional:-->
+               <vo:name>?</vo:name>
+               <!--Optional:-->
+               <vo:password>?</vo:password>
+               <!--Optional:-->
+               <vo:surname>?</vo:surname>
+            </vo:user>
+         </org:booking>
+      </org:createBooking>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://org.iesc.flightws.service/FlightServicePortType/createBookingRequest"/></con:call></con:operation><con:operation isOneWay="false" action="" name="getBeanRefFactory" bindingOperationName="getBeanRefFactory" type="Request-Response" outputName="getBeanRefFactoryResponse" inputName="getBeanRefFactoryRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:org="http://org.iesc.flightws.service">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <org:getBeanRefFactory/>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://org.iesc.flightws.service/FlightServicePortType/getBeanRefFactoryRequest"/></con:call></con:operation><con:operation isOneWay="false" action="" name="getDestinationCitiesByDepartureCity" bindingOperationName="getDestinationCitiesByDepartureCity" type="Request-Response" outputName="getDestinationCitiesByDepartureCityResponse" inputName="getDestinationCitiesByDepartureCityRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:org="http://org.iesc.flightws.service" xmlns:vo="http://vo.flightws.iesc.org">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <org:getDestinationCitiesByDepartureCity>
+         <org:departureCity>
+            <!--Optional:-->
+            <vo:codeIATA>?</vo:codeIATA>
+            <!--Optional:-->
+            <vo:name>?</vo:name>
+         </org:departureCity>
+      </org:getDestinationCitiesByDepartureCity>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://org.iesc.flightws.service/FlightServicePortType/getDestinationCitiesByDepartureCityRequest"/></con:call></con:operation><con:operation isOneWay="false" action="" name="getFlightsByCriteria" bindingOperationName="getFlightsByCriteria" type="Request-Response" outputName="getFlightsByCriteriaResponse" inputName="getFlightsByCriteriaRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:org="http://org.iesc.flightws.service" xmlns:vo="http://vo.flightws.iesc.org">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <org:getFlightsByCriteria>
+         <org:searchCriteria>
+            <vo:departureCity>1</vo:departureCity>
+            <vo:departureDate>1277238985</vo:departureDate>
+         </org:searchCriteria>
+      </org:getFlightsByCriteria>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://org.iesc.flightws.service/FlightServicePortType/getFlightsByCriteriaRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="setBeanRefFactory" bindingOperationName="setBeanRefFactory" type="Request-Response" outputName="setBeanRefFactoryResponse" inputName="setBeanRefFactoryRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:org="http://org.iesc.flightws.service">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <org:setBeanRefFactory>
+         <org:beanRefFactory>?</org:beanRefFactory>
+      </org:setBeanRefFactory>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://org.iesc.flightws.service/FlightServicePortType/setBeanRefFactoryRequest"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/></con:soapui-project>

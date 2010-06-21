@@ -14,7 +14,7 @@ public abstract class FlightDate
     /**
      * The serial version UID of this class. Needed for serialization.
      */
-    private static final long serialVersionUID = -3351333382162507315L;
+    private static final long serialVersionUID = -4135717792441804878L;
 
     private java.sql.Timestamp departureDate;
 
@@ -59,6 +59,21 @@ public abstract class FlightDate
     public void setId(java.lang.Long id)
     {
         this.id = id;
+    }
+
+    private org.iesc.flightws.domain.Flight flight;
+
+    /**
+     * 
+     */
+    public org.iesc.flightws.domain.Flight getFlight()
+    {
+        return this.flight;
+    }
+
+    public void setFlight(org.iesc.flightws.domain.Flight flight)
+    {
+        this.flight = flight;
     }
 
     private java.util.Collection prices = new java.util.HashSet();
@@ -142,11 +157,12 @@ public abstract class FlightDate
          * Constructs a new instance of {@link org.iesc.flightws.domain.FlightDate}, taking all possible properties
          * (except the identifier(s))as arguments.
          */
-        public static org.iesc.flightws.domain.FlightDate newInstance(java.sql.Timestamp departureDate, java.sql.Timestamp arrivalDate, java.util.Collection prices, org.iesc.flightws.domain.Plane plane)
+        public static org.iesc.flightws.domain.FlightDate newInstance(java.sql.Timestamp departureDate, java.sql.Timestamp arrivalDate, org.iesc.flightws.domain.Flight flight, java.util.Collection prices, org.iesc.flightws.domain.Plane plane)
         {
             final org.iesc.flightws.domain.FlightDate entity = new org.iesc.flightws.domain.FlightDateImpl();
             entity.setDepartureDate(departureDate);
             entity.setArrivalDate(arrivalDate);
+            entity.setFlight(flight);
             entity.setPrices(prices);
             entity.setPlane(plane);
             return entity;

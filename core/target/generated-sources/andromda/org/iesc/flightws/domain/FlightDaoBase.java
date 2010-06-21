@@ -285,34 +285,6 @@ public abstract class FlightDaoBase
         this.getHibernateTemplate().deleteAll(entities);
     }
     /**
-     * @see org.iesc.flightws.domain.FlightDao#getFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO)
-     */
-    public java.util.Collection getFlightsByCriteria(final org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria)
-    {
-        if (searchCriteria == null)
-        {
-            throw new IllegalArgumentException(
-                "org.iesc.flightws.domain.FlightDao.getFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria) - 'searchCriteria' can not be null");
-        }
-        try
-        {
-            return this.handleGetFlightsByCriteria(searchCriteria);
-        }
-        catch (Throwable th)
-        {
-            throw new java.lang.RuntimeException(
-            "Error performing 'org.iesc.flightws.domain.FlightDao.getFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria)' --> " + th,
-            th);
-        }
-    }
-
-     /**
-      * Performs the core logic for {@link #getFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO)}
-      */
-    protected abstract java.util.Collection handleGetFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria)
-        throws java.lang.Exception;
-
-    /**
      * Allows transformation of entities into value objects
      * (or something else for that matter), when the <code>transform</code>
      * flag is set to one of the constants defined in <code>org.iesc.flightws.domain.FlightDao</code>, please note
@@ -523,6 +495,7 @@ public abstract class FlightDaoBase
         org.iesc.flightws.domain.Flight source,
         org.iesc.flightws.vo.FlightVO target)
     {
+        target.setId(source.getId());
         target.setCode(source.getCode());
         // No conversion for target.destinationCity (can't convert source.getDestinationCity():org.iesc.flightws.domain.City to org.iesc.flightws.vo.CityVO)
         // No conversion for target.departureCity (can't convert source.getDepartureCity():org.iesc.flightws.domain.City to org.iesc.flightws.vo.CityVO)

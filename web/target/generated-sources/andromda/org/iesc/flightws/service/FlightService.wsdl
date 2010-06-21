@@ -261,6 +261,13 @@
                     </xsd:documentation>
                 </xsd:annotation>
                 <xsd:all>
+                    <xsd:element name="id" nillable="false" type="xsd:long">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
                     <xsd:element name="code" nillable="false" type="xsd:string">
                         <xsd:annotation>
                             <xsd:documentation>

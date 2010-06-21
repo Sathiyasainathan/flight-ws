@@ -266,6 +266,12 @@ public abstract class CityDaoBase
      * flag is set to one of the constants defined in <code>org.iesc.flightws.domain.CityDao</code>, please note
      * that the {@link #TRANSFORM_NONE} constant denotes no transformation, so the entity itself
      * will be returned.
+     * <p>
+     * This method will return instances of these types:
+     * <ul>
+     *   <li>{@link org.iesc.flightws.domain.City} - {@link #TRANSFORM_NONE}</li>
+     *   <li>{@link org.iesc.flightws.vo.CityVO} - {@link TRANSFORM_CITYVO}</li>
+     * </ul>
      *
      * If the integer argument value is unknown {@link #TRANSFORM_NONE} is assumed.
      *
@@ -281,6 +287,9 @@ public abstract class CityDaoBase
         {
             switch (transform)
             {
+                case TRANSFORM_CITYVO :
+                    target = toCityVO(entity);
+                    break;
                 case TRANSFORM_NONE : // fall-through
                 default:
                     target = entity;
@@ -304,6 +313,9 @@ public abstract class CityDaoBase
     {
         switch (transform)
         {
+            case TRANSFORM_CITYVO :
+                toCityVOCollection(entities);
+                break;
             case TRANSFORM_NONE : // fall-through
                 default:
                 // do nothing;
@@ -361,6 +373,138 @@ public abstract class CityDaoBase
             }
         }
         return target;
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.CityDao#toCityVOCollection(java.util.Collection)
+     */
+    public final void toCityVOCollection(java.util.Collection entities)
+    {
+        if (entities != null)
+        {
+            org.apache.commons.collections.CollectionUtils.transform(entities, CITYVO_TRANSFORMER);
+        }
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.CityDao#toCityVOArray(java.util.Collection)
+     */
+    public final org.iesc.flightws.vo.CityVO[] toCityVOArray(java.util.Collection entities)
+    {
+        org.iesc.flightws.vo.CityVO[] result = null;
+        if (entities != null)
+        {
+            final java.util.Collection collection = new java.util.ArrayList(entities);
+            this.toCityVOCollection(collection);
+            result = (org.iesc.flightws.vo.CityVO[]) collection.toArray(new org.iesc.flightws.vo.CityVO[0]);
+        }
+        return result;
+    }
+
+    /**
+     * Default implementation for transforming the results of a report query into a value object. This
+     * implementation exists for convenience reasons only. It needs only be overridden in the
+     * {@link CityDaoImpl} class if you intend to use reporting queries.
+     * @see org.iesc.flightws.domain.CityDao#toCityVO(org.iesc.flightws.domain.City)
+     */
+    protected org.iesc.flightws.vo.CityVO toCityVO(java.lang.Object[] row)
+    {
+        return this.toCityVO(this.toEntity(row));
+    }
+
+    /**
+     * This anonymous transformer is designed to transform entities or report query results
+     * (which result in an array of objects) to {@link org.iesc.flightws.vo.CityVO}
+     * using the Jakarta Commons-Collections Transformation API.
+     */
+    private org.apache.commons.collections.Transformer CITYVO_TRANSFORMER =
+        new org.apache.commons.collections.Transformer()
+        {
+            public java.lang.Object transform(java.lang.Object input)
+            {
+                java.lang.Object result = null;
+                if (input instanceof org.iesc.flightws.domain.City)
+                {
+                    result = toCityVO((org.iesc.flightws.domain.City)input);
+                }
+                else if (input instanceof java.lang.Object[])
+                {
+                    result = toCityVO((java.lang.Object[])input);
+                }
+                return result;
+            }
+        };
+
+    /**
+     * @see org.iesc.flightws.domain.CityDao#cityVOToEntityCollection(java.util.Collection)
+     */
+    public final void cityVOToEntityCollection(java.util.Collection instances)
+    {
+        if (instances != null)
+        {
+            for (final java.util.Iterator iterator = instances.iterator(); iterator.hasNext();)
+            {
+                // - remove an objects that are null or not of the correct instance
+                if (!(iterator.next() instanceof org.iesc.flightws.vo.CityVO))
+                {
+                    iterator.remove();
+                }
+            }
+            org.apache.commons.collections.CollectionUtils.transform(instances, CityVOToEntityTransformer);
+        }
+    }
+
+    private final org.apache.commons.collections.Transformer CityVOToEntityTransformer =
+        new org.apache.commons.collections.Transformer()
+        {
+            public java.lang.Object transform(java.lang.Object input)
+            {
+                return cityVOToEntity((org.iesc.flightws.vo.CityVO)input);
+            }
+        };
+
+
+    /**
+     * @see org.iesc.flightws.domain.CityDao#toCityVO(org.iesc.flightws.domain.City, org.iesc.flightws.vo.CityVO)
+     */
+    public void toCityVO(
+        org.iesc.flightws.domain.City source,
+        org.iesc.flightws.vo.CityVO target)
+    {
+        target.setName(source.getName());
+        target.setCodeIATA(source.getCodeIATA());
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.CityDao#toCityVO(org.iesc.flightws.domain.City)
+     */
+    public org.iesc.flightws.vo.CityVO toCityVO(final org.iesc.flightws.domain.City entity)
+    {
+        org.iesc.flightws.vo.CityVO target = null;
+        if (entity != null)
+        {
+            target = new org.iesc.flightws.vo.CityVO();
+            this.toCityVO(entity, target);
+        }
+        return target;
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.CityDao#cityVOToEntity(org.iesc.flightws.vo.CityVO, org.iesc.flightws.domain.City)
+     */
+    public void cityVOToEntity(
+        org.iesc.flightws.vo.CityVO source,
+        org.iesc.flightws.domain.City target,
+        boolean copyIfNull)
+    {
+        if (copyIfNull || source.getName() != null)
+        {
+            target.setName(source.getName());
+        }
+        if (copyIfNull || source.getCodeIATA() != null)
+        {
+            target.setCodeIATA(source.getCodeIATA());
+        }
     }
 
     /**
