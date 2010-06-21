@@ -180,30 +180,33 @@ public abstract class FlightDateDaoBase
     }
 
     /**
-     * @see org.iesc.flightws.domain.FlightDateDao#create(java.sql.Timestamp, java.sql.Timestamp, org.iesc.flightws.domain.Plane, org.iesc.flightws.domain.Price)
+     * @see org.iesc.flightws.domain.FlightDateDao#create(java.sql.Timestamp, java.sql.Timestamp, org.iesc.flightws.domain.Flight, org.iesc.flightws.domain.Plane, org.iesc.flightws.domain.Price)
      */
     public org.iesc.flightws.domain.FlightDate create(
         java.sql.Timestamp arrivalDate,
         java.sql.Timestamp departureDate,
+        org.iesc.flightws.domain.Flight flight,
         org.iesc.flightws.domain.Plane plane,
         java.util.Collection prices)
     {
-        return (org.iesc.flightws.domain.FlightDate)this.create(TRANSFORM_NONE, arrivalDate, departureDate, plane, prices);
+        return (org.iesc.flightws.domain.FlightDate)this.create(TRANSFORM_NONE, arrivalDate, departureDate, flight, plane, prices);
     }
 
     /**
-     * @see org.iesc.flightws.domain.FlightDateDao#create(int, java.sql.Timestamp, java.sql.Timestamp, org.iesc.flightws.domain.Plane, org.iesc.flightws.domain.Price)
+     * @see org.iesc.flightws.domain.FlightDateDao#create(int, java.sql.Timestamp, java.sql.Timestamp, org.iesc.flightws.domain.Flight, org.iesc.flightws.domain.Plane, org.iesc.flightws.domain.Price)
      */
     public java.lang.Object create(
         final int transform,
         java.sql.Timestamp arrivalDate,
         java.sql.Timestamp departureDate,
+        org.iesc.flightws.domain.Flight flight,
         org.iesc.flightws.domain.Plane plane,
         java.util.Collection prices)
     {
         org.iesc.flightws.domain.FlightDate entity = new org.iesc.flightws.domain.FlightDateImpl();
         entity.setArrivalDate(arrivalDate);
         entity.setDepartureDate(departureDate);
+        entity.setFlight(flight);
         entity.setPlane(plane);
         entity.setPrices(prices);
         return this.create(transform, entity);
@@ -291,11 +294,45 @@ public abstract class FlightDateDaoBase
         this.getHibernateTemplate().deleteAll(entities);
     }
     /**
+     * @see org.iesc.flightws.domain.FlightDateDao#getFlightDatesByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO)
+     */
+    public java.util.Collection getFlightDatesByCriteria(final org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria)
+    {
+        if (searchCriteria == null)
+        {
+            throw new IllegalArgumentException(
+                "org.iesc.flightws.domain.FlightDateDao.getFlightDatesByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria) - 'searchCriteria' can not be null");
+        }
+        try
+        {
+            return this.handleGetFlightDatesByCriteria(searchCriteria);
+        }
+        catch (Throwable th)
+        {
+            throw new java.lang.RuntimeException(
+            "Error performing 'org.iesc.flightws.domain.FlightDateDao.getFlightDatesByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria)' --> " + th,
+            th);
+        }
+    }
+
+     /**
+      * Performs the core logic for {@link #getFlightDatesByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO)}
+      */
+    protected abstract java.util.Collection handleGetFlightDatesByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria)
+        throws java.lang.Exception;
+
+    /**
      * Allows transformation of entities into value objects
      * (or something else for that matter), when the <code>transform</code>
      * flag is set to one of the constants defined in <code>org.iesc.flightws.domain.FlightDateDao</code>, please note
      * that the {@link #TRANSFORM_NONE} constant denotes no transformation, so the entity itself
      * will be returned.
+     * <p>
+     * This method will return instances of these types:
+     * <ul>
+     *   <li>{@link org.iesc.flightws.domain.FlightDate} - {@link #TRANSFORM_NONE}</li>
+     *   <li>{@link org.iesc.flightws.vo.FlightDateVO} - {@link TRANSFORM_FLIGHTDATEVO}</li>
+     * </ul>
      *
      * If the integer argument value is unknown {@link #TRANSFORM_NONE} is assumed.
      *
@@ -311,6 +348,9 @@ public abstract class FlightDateDaoBase
         {
             switch (transform)
             {
+                case TRANSFORM_FLIGHTDATEVO :
+                    target = toFlightDateVO(entity);
+                    break;
                 case TRANSFORM_NONE : // fall-through
                 default:
                     target = entity;
@@ -334,6 +374,9 @@ public abstract class FlightDateDaoBase
     {
         switch (transform)
         {
+            case TRANSFORM_FLIGHTDATEVO :
+                toFlightDateVOCollection(entities);
+                break;
             case TRANSFORM_NONE : // fall-through
                 default:
                 // do nothing;
@@ -391,6 +434,133 @@ public abstract class FlightDateDaoBase
             }
         }
         return target;
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDateDao#toFlightDateVOCollection(java.util.Collection)
+     */
+    public final void toFlightDateVOCollection(java.util.Collection entities)
+    {
+        if (entities != null)
+        {
+            org.apache.commons.collections.CollectionUtils.transform(entities, FLIGHTDATEVO_TRANSFORMER);
+        }
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDateDao#toFlightDateVOArray(java.util.Collection)
+     */
+    public final org.iesc.flightws.vo.FlightDateVO[] toFlightDateVOArray(java.util.Collection entities)
+    {
+        org.iesc.flightws.vo.FlightDateVO[] result = null;
+        if (entities != null)
+        {
+            final java.util.Collection collection = new java.util.ArrayList(entities);
+            this.toFlightDateVOCollection(collection);
+            result = (org.iesc.flightws.vo.FlightDateVO[]) collection.toArray(new org.iesc.flightws.vo.FlightDateVO[0]);
+        }
+        return result;
+    }
+
+    /**
+     * Default implementation for transforming the results of a report query into a value object. This
+     * implementation exists for convenience reasons only. It needs only be overridden in the
+     * {@link FlightDateDaoImpl} class if you intend to use reporting queries.
+     * @see org.iesc.flightws.domain.FlightDateDao#toFlightDateVO(org.iesc.flightws.domain.FlightDate)
+     */
+    protected org.iesc.flightws.vo.FlightDateVO toFlightDateVO(java.lang.Object[] row)
+    {
+        return this.toFlightDateVO(this.toEntity(row));
+    }
+
+    /**
+     * This anonymous transformer is designed to transform entities or report query results
+     * (which result in an array of objects) to {@link org.iesc.flightws.vo.FlightDateVO}
+     * using the Jakarta Commons-Collections Transformation API.
+     */
+    private org.apache.commons.collections.Transformer FLIGHTDATEVO_TRANSFORMER =
+        new org.apache.commons.collections.Transformer()
+        {
+            public java.lang.Object transform(java.lang.Object input)
+            {
+                java.lang.Object result = null;
+                if (input instanceof org.iesc.flightws.domain.FlightDate)
+                {
+                    result = toFlightDateVO((org.iesc.flightws.domain.FlightDate)input);
+                }
+                else if (input instanceof java.lang.Object[])
+                {
+                    result = toFlightDateVO((java.lang.Object[])input);
+                }
+                return result;
+            }
+        };
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDateDao#flightDateVOToEntityCollection(java.util.Collection)
+     */
+    public final void flightDateVOToEntityCollection(java.util.Collection instances)
+    {
+        if (instances != null)
+        {
+            for (final java.util.Iterator iterator = instances.iterator(); iterator.hasNext();)
+            {
+                // - remove an objects that are null or not of the correct instance
+                if (!(iterator.next() instanceof org.iesc.flightws.vo.FlightDateVO))
+                {
+                    iterator.remove();
+                }
+            }
+            org.apache.commons.collections.CollectionUtils.transform(instances, FlightDateVOToEntityTransformer);
+        }
+    }
+
+    private final org.apache.commons.collections.Transformer FlightDateVOToEntityTransformer =
+        new org.apache.commons.collections.Transformer()
+        {
+            public java.lang.Object transform(java.lang.Object input)
+            {
+                return flightDateVOToEntity((org.iesc.flightws.vo.FlightDateVO)input);
+            }
+        };
+
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDateDao#toFlightDateVO(org.iesc.flightws.domain.FlightDate, org.iesc.flightws.vo.FlightDateVO)
+     */
+    public void toFlightDateVO(
+        org.iesc.flightws.domain.FlightDate source,
+        org.iesc.flightws.vo.FlightDateVO target)
+    {
+        // No conversion for target.departureDate (can't convert source.getDepartureDate():java.sql.Timestamp to java.lang.Long)
+        // No conversion for target.arrivalDate (can't convert source.getArrivalDate():java.sql.Timestamp to java.lang.Long)
+        // No conversion for target.plane (can't convert source.getPlane():org.iesc.flightws.domain.Plane to org.iesc.flightws.vo.PlaneVO)
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDateDao#toFlightDateVO(org.iesc.flightws.domain.FlightDate)
+     */
+    public org.iesc.flightws.vo.FlightDateVO toFlightDateVO(final org.iesc.flightws.domain.FlightDate entity)
+    {
+        org.iesc.flightws.vo.FlightDateVO target = null;
+        if (entity != null)
+        {
+            target = new org.iesc.flightws.vo.FlightDateVO();
+            this.toFlightDateVO(entity, target);
+        }
+        return target;
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.FlightDateDao#flightDateVOToEntity(org.iesc.flightws.vo.FlightDateVO, org.iesc.flightws.domain.FlightDate)
+     */
+    public void flightDateVOToEntity(
+        org.iesc.flightws.vo.FlightDateVO source,
+        org.iesc.flightws.domain.FlightDate target,
+        boolean copyIfNull)
+    {
+        // No conversion for target.departureDate (can't convert source.getDepartureDate():java.lang.Long to java.sql.Timestamp)
+        // No conversion for target.arrivalDate (can't convert source.getArrivalDate():java.lang.Long to java.sql.Timestamp)
     }
 
     /**

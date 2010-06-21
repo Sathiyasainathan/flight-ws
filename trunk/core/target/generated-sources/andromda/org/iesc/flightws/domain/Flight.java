@@ -14,7 +14,7 @@ public abstract class Flight
     /**
      * The serial version UID of this class. Needed for serialization.
      */
-    private static final long serialVersionUID = -3043225863133052016L;
+    private static final long serialVersionUID = -6932988885701208628L;
 
     private java.lang.String code;
 
@@ -46,6 +46,21 @@ public abstract class Flight
         this.id = id;
     }
 
+    private java.util.Collection departureDates = new java.util.HashSet();
+
+    /**
+     * 
+     */
+    public java.util.Collection getDepartureDates()
+    {
+        return this.departureDates;
+    }
+
+    public void setDepartureDates(java.util.Collection departureDates)
+    {
+        this.departureDates = departureDates;
+    }
+
     private org.iesc.flightws.domain.City departureCity;
 
     /**
@@ -74,21 +89,6 @@ public abstract class Flight
     public void setDestinationCity(org.iesc.flightws.domain.City destinationCity)
     {
         this.destinationCity = destinationCity;
-    }
-
-    private java.util.Collection departureDates = new java.util.HashSet();
-
-    /**
-     * 
-     */
-    public java.util.Collection getDepartureDates()
-    {
-        return this.departureDates;
-    }
-
-    public void setDepartureDates(java.util.Collection departureDates)
-    {
-        this.departureDates = departureDates;
     }
 
     /**
@@ -154,13 +154,13 @@ public abstract class Flight
          * Constructs a new instance of {@link org.iesc.flightws.domain.Flight}, taking all possible properties
          * (except the identifier(s))as arguments.
          */
-        public static org.iesc.flightws.domain.Flight newInstance(java.lang.String code, org.iesc.flightws.domain.City departureCity, org.iesc.flightws.domain.City destinationCity, java.util.Collection departureDates)
+        public static org.iesc.flightws.domain.Flight newInstance(java.lang.String code, java.util.Collection departureDates, org.iesc.flightws.domain.City departureCity, org.iesc.flightws.domain.City destinationCity)
         {
             final org.iesc.flightws.domain.Flight entity = new org.iesc.flightws.domain.FlightImpl();
             entity.setCode(code);
+            entity.setDepartureDates(departureDates);
             entity.setDepartureCity(departureCity);
             entity.setDestinationCity(destinationCity);
-            entity.setDepartureDates(departureDates);
             return entity;
         }
     }

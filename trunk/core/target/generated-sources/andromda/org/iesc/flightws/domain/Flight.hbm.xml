@@ -16,17 +16,17 @@
         <property name="code" type="java.lang.String">
             <column name="CODE" not-null="true" unique="false" sql-type="VARCHAR(4096)"/>
         </property>
+        <set name="departureDates" order-by="FLIGHT_FK" lazy="true" fetch="select" inverse="true">
+            <key foreign-key="FLIGHT_DATE_FLIGHT_FKC">
+                <column name="FLIGHT_FK" sql-type="BIGINT"/>
+            </key>
+            <one-to-many class="org.iesc.flightws.domain.FlightDateImpl" not-found="exception"/>
+        </set>
         <many-to-one name="departureCity" class="org.iesc.flightws.domain.CityImpl" foreign-key="FLIGHT_DEPARTURE_CITY_FKC" cascade="delete" lazy="false" fetch="select">
             <column name="DEPARTURE_CITY_FK" not-null="true" sql-type="BIGINT" unique="true"/>
         </many-to-one>
         <many-to-one name="destinationCity" class="org.iesc.flightws.domain.CityImpl" foreign-key="FLIGHT_DESTINATION_CITY_FKC" cascade="delete" lazy="false" fetch="select">
             <column name="DESTINATION_CITY_FK" not-null="true" sql-type="BIGINT" unique="true"/>
         </many-to-one>
-        <set name="departureDates" order-by="FLIGHT_FK" lazy="true" fetch="select" inverse="false">
-            <key foreign-key="FLIGHT_DATE_FLIGHT_FKC">
-                <column name="FLIGHT_FK" sql-type="BIGINT"/>
-            </key>
-            <one-to-many class="org.iesc.flightws.domain.FlightDateImpl" not-found="exception"/>
-        </set>
     </class>
 </hibernate-mapping>

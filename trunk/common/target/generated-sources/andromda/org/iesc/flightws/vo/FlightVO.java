@@ -14,14 +14,15 @@ public class FlightVO
     /**
      * The serial version UID of this class. Needed for serialization.
      */
-    private static final long serialVersionUID = -8282948685381877567L;
+    private static final long serialVersionUID = 5340879802731848708L;
 
     public FlightVO()
     {
     }
 
-    public FlightVO(java.lang.String code, org.iesc.flightws.vo.FlightDateVO[] flightDates, org.iesc.flightws.vo.CityVO destinationCity, org.iesc.flightws.vo.CityVO departureCity)
+    public FlightVO(java.lang.Long id, java.lang.String code, org.iesc.flightws.vo.FlightDateVO[] flightDates, org.iesc.flightws.vo.CityVO destinationCity, org.iesc.flightws.vo.CityVO departureCity)
     {
+        this.id = id;
         this.code = code;
         this.flightDates = flightDates;
         this.destinationCity = destinationCity;
@@ -36,7 +37,7 @@ public class FlightVO
      */
     public FlightVO(FlightVO otherBean)
     {
-        this(otherBean.getCode(), otherBean.getFlightDates(), otherBean.getDestinationCity(), otherBean.getDepartureCity());
+        this(otherBean.getId(), otherBean.getCode(), otherBean.getFlightDates(), otherBean.getDestinationCity(), otherBean.getDepartureCity());
     }
 
     /**
@@ -46,11 +47,27 @@ public class FlightVO
     {
         if (otherBean != null)
         {
+            this.setId(otherBean.getId());
             this.setCode(otherBean.getCode());
             this.setFlightDates(otherBean.getFlightDates());
             this.setDestinationCity(otherBean.getDestinationCity());
             this.setDepartureCity(otherBean.getDepartureCity());
         }
+    }
+
+    private java.lang.Long id;
+
+    /**
+     * 
+     */
+    public java.lang.Long getId()
+    {
+        return this.id;
+    }
+
+    public void setId(java.lang.Long id)
+    {
+        this.id = id;
     }
 
     private java.lang.String code;

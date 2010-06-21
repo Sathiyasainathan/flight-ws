@@ -29,6 +29,62 @@ public interface FlightDateDao
     public void toEntities(final java.util.Collection results);
 
     /**
+     * This constant is used as a transformation flag; entities can be converted automatically into value objects
+     * or other types, different methods in a class implementing this interface support this feature: look for
+     * an <code>int</code> parameter called <code>transform</code>.
+     * <p>
+     * This specific flag denotes entities must be transformed into objects of type
+     * {@link org.iesc.flightws.vo.FlightDateVO}.
+     */
+    public final static int TRANSFORM_FLIGHTDATEVO = 1;
+
+    /**
+     * Copies the fields of the specified entity to the target value object. This method is similar to
+     * toFlightDateVO(), but it does not handle any attributes in the target
+     * value object that are "read-only" (as those do not have setter methods exposed).
+     */
+    public void toFlightDateVO(
+        org.iesc.flightws.domain.FlightDate source,
+        org.iesc.flightws.vo.FlightDateVO target);
+
+
+    /**
+     * Converts this DAO's entity to an object of type {@link org.iesc.flightws.vo.FlightDateVO}.
+     */
+    public org.iesc.flightws.vo.FlightDateVO toFlightDateVO(org.iesc.flightws.domain.FlightDate entity);
+
+    /**
+     * Converts this DAO's entity to a Collection of instances of type {@link org.iesc.flightws.vo.FlightDateVO}.
+     */
+    public void toFlightDateVOCollection(java.util.Collection entities);
+
+    /**
+     * Converts this DAO's entity to an array of instances of type {@link org.iesc.flightws.vo.FlightDateVO}.
+     */
+    public org.iesc.flightws.vo.FlightDateVO[] toFlightDateVOArray(java.util.Collection entities);
+
+    /**
+     * Copies the fields of {@link org.iesc.flightws.vo.FlightDateVO} to the specified entity.
+     * @param copyIfNull If FALSE, the value object's field will not be copied to the entity if the value is NULL. If TRUE,
+     * it will be copied regardless of its value.
+     */
+    public void flightDateVOToEntity(
+        org.iesc.flightws.vo.FlightDateVO source,
+        org.iesc.flightws.domain.FlightDate target,
+        boolean copyIfNull);
+
+    /**
+     * Converts an instance of type {@link org.iesc.flightws.vo.FlightDateVO} to this DAO's entity.
+     */
+    public org.iesc.flightws.domain.FlightDate flightDateVOToEntity(org.iesc.flightws.vo.FlightDateVO flightDateVO);
+
+    /**
+     * Converts a Collection of instances of type {@link org.iesc.flightws.vo.FlightDateVO} to this
+     * DAO's entity.
+     */
+    public void flightDateVOToEntityCollection(java.util.Collection instances);
+
+    /**
      * Loads an instance of org.iesc.flightws.domain.FlightDate from the persistent store.
      */
     public org.iesc.flightws.domain.FlightDate load(java.lang.Long id);
@@ -175,6 +231,7 @@ public interface FlightDateDao
     public org.iesc.flightws.domain.FlightDate create(
         java.sql.Timestamp arrivalDate,
         java.sql.Timestamp departureDate,
+        org.iesc.flightws.domain.Flight flight,
         org.iesc.flightws.domain.Plane plane,
         java.util.Collection prices);
 
@@ -192,6 +249,7 @@ public interface FlightDateDao
         int transform,
         java.sql.Timestamp arrivalDate,
         java.sql.Timestamp departureDate,
+        org.iesc.flightws.domain.Flight flight,
         org.iesc.flightws.domain.Plane plane,
         java.util.Collection prices);
 
@@ -220,6 +278,11 @@ public interface FlightDateDao
      * Removes all entities in the given <code>entities</code> collection.
      */
     public void remove(java.util.Collection entities);
+
+    /**
+     * 
+     */
+    public java.util.Collection getFlightDatesByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria);
 
 
     /**

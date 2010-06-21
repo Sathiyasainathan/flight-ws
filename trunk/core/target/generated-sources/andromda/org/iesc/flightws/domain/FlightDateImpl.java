@@ -14,6 +14,6 @@ public class FlightDateImpl
     /**
      * The serial version UID of this class. Needed for serialization.
      */
-    private static final long serialVersionUID = -3351333382162507315L;
+    private static final long serialVersionUID = -4135717792441804878L;
 
 }

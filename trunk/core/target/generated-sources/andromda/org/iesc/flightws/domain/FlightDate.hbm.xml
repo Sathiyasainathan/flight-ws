@@ -19,6 +19,9 @@
         <property name="arrivalDate" type="java.sql.Timestamp">
             <column name="ARRIVAL_DATE" not-null="true" unique="false" sql-type="TIMESTAMP"/>
         </property>
+        <many-to-one name="flight" class="org.iesc.flightws.domain.FlightImpl" foreign-key="FLIGHT_DATE_FLIGHT_FKC" not-null="true" lazy="proxy" fetch="select">
+            <column name="FLIGHT_FK" not-null="true" sql-type="BIGINT"/>
+        </many-to-one>
         <set name="prices" order-by="FLIGHT_DATE_FK" lazy="true" fetch="select" inverse="true">
             <key foreign-key="PRICE_FLIGHT_DATE_FKC">
                 <column name="FLIGHT_DATE_FK" sql-type="BIGINT"/>

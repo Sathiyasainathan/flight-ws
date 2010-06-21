@@ -273,11 +273,6 @@ public interface FlightDao
      */
     public void remove(java.util.Collection entities);
 
-    /**
-     * 
-     */
-    public java.util.Collection getFlightsByCriteria(org.iesc.flightws.vo.FlightSearchCriteriaVO searchCriteria);
-
 
     /**
      * Does the same thing as {@link #search(int, org.iesc.flightws.Search) but with an

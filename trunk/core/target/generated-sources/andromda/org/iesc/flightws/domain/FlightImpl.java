@@ -14,6 +14,6 @@ public class FlightImpl
     /**
      * The serial version UID of this class. Needed for serialization.
      */
-    private static final long serialVersionUID = -3043225863133052016L;
+    private static final long serialVersionUID = -6932988885701208628L;
 
 }
