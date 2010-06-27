@@ -26,4 +26,9 @@ public interface FlightService
      */
     public org.iesc.flightws.vo.CityVO[] getDestinationCitiesByDepartureCity(org.iesc.flightws.vo.CityVO departureCity);
 
+    /**
+     * 
+     */
+    public void generateTestData(java.lang.Long complexity);
+
 }

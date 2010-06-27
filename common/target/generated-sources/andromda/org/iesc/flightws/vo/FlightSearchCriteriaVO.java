@@ -14,7 +14,7 @@ public class FlightSearchCriteriaVO
     /**
      * The serial version UID of this class. Needed for serialization.
      */
-    private static final long serialVersionUID = -8430081419939617619L;
+    private static final long serialVersionUID = -613901596197339715L;
 
     public FlightSearchCriteriaVO()
     {
@@ -25,11 +25,12 @@ public class FlightSearchCriteriaVO
         this.departureCity = departureCity;
     }
 
-    public FlightSearchCriteriaVO(java.lang.Long departureCity, java.lang.Long arrivalCity, java.lang.Long departureDate, java.lang.Long nrPassengers, java.lang.Long flightType)
+    public FlightSearchCriteriaVO(java.lang.Long departureCity, java.lang.Long arrivalCity, java.lang.Long departureDate, java.lang.Long departureDateMax, java.lang.Long nrPassengers, java.lang.Long flightType)
     {
         this.departureCity = departureCity;
         this.arrivalCity = arrivalCity;
         this.departureDate = departureDate;
+        this.departureDateMax = departureDateMax;
         this.nrPassengers = nrPassengers;
         this.flightType = flightType;
     }
@@ -42,7 +43,7 @@ public class FlightSearchCriteriaVO
      */
     public FlightSearchCriteriaVO(FlightSearchCriteriaVO otherBean)
     {
-        this(otherBean.getDepartureCity(), otherBean.getArrivalCity(), otherBean.getDepartureDate(), otherBean.getNrPassengers(), otherBean.getFlightType());
+        this(otherBean.getDepartureCity(), otherBean.getArrivalCity(), otherBean.getDepartureDate(), otherBean.getDepartureDateMax(), otherBean.getNrPassengers(), otherBean.getFlightType());
     }
 
     /**
@@ -55,6 +56,7 @@ public class FlightSearchCriteriaVO
             this.setDepartureCity(otherBean.getDepartureCity());
             this.setArrivalCity(otherBean.getArrivalCity());
             this.setDepartureDate(otherBean.getDepartureDate());
+            this.setDepartureDateMax(otherBean.getDepartureDateMax());
             this.setNrPassengers(otherBean.getNrPassengers());
             this.setFlightType(otherBean.getFlightType());
         }
@@ -103,6 +105,21 @@ public class FlightSearchCriteriaVO
     public void setDepartureDate(java.lang.Long departureDate)
     {
         this.departureDate = departureDate;
+    }
+
+    private java.lang.Long departureDateMax;
+
+    /**
+     * 
+     */
+    public java.lang.Long getDepartureDateMax()
+    {
+        return this.departureDateMax;
+    }
+
+    public void setDepartureDateMax(java.lang.Long departureDateMax)
+    {
+        this.departureDateMax = departureDateMax;
     }
 
     private java.lang.Long nrPassengers;

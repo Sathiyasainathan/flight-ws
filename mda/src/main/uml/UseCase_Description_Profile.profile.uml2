@@ -1,257 +1,257 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Profile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSLCustomization_0="http:///DSLCustomization_0_KNwmUX17Ed-jFKIjxx-Gag.profile.uml2" xmlns:MagicDrawProfile_0="http:///MagicDrawProfile_0_KNwmVn17Ed-jFKIjxx-Gag.profile.uml2" xmlns:UseCaseDescriptionProfile_0="http:///UseCaseDescriptionProfile_0_KNwmU317Ed-jFKIjxx-Gag.profile.uml2" xmlns:ValidationProfile_0="http:///ValidationProfile_0_KNwmUn17Ed-jFKIjxx-Gag.profile.uml2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xsi:schemaLocation="http:///DSLCustomization_0_KNwmUX17Ed-jFKIjxx-Gag.profile.uml2 UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml2#_KUd_Pn17Ed-jFKIjxx-Gag http:///MagicDrawProfile_0_KNwmVn17Ed-jFKIjxx-Gag.profile.uml2 UML_Standard_Profile.MagicDraw_Profile.profile.uml2#_KUd4K317Ed-jFKIjxx-Gag http:///UseCaseDescriptionProfile_0_KNwmU317Ed-jFKIjxx-Gag.profile.uml2 #_KUdrRH17Ed-jFKIjxx-Gag http:///ValidationProfile_0_KNwmUn17Ed-jFKIjxx-Gag.profile.uml2 UML_Standard_Profile.Validation_Profile.profile.uml2#_KUd2TX17Ed-jFKIjxx-Gag" xmi:id="_be00301_1066743716538_320440_0" name="UseCase Description Profile" appliedProfile="_11_5_be00301_1153310565718_226811_161profileApplicationUseCase_Description_Profile _11_5_f720368_1159529670215_231387_1profileApplicationUseCase_Description_Profile _be00301_1066743716538_320440_0profileApplicationUseCase_Description_Profile _be00301_1073394351331_445580_2profileApplicationUseCase_Description_Profile" metamodelReference="_m8qbA686EdiEh75YJ_3n8gmetamodelReferenceUseCase_Description_Profile">
-  <eAnnotations xmi:id="_KUdrQX17Ed-jFKIjxx-Gag" source="attributes">
-    <details xmi:id="_KUdrQn17Ed-jFKIjxx-Gag" key="version" value="0"/>
+<uml:Profile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSLCustomization_0="http:///DSLCustomization_0_hwypMX4zEd-rF-5YT_0h4w.profile.uml2" xmlns:MagicDrawProfile_0="http:///MagicDrawProfile_0_hwo4NH4zEd-rF-5YT_0h4w.profile.uml2" xmlns:UseCaseDescriptionProfile_0="http:///UseCaseDescriptionProfile_0_hwypMH4zEd-rF-5YT_0h4w.profile.uml2" xmlns:ValidationProfile_0="http:///ValidationProfile_0_hwo4MH4zEd-rF-5YT_0h4w.profile.uml2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xsi:schemaLocation="http:///DSLCustomization_0_hwypMX4zEd-rF-5YT_0h4w.profile.uml2 UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml2#_h5SezX4zEd-rF-5YT_0h4w http:///MagicDrawProfile_0_hwo4NH4zEd-rF-5YT_0h4w.profile.uml2 UML_Standard_Profile.MagicDraw_Profile.profile.uml2#_h5btqH4zEd-rF-5YT_0h4w http:///UseCaseDescriptionProfile_0_hwypMH4zEd-rF-5YT_0h4w.profile.uml2 #_h5Shbn4zEd-rF-5YT_0h4w http:///ValidationProfile_0_hwo4MH4zEd-rF-5YT_0h4w.profile.uml2 UML_Standard_Profile.Validation_Profile.profile.uml2#_h5SfkH4zEd-rF-5YT_0h4w" xmi:id="_be00301_1066743716538_320440_0" name="UseCase Description Profile" appliedProfile="_11_5_f720368_1159529670215_231387_1profileApplicationUseCase_Description_Profile _be00301_1073394351331_445580_2profileApplicationUseCase_Description_Profile _be00301_1066743716538_320440_0profileApplicationUseCase_Description_Profile _11_5_be00301_1153310565718_226811_161profileApplicationUseCase_Description_Profile" metamodelReference="_m8qbA686EdiEh75YJ_3n8gmetamodelReferenceUseCase_Description_Profile">
+  <eAnnotations xmi:id="_h5Sha34zEd-rF-5YT_0h4w" source="attributes">
+    <details xmi:id="_h5ShbH4zEd-rF-5YT_0h4w" key="version" value="0"/>
   </eAnnotations>
-  <eAnnotations xmi:id="_KUdrQ317Ed-jFKIjxx-Gag" source="ePackages">
-    <contents xmi:type="ecore:EPackage" xmi:id="_KUdrRH17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile_0" nsURI="http:///UseCaseDescriptionProfile_0_KNwmU317Ed-jFKIjxx-Gag.profile.uml2" nsPrefix="UseCaseDescriptionProfile_0">
-      <eAnnotations xmi:id="_KUdrRX17Ed-jFKIjxx-Gag" source="http://www.eclipse.org/emf/2002/GenModel">
-        <details xmi:id="_KUdrRn17Ed-jFKIjxx-Gag" key="documentation" value="UseCase Profile is a collection of TagDefinitions for UseCases used to extend standard UseCase description. Includes properties from RUP and other software development and requirements management processes. These properties/tags will be used in Use Case Report. "/>
+  <eAnnotations xmi:id="_h5ShbX4zEd-rF-5YT_0h4w" source="ePackages">
+    <contents xmi:type="ecore:EPackage" xmi:id="_h5Shbn4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile_0" nsURI="http:///UseCaseDescriptionProfile_0_hwypMH4zEd-rF-5YT_0h4w.profile.uml2" nsPrefix="UseCaseDescriptionProfile_0">
+      <eAnnotations xmi:id="_h5Shb34zEd-rF-5YT_0h4w" source="http://www.eclipse.org/emf/2002/GenModel">
+        <details xmi:id="_h5ShcH4zEd-rF-5YT_0h4w" key="documentation" value="UseCase Profile is a collection of TagDefinitions for UseCases used to extend standard UseCase description. Includes properties from RUP and other software development and requirements management processes. These properties/tags will be used in Use Case Report. "/>
       </eAnnotations>
-      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_KUdrR317Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__UseCaseComponentTypeEnumeration">
-        <eLiterals xmi:id="_KUdrSH17Ed-jFKIjxx-Gag" name="External Input">
-          <eAnnotations xmi:id="_KUdrSX17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_86b026b_1100851712032_531020_8"/>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_h5ShcX4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__UseCaseComponentTypeEnumeration">
+        <eLiterals xmi:id="_h5Shcn4zEd-rF-5YT_0h4w" name="External Input">
+          <eAnnotations xmi:id="_h5Shc34zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_86b026b_1100851712032_531020_8"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdrSn17Ed-jFKIjxx-Gag" name="External Output" value="1">
-          <eAnnotations xmi:id="_KUdrS317Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_86b026b_1100851724280_450528_9"/>
+        <eLiterals xmi:id="_h5ShdH4zEd-rF-5YT_0h4w" name="External Output" value="1">
+          <eAnnotations xmi:id="_h5ShdX4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_86b026b_1100851724280_450528_9"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdrTH17Ed-jFKIjxx-Gag" name="External Inquiry" value="2">
-          <eAnnotations xmi:id="_KUdrTX17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_86b026b_1100851892441_461541_10"/>
+        <eLiterals xmi:id="_h5Shdn4zEd-rF-5YT_0h4w" name="External Inquiry" value="2">
+          <eAnnotations xmi:id="_h5Shd34zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_86b026b_1100851892441_461541_10"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdrTn17Ed-jFKIjxx-Gag" name="Internal Logical File" value="3">
-          <eAnnotations xmi:id="_KUdrT317Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_86b026b_1100851892451_202346_13"/>
+        <eLiterals xmi:id="_h5SheH4zEd-rF-5YT_0h4w" name="Internal Logical File" value="3">
+          <eAnnotations xmi:id="_h5SheX4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_86b026b_1100851892451_202346_13"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdrUH17Ed-jFKIjxx-Gag" name="External Interface File" value="4">
-          <eAnnotations xmi:id="_KUdrUX17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_86b026b_1100851892451_468705_14"/>
-        </eLiterals>
-      </eClassifiers>
-      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_KUdrUn17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__UseCasePriorityEnumeration">
-        <eLiterals xmi:id="_KUdrU317Ed-jFKIjxx-Gag" name="High">
-          <eAnnotations xmi:id="_KUdrVH17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_be00301_1066820307531_539904_89"/>
-        </eLiterals>
-        <eLiterals xmi:id="_KUdrVX17Ed-jFKIjxx-Gag" name="Above Normal" value="1">
-          <eAnnotations xmi:id="_KUdrVn17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_be00301_1066820307541_890705_93"/>
-        </eLiterals>
-        <eLiterals xmi:id="_KUdrV317Ed-jFKIjxx-Gag" name="Normal" value="2">
-          <eAnnotations xmi:id="_KUdrWH17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_be00301_1066820307541_976329_94"/>
-        </eLiterals>
-        <eLiterals xmi:id="_KUdrWX17Ed-jFKIjxx-Gag" name="Below Normal" value="3">
-          <eAnnotations xmi:id="_KUdrWn17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_be00301_1066820307541_1889_95"/>
-        </eLiterals>
-        <eLiterals xmi:id="_KUdrW317Ed-jFKIjxx-Gag" name="Low" value="4">
-          <eAnnotations xmi:id="_KUdrXH17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_be00301_1066820307541_448536_96"/>
+        <eLiterals xmi:id="_h5Shen4zEd-rF-5YT_0h4w" name="External Interface File" value="4">
+          <eAnnotations xmi:id="_h5She34zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_86b026b_1100851892451_468705_14"/>
         </eLiterals>
       </eClassifiers>
-      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_KUdrXX17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__UCNumber" instanceClassName="UseCaseDescriptionProfile__UCNumber"/>
-      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_KUdrXn17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__UseCasePropertyGroupEnumeration">
-        <eLiterals xmi:id="_KUdrX317Ed-jFKIjxx-Gag" name="Identity">
-          <eAnnotations xmi:id="_KUdrYH17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_be00301_1066821820306_125547_101"/>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_h5ShfH4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__UseCasePriorityEnumeration">
+        <eLiterals xmi:id="_h5ShfX4zEd-rF-5YT_0h4w" name="High">
+          <eAnnotations xmi:id="_h5Shfn4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_be00301_1066820307531_539904_89"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdrYX17Ed-jFKIjxx-Gag" name="Description" value="1">
-          <eAnnotations xmi:id="_KUdrYn17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_be00301_1066821820306_381647_102"/>
+        <eLiterals xmi:id="_h5Shf34zEd-rF-5YT_0h4w" name="Above Normal" value="1">
+          <eAnnotations xmi:id="_h5ShgH4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_be00301_1066820307541_890705_93"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdrY317Ed-jFKIjxx-Gag" name="Conditions" value="2">
-          <eAnnotations xmi:id="_KUdrZH17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_be00301_1066821820306_681438_103"/>
+        <eLiterals xmi:id="_h5ShgX4zEd-rF-5YT_0h4w" name="Normal" value="2">
+          <eAnnotations xmi:id="_h5Shgn4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_be00301_1066820307541_976329_94"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdrZX17Ed-jFKIjxx-Gag" name="Flow of events" value="3">
-          <eAnnotations xmi:id="_KUdrZn17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_be00301_1066821820306_856103_104"/>
+        <eLiterals xmi:id="_h5Shg34zEd-rF-5YT_0h4w" name="Below Normal" value="3">
+          <eAnnotations xmi:id="_h5ShhH4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_be00301_1066820307541_1889_95"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdrZ317Ed-jFKIjxx-Gag" name="Other" value="4">
-          <eAnnotations xmi:id="_KUdraH17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_be00301_1066821820306_145303_105"/>
-        </eLiterals>
-      </eClassifiers>
-      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_KUdraX17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__UseCaseComponentComplexityEnumeration">
-        <eLiterals xmi:id="_KUdran17Ed-jFKIjxx-Gag" name="Average Complexity">
-          <eAnnotations xmi:id="_KUdra317Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_86b026b_1101133755370_352268_1"/>
-        </eLiterals>
-        <eLiterals xmi:id="_KUdrbH17Ed-jFKIjxx-Gag" name="High Complexity" value="1">
-          <eAnnotations xmi:id="_KUdrbX17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_86b026b_1101133766206_557083_2"/>
-        </eLiterals>
-        <eLiterals xmi:id="_KUdrbn17Ed-jFKIjxx-Gag" name="Low Complexity" value="2">
-          <eAnnotations xmi:id="_KUdrb317Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_86b026b_1101133776030_676814_3"/>
+        <eLiterals xmi:id="_h5ShhX4zEd-rF-5YT_0h4w" name="Low" value="4">
+          <eAnnotations xmi:id="_h5Shhn4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_be00301_1066820307541_448536_96"/>
         </eLiterals>
       </eClassifiers>
-      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_KUdrcH17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__UseCaseComplexityEnumeration">
-        <eLiterals xmi:id="_KUdrcX17Ed-jFKIjxx-Gag" name="High Complexity">
-          <eAnnotations xmi:id="_KUdrcn17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_86b026b_1100851483613_553999_4"/>
+      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_h5Shh34zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__UCNumber" instanceClassName="UseCaseDescriptionProfile__UCNumber"/>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_h5ShiH4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__UseCasePropertyGroupEnumeration">
+        <eLiterals xmi:id="_h5ShiX4zEd-rF-5YT_0h4w" name="Identity">
+          <eAnnotations xmi:id="_h5Shin4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_be00301_1066821820306_125547_101"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdrc317Ed-jFKIjxx-Gag" name="Average Complexity" value="1">
-          <eAnnotations xmi:id="_KUdrdH17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_86b026b_1100851488050_713066_5"/>
+        <eLiterals xmi:id="_h5Shi34zEd-rF-5YT_0h4w" name="Description" value="1">
+          <eAnnotations xmi:id="_h5ShjH4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_be00301_1066821820306_381647_102"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdrdX17Ed-jFKIjxx-Gag" name="Low Complexity" value="2">
-          <eAnnotations xmi:id="_KUdrdn17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_86b026b_1100851490844_205263_6"/>
+        <eLiterals xmi:id="_h5ShjX4zEd-rF-5YT_0h4w" name="Conditions" value="2">
+          <eAnnotations xmi:id="_h5Shjn4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_be00301_1066821820306_681438_103"/>
+        </eLiterals>
+        <eLiterals xmi:id="_h5Shj34zEd-rF-5YT_0h4w" name="Flow of events" value="3">
+          <eAnnotations xmi:id="_h5ShkH4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_be00301_1066821820306_856103_104"/>
+        </eLiterals>
+        <eLiterals xmi:id="_h5ShkX4zEd-rF-5YT_0h4w" name="Other" value="4">
+          <eAnnotations xmi:id="_h5Shkn4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_be00301_1066821820306_145303_105"/>
         </eLiterals>
       </eClassifiers>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdrd317Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__UseCasecustomization"/>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdreH17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__UseCasepackagecustomization"/>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdreX17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__UseCasemodelcustomization"/>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdren17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__UseCaseownercustomization"/>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdre317Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__actorDiagram">
-        <eAnnotations xmi:id="_KUdrfH17Ed-jFKIjxx-Gag" source="stereotype" references="_8bb027e_1073897695178_229854_1"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrfX17Ed-jFKIjxx-Gag" name="actorDiagramID" ordered="false" lowerBound="1">
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_h5Shk34zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__UseCaseComponentComplexityEnumeration">
+        <eLiterals xmi:id="_h5ShlH4zEd-rF-5YT_0h4w" name="Average Complexity">
+          <eAnnotations xmi:id="_h5ShlX4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_86b026b_1101133755370_352268_1"/>
+        </eLiterals>
+        <eLiterals xmi:id="_h5Shln4zEd-rF-5YT_0h4w" name="High Complexity" value="1">
+          <eAnnotations xmi:id="_h5Shl34zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_86b026b_1101133766206_557083_2"/>
+        </eLiterals>
+        <eLiterals xmi:id="_h5ShmH4zEd-rF-5YT_0h4w" name="Low Complexity" value="2">
+          <eAnnotations xmi:id="_h5ShmX4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_86b026b_1101133776030_676814_3"/>
+        </eLiterals>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_h5Shmn4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__UseCaseComplexityEnumeration">
+        <eLiterals xmi:id="_h5Shm34zEd-rF-5YT_0h4w" name="High Complexity">
+          <eAnnotations xmi:id="_h5ShnH4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_86b026b_1100851483613_553999_4"/>
+        </eLiterals>
+        <eLiterals xmi:id="_h5ShnX4zEd-rF-5YT_0h4w" name="Average Complexity" value="1">
+          <eAnnotations xmi:id="_h5Shnn4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_86b026b_1100851488050_713066_5"/>
+        </eLiterals>
+        <eLiterals xmi:id="_h5Shn34zEd-rF-5YT_0h4w" name="Low Complexity" value="2">
+          <eAnnotations xmi:id="_h5ShoH4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_86b026b_1100851490844_205263_6"/>
+        </eLiterals>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5ShoX4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__UseCasecustomization"/>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5Shon4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__UseCasepackagecustomization"/>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5Sho34zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__UseCasemodelcustomization"/>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5ShpH4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__UseCaseownercustomization"/>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5ShpX4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__actorDiagram">
+        <eAnnotations xmi:id="_h5Shpn4zEd-rF-5YT_0h4w" source="stereotype" references="_8bb027e_1073897695178_229854_1"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Shp34zEd-rF-5YT_0h4w" name="actorDiagramID" ordered="false" lowerBound="1">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
         </eStructuralFeatures>
       </eClassifiers>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdrfn17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__useCaseModelDiagram">
-        <eAnnotations xmi:id="_KUdrf317Ed-jFKIjxx-Gag" source="stereotype" references="_8bb027e_1073897757778_650674_3"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrgH17Ed-jFKIjxx-Gag" name="useCaseModelDiagramID" ordered="false" lowerBound="1">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5ShqH4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__useCaseModelDiagram">
+        <eAnnotations xmi:id="_h5ShqX4zEd-rF-5YT_0h4w" source="stereotype" references="_8bb027e_1073897757778_650674_3"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Shqn4zEd-rF-5YT_0h4w" name="useCaseModelDiagramID" ordered="false" lowerBound="1">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
         </eStructuralFeatures>
       </eClassifiers>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdrgX17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__requirementUseCase">
-        <eAnnotations xmi:id="_KUdrgn17Ed-jFKIjxx-Gag" source="stereotype" references="_9_0_2_be00301_1112960475215_37141_0"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrg317Ed-jFKIjxx-Gag" name="UseCaseNumber" ordered="false" lowerBound="1" defaultValueLiteral="1">
-          <eAnnotations xmi:id="_KUdrhH17Ed-jFKIjxx-Gag" source="http://www.eclipse.org/emf/2002/GenModel">
-            <details xmi:id="_KUdrhX17Ed-jFKIjxx-Gag" key="documentation" value="Unique UseCase number in the package/subsystem scope."/>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5Shq34zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__requirementUseCase">
+        <eAnnotations xmi:id="_h5ShrH4zEd-rF-5YT_0h4w" source="stereotype" references="_9_0_2_be00301_1112960475215_37141_0"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5ShrX4zEd-rF-5YT_0h4w" name="UseCaseNumber" ordered="false" lowerBound="1" defaultValueLiteral="1">
+          <eAnnotations xmi:id="_h5Shrn4zEd-rF-5YT_0h4w" source="http://www.eclipse.org/emf/2002/GenModel">
+            <details xmi:id="_h5Shr34zEd-rF-5YT_0h4w" key="documentation" value="Unique UseCase number in the package/subsystem scope."/>
           </eAnnotations>
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrhn17Ed-jFKIjxx-Gag" name="UseCaseComplexity" ordered="false" lowerBound="1" eType="_KUdrcH17Ed-jFKIjxx-Gag" defaultValueLiteral="Average Complexity"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrh317Ed-jFKIjxx-Gag" name="Priority" ordered="false" lowerBound="1" eType="_KUdrUn17Ed-jFKIjxx-Gag" defaultValueLiteral="Normal"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdriH17Ed-jFKIjxx-Gag" name="PreCondition" ordered="false" defaultValueLiteral="">
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5ShsH4zEd-rF-5YT_0h4w" name="UseCaseComplexity" ordered="false" lowerBound="1" eType="_h5Shmn4zEd-rF-5YT_0h4w" defaultValueLiteral="Average Complexity"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5ShsX4zEd-rF-5YT_0h4w" name="Priority" ordered="false" lowerBound="1" eType="_h5ShfH4zEd-rF-5YT_0h4w" defaultValueLiteral="Normal"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Shsn4zEd-rF-5YT_0h4w" name="PreCondition" ordered="false" defaultValueLiteral="">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdriX17Ed-jFKIjxx-Gag" name="PostCondition" ordered="false" defaultValueLiteral="">
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Shs34zEd-rF-5YT_0h4w" name="PostCondition" ordered="false" defaultValueLiteral="">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrin17Ed-jFKIjxx-Gag" name="OutstandingIssue" ordered="false" defaultValueLiteral="">
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5ShtH4zEd-rF-5YT_0h4w" name="OutstandingIssue" ordered="false" defaultValueLiteral="">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdri317Ed-jFKIjxx-Gag" name="Notes" ordered="false" defaultValueLiteral="">
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5ShtX4zEd-rF-5YT_0h4w" name="Notes" ordered="false" defaultValueLiteral="">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrjH17Ed-jFKIjxx-Gag" name="NonFunctionalRequirements" ordered="false" defaultValueLiteral="">
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Shtn4zEd-rF-5YT_0h4w" name="NonFunctionalRequirements" ordered="false" defaultValueLiteral="">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrjX17Ed-jFKIjxx-Gag" name="ImplementationIssues" ordered="false" defaultValueLiteral="">
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sht34zEd-rF-5YT_0h4w" name="ImplementationIssues" ordered="false" defaultValueLiteral="">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrjn17Ed-jFKIjxx-Gag" name="AlternativeFlowofEvents" ordered="false" defaultValueLiteral="">
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5ShuH4zEd-rF-5YT_0h4w" name="AlternativeFlowofEvents" ordered="false" defaultValueLiteral="">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrj317Ed-jFKIjxx-Gag" name="Assumption" ordered="false" defaultValueLiteral="">
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5ShuX4zEd-rF-5YT_0h4w" name="Assumption" ordered="false" defaultValueLiteral="">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrkH17Ed-jFKIjxx-Gag" name="AlternativeFlowofEventsDiagrams" ordered="false" upperBound="-1" defaultValueLiteral="">
-          <eAnnotations xmi:id="_KUdrkX17Ed-jFKIjxx-Gag" source="http://www.eclipse.org/emf/2002/GenModel">
-            <details xmi:id="_KUdrkn17Ed-jFKIjxx-Gag" key="documentation" value="References to diagrams."/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Shun4zEd-rF-5YT_0h4w" name="AlternativeFlowofEventsDiagrams" ordered="false" upperBound="-1" defaultValueLiteral="">
+          <eAnnotations xmi:id="_h5Shu34zEd-rF-5YT_0h4w" source="http://www.eclipse.org/emf/2002/GenModel">
+            <details xmi:id="_h5ShvH4zEd-rF-5YT_0h4w" key="documentation" value="References to diagrams."/>
           </eAnnotations>
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrk317Ed-jFKIjxx-Gag" name="Author" ordered="false" defaultValueLiteral="">
-          <eAnnotations xmi:id="_KUdrlH17Ed-jFKIjxx-Gag" source="http://www.eclipse.org/emf/2002/GenModel">
-            <details xmi:id="_KUdrlX17Ed-jFKIjxx-Gag" key="documentation" value="The author of the UseCase."/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5ShvX4zEd-rF-5YT_0h4w" name="Author" ordered="false" defaultValueLiteral="">
+          <eAnnotations xmi:id="_h5Shvn4zEd-rF-5YT_0h4w" source="http://www.eclipse.org/emf/2002/GenModel">
+            <details xmi:id="_h5Shv34zEd-rF-5YT_0h4w" key="documentation" value="The author of the UseCase."/>
           </eAnnotations>
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrln17Ed-jFKIjxx-Gag" name="BasicFlowofEvents" ordered="false" defaultValueLiteral="">
-          <eAnnotations xmi:id="_KUdrl317Ed-jFKIjxx-Gag" source="http://www.eclipse.org/emf/2002/GenModel">
-            <details xmi:id="_KUdrmH17Ed-jFKIjxx-Gag" key="documentation" value="Regular/basic flow of activities of the UseCase."/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5ShwH4zEd-rF-5YT_0h4w" name="BasicFlowofEvents" ordered="false" defaultValueLiteral="">
+          <eAnnotations xmi:id="_h5ShwX4zEd-rF-5YT_0h4w" source="http://www.eclipse.org/emf/2002/GenModel">
+            <details xmi:id="_h5Shwn4zEd-rF-5YT_0h4w" key="documentation" value="Regular/basic flow of activities of the UseCase."/>
           </eAnnotations>
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrmX17Ed-jFKIjxx-Gag" name="Date" ordered="false" defaultValueLiteral="">
-          <eAnnotations xmi:id="_KUdrmn17Ed-jFKIjxx-Gag" source="http://www.eclipse.org/emf/2002/GenModel">
-            <details xmi:id="_KUdrm317Ed-jFKIjxx-Gag" key="documentation" value="UseCase creation/modification or other dates."/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Shw34zEd-rF-5YT_0h4w" name="Date" ordered="false" defaultValueLiteral="">
+          <eAnnotations xmi:id="_h5ShxH4zEd-rF-5YT_0h4w" source="http://www.eclipse.org/emf/2002/GenModel">
+            <details xmi:id="_h5ShxX4zEd-rF-5YT_0h4w" key="documentation" value="UseCase creation/modification or other dates."/>
           </eAnnotations>
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrnH17Ed-jFKIjxx-Gag" name="Goal" ordered="false" lowerBound="1" defaultValueLiteral="">
-          <eAnnotations xmi:id="_KUdrnX17Ed-jFKIjxx-Gag" source="http://www.eclipse.org/emf/2002/GenModel">
-            <details xmi:id="_KUdrnn17Ed-jFKIjxx-Gag" key="documentation" value="Specifies the goal to be achieved by the UseCase."/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Shxn4zEd-rF-5YT_0h4w" name="Goal" ordered="false" lowerBound="1" defaultValueLiteral="">
+          <eAnnotations xmi:id="_h5Shx34zEd-rF-5YT_0h4w" source="http://www.eclipse.org/emf/2002/GenModel">
+            <details xmi:id="_h5ShyH4zEd-rF-5YT_0h4w" key="documentation" value="Specifies the goal to be achieved by the UseCase."/>
           </eAnnotations>
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrn317Ed-jFKIjxx-Gag" name="ExceptionalFlowofEventsDiagrams" ordered="false" upperBound="-1" defaultValueLiteral="">
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5ShyX4zEd-rF-5YT_0h4w" name="ExceptionalFlowofEventsDiagrams" ordered="false" upperBound="-1" defaultValueLiteral="">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdroH17Ed-jFKIjxx-Gag" name="ExceptionalFlowofEvents" ordered="false" defaultValueLiteral="">
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Shyn4zEd-rF-5YT_0h4w" name="ExceptionalFlowofEvents" ordered="false" defaultValueLiteral="">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdroX17Ed-jFKIjxx-Gag" name="BasicFlowofEventsDiagrams" ordered="false" upperBound="-1" defaultValueLiteral="">
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Shy34zEd-rF-5YT_0h4w" name="BasicFlowofEventsDiagrams" ordered="false" upperBound="-1" defaultValueLiteral="">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdron17Ed-jFKIjxx-Gag" name="ComponentComplexity" ordered="false" lowerBound="1" eType="_KUdraX17Ed-jFKIjxx-Gag" defaultValueLiteral="Average Complexity"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdro317Ed-jFKIjxx-Gag" name="ComponentType" ordered="false" lowerBound="1" eType="_KUdrR317Ed-jFKIjxx-Gag"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5ShzH4zEd-rF-5YT_0h4w" name="ComponentComplexity" ordered="false" lowerBound="1" eType="_h5Shk34zEd-rF-5YT_0h4w" defaultValueLiteral="Average Complexity"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5ShzX4zEd-rF-5YT_0h4w" name="ComponentType" ordered="false" lowerBound="1" eType="_h5ShcX4zEd-rF-5YT_0h4w"/>
       </eClassifiers>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdrpH17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__grouped">
-        <eAnnotations xmi:id="_KUdrpX17Ed-jFKIjxx-Gag" source="stereotype" references="_9_0_2_be00301_1112964767577_928108_227"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrpn17Ed-jFKIjxx-Gag" name="UseCasePropertyGroup" ordered="false" lowerBound="1" eType="_KUdrXn17Ed-jFKIjxx-Gag" defaultValueLiteral="Other"/>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5Shzn4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__grouped">
+        <eAnnotations xmi:id="_h5Shz34zEd-rF-5YT_0h4w" source="stereotype" references="_9_0_2_be00301_1112964767577_928108_227"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh0H4zEd-rF-5YT_0h4w" name="UseCasePropertyGroup" ordered="false" lowerBound="1" eType="_h5ShiH4zEd-rF-5YT_0h4w" defaultValueLiteral="Other"/>
       </eClassifiers>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdrp317Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__useCaseOwner">
-        <eAnnotations xmi:id="_KUdrqH17Ed-jFKIjxx-Gag" source="stereotype" references="_9_0_2_be00301_1112964642046_825187_87"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrqX17Ed-jFKIjxx-Gag" name="UCOwnerNumber" ordered="false" lowerBound="1" defaultValueLiteral="1">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5Sh0X4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__useCaseOwner">
+        <eAnnotations xmi:id="_h5Sh0n4zEd-rF-5YT_0h4w" source="stereotype" references="_9_0_2_be00301_1112964642046_825187_87"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh034zEd-rF-5YT_0h4w" name="UCOwnerNumber" ordered="false" lowerBound="1" defaultValueLiteral="1">
           <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
         </eStructuralFeatures>
       </eClassifiers>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdrqn17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__useCasePackage">
-        <eAnnotations xmi:id="_KUdrq317Ed-jFKIjxx-Gag" source="stereotype" references="_12_1_f00036a_1174033774817_619686_607"/>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5Sh1H4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__useCasePackage">
+        <eAnnotations xmi:id="_h5Sh1X4zEd-rF-5YT_0h4w" source="stereotype" references="_12_1_f00036a_1174033774817_619686_607"/>
       </eClassifiers>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdrrH17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__useCaseProjectEstimation">
-        <eAnnotations xmi:id="_KUdrrX17Ed-jFKIjxx-Gag" source="stereotype" references="_16_0beta1_1ff304e3_1219974937336_129049_469"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrrn17Ed-jFKIjxx-Gag" name="T1DistributedSystem" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrr317Ed-jFKIjxx-Gag" name="T2Responseadjectives" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrsH17Ed-jFKIjxx-Gag" name="T3Enduserefficiency" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrsX17Ed-jFKIjxx-Gag" name="T4Complexprocessing" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrsn17Ed-jFKIjxx-Gag" name="T5Reusablecode" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrs317Ed-jFKIjxx-Gag" name="T6Easytoinstall" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrtH17Ed-jFKIjxx-Gag" name="T7Easytouse" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrtX17Ed-jFKIjxx-Gag" name="T8Portable" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrtn17Ed-jFKIjxx-Gag" name="T9Easytochange" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrt317Ed-jFKIjxx-Gag" name="T10Concurrent" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdruH17Ed-jFKIjxx-Gag" name="T11Securityfeatures" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdruX17Ed-jFKIjxx-Gag" name="T12Accessforthirdparties" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrun17Ed-jFKIjxx-Gag" name="T13Specialtrainingrequired" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdru317Ed-jFKIjxx-Gag" name="E1FamiliarwithRUP" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrvH17Ed-jFKIjxx-Gag" name="E2Applicationexperience" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrvX17Ed-jFKIjxx-Gag" name="E3Objectorientedexperience" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrvn17Ed-jFKIjxx-Gag" name="E4Leadanalystcapability" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrv317Ed-jFKIjxx-Gag" name="E5Motivation" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrwH17Ed-jFKIjxx-Gag" name="E6Stablerequirements" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrwX17Ed-jFKIjxx-Gag" name="E7Parttimeworkers" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdrwn17Ed-jFKIjxx-Gag" name="E8Difficultprogramminglanguage" ordered="false" eType="_KUdrw317Ed-jFKIjxx-Gag"/>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5Sh1n4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__useCaseProjectEstimation">
+        <eAnnotations xmi:id="_h5Sh134zEd-rF-5YT_0h4w" source="stereotype" references="_16_0beta1_1ff304e3_1219974937336_129049_469"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh2H4zEd-rF-5YT_0h4w" name="T1DistributedSystem" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh2X4zEd-rF-5YT_0h4w" name="T2Responseadjectives" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh2n4zEd-rF-5YT_0h4w" name="T3Enduserefficiency" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh234zEd-rF-5YT_0h4w" name="T4Complexprocessing" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh3H4zEd-rF-5YT_0h4w" name="T5Reusablecode" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh3X4zEd-rF-5YT_0h4w" name="T6Easytoinstall" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh3n4zEd-rF-5YT_0h4w" name="T7Easytouse" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh334zEd-rF-5YT_0h4w" name="T8Portable" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh4H4zEd-rF-5YT_0h4w" name="T9Easytochange" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh4X4zEd-rF-5YT_0h4w" name="T10Concurrent" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh4n4zEd-rF-5YT_0h4w" name="T11Securityfeatures" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh434zEd-rF-5YT_0h4w" name="T12Accessforthirdparties" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh5H4zEd-rF-5YT_0h4w" name="T13Specialtrainingrequired" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh5X4zEd-rF-5YT_0h4w" name="E1FamiliarwithRUP" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh5n4zEd-rF-5YT_0h4w" name="E2Applicationexperience" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh534zEd-rF-5YT_0h4w" name="E3Objectorientedexperience" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh6H4zEd-rF-5YT_0h4w" name="E4Leadanalystcapability" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh6X4zEd-rF-5YT_0h4w" name="E5Motivation" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh6n4zEd-rF-5YT_0h4w" name="E6Stablerequirements" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh634zEd-rF-5YT_0h4w" name="E7Parttimeworkers" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5Sh7H4zEd-rF-5YT_0h4w" name="E8Difficultprogramminglanguage" ordered="false" eType="_h5Sh7X4zEd-rF-5YT_0h4w"/>
       </eClassifiers>
-      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_KUdrw317Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__RelevanceEnumeration">
-        <eLiterals xmi:id="_KUdrxH17Ed-jFKIjxx-Gag" name="0">
-          <eAnnotations xmi:id="_KUdrxX17Ed-jFKIjxx-Gag" source="http://www.eclipse.org/emf/2002/GenModel">
-            <details xmi:id="_KUdrxn17Ed-jFKIjxx-Gag" key="documentation" value="No influence"/>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_h5Sh7X4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__RelevanceEnumeration">
+        <eLiterals xmi:id="_h5Sh7n4zEd-rF-5YT_0h4w" name="0">
+          <eAnnotations xmi:id="_h5Sh734zEd-rF-5YT_0h4w" source="http://www.eclipse.org/emf/2002/GenModel">
+            <details xmi:id="_h5Sh8H4zEd-rF-5YT_0h4w" key="documentation" value="No influence"/>
           </eAnnotations>
-          <eAnnotations xmi:id="_KUdrx317Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_16_0beta1_1ff304e3_1219974937414_984122_494"/>
+          <eAnnotations xmi:id="_h5Sh8X4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_16_0beta1_1ff304e3_1219974937414_984122_494"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdryH17Ed-jFKIjxx-Gag" name="1" value="1">
-          <eAnnotations xmi:id="_KUdryX17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_16_0beta1_1ff304e3_1219974937414_269250_495"/>
+        <eLiterals xmi:id="_h5Sh8n4zEd-rF-5YT_0h4w" name="1" value="1">
+          <eAnnotations xmi:id="_h5Sh834zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_16_0beta1_1ff304e3_1219974937414_269250_495"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdryn17Ed-jFKIjxx-Gag" name="2" value="2">
-          <eAnnotations xmi:id="_KUdry317Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_16_0beta1_1ff304e3_1219974937414_996992_496"/>
+        <eLiterals xmi:id="_h5Sh9H4zEd-rF-5YT_0h4w" name="2" value="2">
+          <eAnnotations xmi:id="_h5Sh9X4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_16_0beta1_1ff304e3_1219974937414_996992_496"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdrzH17Ed-jFKIjxx-Gag" name="3" value="3">
-          <eAnnotations xmi:id="_KUdrzX17Ed-jFKIjxx-Gag" source="http://www.eclipse.org/emf/2002/GenModel">
-            <details xmi:id="_KUdrzn17Ed-jFKIjxx-Gag" key="documentation" value="Average influence"/>
+        <eLiterals xmi:id="_h5Sh9n4zEd-rF-5YT_0h4w" name="3" value="3">
+          <eAnnotations xmi:id="_h5Sh934zEd-rF-5YT_0h4w" source="http://www.eclipse.org/emf/2002/GenModel">
+            <details xmi:id="_h5Sh-H4zEd-rF-5YT_0h4w" key="documentation" value="Average influence"/>
           </eAnnotations>
-          <eAnnotations xmi:id="_KUdrz317Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_16_0beta1_1ff304e3_1219974937414_989236_497"/>
+          <eAnnotations xmi:id="_h5Sh-X4zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_16_0beta1_1ff304e3_1219974937414_989236_497"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdr0H17Ed-jFKIjxx-Gag" name="4" value="4">
-          <eAnnotations xmi:id="_KUdr0X17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_16_0beta1_1ff304e3_1219974937414_126954_498"/>
+        <eLiterals xmi:id="_h5Sh-n4zEd-rF-5YT_0h4w" name="4" value="4">
+          <eAnnotations xmi:id="_h5Sh-34zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_16_0beta1_1ff304e3_1219974937414_126954_498"/>
         </eLiterals>
-        <eLiterals xmi:id="_KUdr0n17Ed-jFKIjxx-Gag" name="5" value="5">
-          <eAnnotations xmi:id="_KUdr0317Ed-jFKIjxx-Gag" source="http://www.eclipse.org/emf/2002/GenModel">
-            <details xmi:id="_KUdr1H17Ed-jFKIjxx-Gag" key="documentation" value="Strong influence"/>
+        <eLiterals xmi:id="_h5Sh_H4zEd-rF-5YT_0h4w" name="5" value="5">
+          <eAnnotations xmi:id="_h5Sh_X4zEd-rF-5YT_0h4w" source="http://www.eclipse.org/emf/2002/GenModel">
+            <details xmi:id="_h5Sh_n4zEd-rF-5YT_0h4w" key="documentation" value="Strong influence"/>
           </eAnnotations>
-          <eAnnotations xmi:id="_KUdr1X17Ed-jFKIjxx-Gag" source="enumerationLiteral" references="_16_0beta1_1ff304e3_1219974937414_8856_499"/>
+          <eAnnotations xmi:id="_h5Sh_34zEd-rF-5YT_0h4w" source="enumerationLiteral" references="_16_0beta1_1ff304e3_1219974937414_8856_499"/>
         </eLiterals>
       </eClassifiers>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdr1n17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__requirementActor">
-        <eAnnotations xmi:id="_KUdr1317Ed-jFKIjxx-Gag" source="stereotype" references="_16_0beta1_1ff304e3_1219974937352_657753_470"/>
-        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KUdr2H17Ed-jFKIjxx-Gag" name="ActorComplexity" ordered="false" lowerBound="1" eType="_KUdrcH17Ed-jFKIjxx-Gag" defaultValueLiteral="Average Complexity"/>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5SiAH4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__requirementActor">
+        <eAnnotations xmi:id="_h5SiAX4zEd-rF-5YT_0h4w" source="stereotype" references="_16_0beta1_1ff304e3_1219974937352_657753_470"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_h5SiAn4zEd-rF-5YT_0h4w" name="ActorComplexity" ordered="false" lowerBound="1" eType="_h5Shmn4zEd-rF-5YT_0h4w" defaultValueLiteral="Average Complexity"/>
       </eClassifiers>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdr2X17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__Actorcustomization"/>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdr2n17Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__UseCaseProjectEstimation"/>
-      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KUdr2317Ed-jFKIjxx-Gag" name="UseCaseDescriptionProfile__DataModelcustomization"/>
-      <eSubpackages xmi:id="_KUdr3H17Ed-jFKIjxx-Gag" name="UseCasedomainconstraints" nsURI="http:///UseCaseDescriptionProfile_0/UseCasedomainconstraints.ecore" nsPrefix="UseCaseDescriptionProfile_0.UseCasedomainconstraints"/>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5SiA34zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__Actorcustomization"/>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5SiBH4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__UseCaseProjectEstimation"/>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_h5SiBX4zEd-rF-5YT_0h4w" name="UseCaseDescriptionProfile__DataModelcustomization"/>
+      <eSubpackages xmi:id="_h5SiBn4zEd-rF-5YT_0h4w" name="UseCasedomainconstraints" nsURI="http:///UseCaseDescriptionProfile_0/UseCasedomainconstraints.ecore" nsPrefix="UseCaseDescriptionProfile_0.UseCasedomainconstraints"/>
     </contents>
   </eAnnotations>
-  <eAnnotations xmi:id="_Km8ia317Ed-jFKIjxx-Gag" source="appliedStereotypes">
-    <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__auxiliaryResource" xmi:id="_Km8ibH17Ed-jFKIjxx-Gag"/>
+  <eAnnotations xmi:id="_iAcOxH4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+    <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__auxiliaryResource" xmi:id="_iAcOxX4zEd-rF-5YT_0h4w"/>
   </eAnnotations>
   <ownedComment xmi:id="_be00301_1078910217878_298351_89" body="UseCase Profile is a collection of TagDefinitions for UseCases used to extend standard UseCase description. Includes properties from RUP and other software development and requirements management processes. These properties/tags will be used in Use Case Report. " annotatedElement="_be00301_1066743716538_320440_0"/>
   <packageImport xmi:id="_m8qbA686EdiEh75YJ_3n8gmetamodelReferenceUseCase_Description_Profile" visibility="private">
@@ -263,31 +263,31 @@
   <packageImport xmi:id="_RjmyoK86EdieaYgxtVWN8QjavaPrimitiveTypesUseCase_Description_Profile">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML2_LIBRARIES/JavaPrimitiveTypes.library.uml2#_RjmyoK86EdieaYgxtVWN8Q"/>
   </packageImport>
-  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_be00301_1153310565718_226811_161profileApplicationUseCase_Description_Profile">
-    <eAnnotations xmi:id="_KVXDKX17Ed-jFKIjxx-Gag" source="attributes">
-      <details xmi:id="_KVXDKn17Ed-jFKIjxx-Gag" key="version" value="0"/>
-    </eAnnotations>
-    <importedPackage xmi:type="uml:Profile" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml2#_11_5_be00301_1153310565718_226811_161"/>
-    <importedProfile href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml2#_11_5_be00301_1153310565718_226811_161"/>
-  </packageImport>
   <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_f720368_1159529670215_231387_1profileApplicationUseCase_Description_Profile">
-    <eAnnotations xmi:id="_KbxNOH17Ed-jFKIjxx-Gag" source="attributes">
-      <details xmi:id="_KbxNOX17Ed-jFKIjxx-Gag" key="version" value="0"/>
+    <eAnnotations xmi:id="_h5bzVn4zEd-rF-5YT_0h4w" source="attributes">
+      <details xmi:id="_h5bzV34zEd-rF-5YT_0h4w" key="version" value="0"/>
     </eAnnotations>
     <importedPackage xmi:type="uml:Profile" href="UML_Standard_Profile.Validation_Profile.profile.uml2#_11_5_f720368_1159529670215_231387_1"/>
     <importedProfile href="UML_Standard_Profile.Validation_Profile.profile.uml2#_11_5_f720368_1159529670215_231387_1"/>
   </packageImport>
-  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_be00301_1066743716538_320440_0profileApplicationUseCase_Description_Profile" importedPackage="_be00301_1066743716538_320440_0" importedProfile="_be00301_1066743716538_320440_0">
-    <eAnnotations xmi:id="_KjXp-X17Ed-jFKIjxx-Gag" source="attributes">
-      <details xmi:id="_KjXp-n17Ed-jFKIjxx-Gag" key="version" value="0"/>
-    </eAnnotations>
-  </packageImport>
   <packageImport xmi:type="uml:ProfileApplication" xmi:id="_be00301_1073394351331_445580_2profileApplicationUseCase_Description_Profile">
-    <eAnnotations xmi:id="_KmpAZ317Ed-jFKIjxx-Gag" source="attributes">
-      <details xmi:id="_KmpAaH17Ed-jFKIjxx-Gag" key="version" value="0"/>
+    <eAnnotations xmi:id="_h__i2X4zEd-rF-5YT_0h4w" source="attributes">
+      <details xmi:id="_h__i2n4zEd-rF-5YT_0h4w" key="version" value="0"/>
     </eAnnotations>
     <importedPackage xmi:type="uml:Profile" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#_be00301_1073394351331_445580_2"/>
     <importedProfile href="UML_Standard_Profile.MagicDraw_Profile.profile.uml2#_be00301_1073394351331_445580_2"/>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_be00301_1066743716538_320440_0profileApplicationUseCase_Description_Profile" importedPackage="_be00301_1066743716538_320440_0" importedProfile="_be00301_1066743716538_320440_0">
+    <eAnnotations xmi:id="_iA4Tp34zEd-rF-5YT_0h4w" source="attributes">
+      <details xmi:id="_iA4TqH4zEd-rF-5YT_0h4w" key="version" value="0"/>
+    </eAnnotations>
+  </packageImport>
+  <packageImport xmi:type="uml:ProfileApplication" xmi:id="_11_5_be00301_1153310565718_226811_161profileApplicationUseCase_Description_Profile">
+    <eAnnotations xmi:id="_iDtlM34zEd-rF-5YT_0h4w" source="attributes">
+      <details xmi:id="_iDtlNH4zEd-rF-5YT_0h4w" key="version" value="0"/>
+    </eAnnotations>
+    <importedPackage xmi:type="uml:Profile" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml2#_11_5_be00301_1153310565718_226811_161"/>
+    <importedProfile href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml2#_11_5_be00301_1153310565718_226811_161"/>
   </packageImport>
   <ownedMember xmi:type="uml:Enumeration" xmi:id="_86b026b_1100851680617_991536_7" name="UseCase Component Type Enumeration">
     <ownedLiteral xmi:id="_86b026b_1100851712032_531020_8" name="External Input"/>
@@ -321,13 +321,13 @@
     <ownedLiteral xmi:id="_86b026b_1100851488050_713066_5" name="Average Complexity"/>
     <ownedLiteral xmi:id="_86b026b_1100851490844_205263_6" name="Low Complexity"/>
   </ownedMember>
-  <ownedMember xmi:type="uml:Extension" xmi:id="_10_0EAPbeta_62a020a_1120463197816_932084_903" memberEnd="_10_0EAPbeta_62a020a_1120463197816_608284_904 _10_0EAPbeta_62a020a_1120463197819_789152_905">
+  <ownedMember xmi:type="uml:Extension" xmi:id="_10_0EAPbeta_62a020a_1120463197816_932084_903" memberEnd="_10_0EAPbeta_62a020a_1120463197819_789152_905 _10_0EAPbeta_62a020a_1120463197816_608284_904">
     <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_10_0EAPbeta_62a020a_1120463197819_789152_905" name="extension_actorDiagram" visibility="private" type="_8bb027e_1073897695178_229854_1" association="_10_0EAPbeta_62a020a_1120463197816_932084_903" aggregation="composite">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_10_0EAPbeta_62a020a_1120463197832_885239_907" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_10_0EAPbeta_62a020a_1120463197820_719472_906"/>
     </ownedEnd>
   </ownedMember>
-  <ownedMember xmi:type="uml:Extension" xmi:id="_10_0EAPbeta_62a020a_1120463197949_664292_932" memberEnd="_10_0EAPbeta_62a020a_1120463197952_891116_934 _10_0EAPbeta_62a020a_1120463197949_890532_933">
+  <ownedMember xmi:type="uml:Extension" xmi:id="_10_0EAPbeta_62a020a_1120463197949_664292_932" memberEnd="_10_0EAPbeta_62a020a_1120463197949_890532_933 _10_0EAPbeta_62a020a_1120463197952_891116_934">
     <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_10_0EAPbeta_62a020a_1120463197952_891116_934" name="extension_useCaseOwner" visibility="private" type="_9_0_2_be00301_1112964642046_825187_87" association="_10_0EAPbeta_62a020a_1120463197949_664292_932" aggregation="composite">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_10_0EAPbeta_62a020a_1120463197954_212251_936" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_10_0EAPbeta_62a020a_1120463197953_613701_935"/>
@@ -358,8 +358,8 @@
     </ownedEnd>
   </ownedMember>
   <ownedMember xmi:type="uml:Class" xmi:id="_12_1_f00036a_1173967312269_427115_138" name="Use Case customization">
-    <eAnnotations xmi:id="_KVp-FH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_KVp-FX17Ed-jFKIjxx-Gag" representationText="Requirements Use Case" keyword="Use Case">
+    <eAnnotations xmi:id="_iEBHMn4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_iEBHM34zEd-rF-5YT_0h4w" representationText="Requirements Use Case" keyword="Use Case">
         <customizationTarget>UseCase Description Profile::requirementUseCase</customizationTarget>
         <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>SP&lt;/title>&lt;/head>&lt;body>&lt;p>name&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>SN&lt;/title>&lt;/head>&lt;body>&lt;p>DOCUMENTATION_HYPERLINKS&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -452,8 +452,8 @@
       </contents>
     </eAnnotations>
     <ownedAttribute xmi:id="_12_1_f00036a_1174032470911_490758_483" name="Description" visibility="private">
-      <eAnnotations xmi:id="_KbUhNH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_KbUhNX17Ed-jFKIjxx-Gag">
+      <eAnnotations xmi:id="_iJh5Xn4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_iJh5X34zEd-rF-5YT_0h4w">
           <properties>Assumption</properties>
           <properties>Component Complexity</properties>
           <properties>Component Type</properties>
@@ -468,8 +468,8 @@
       </eAnnotations>
     </ownedAttribute>
     <ownedAttribute xmi:id="_12_1_f00036a_1174032470927_837064_484" name="General" visibility="private">
-      <eAnnotations xmi:id="_Ka31RH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_Ka31RX17Ed-jFKIjxx-Gag">
+      <eAnnotations xmi:id="_iJ00SH4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_iJ00SX4zEd-rF-5YT_0h4w">
           <properties>Author</properties>
           <properties>Date</properties>
           <properties>Notes</properties>
@@ -480,8 +480,8 @@
       </eAnnotations>
     </ownedAttribute>
     <ownedAttribute xmi:id="_12_1_f00036a_1174032470927_598945_485" name="Scenarios" visibility="private">
-      <eAnnotations xmi:id="_KbxNIn17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_KbxNI317Ed-jFKIjxx-Gag">
+      <eAnnotations xmi:id="_iJOXVH4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_iJOXVX4zEd-rF-5YT_0h4w">
           <properties>Alternative Flow of Events</properties>
           <properties>Alternative Flow of Events Diagrams</properties>
           <properties>Basic Flow of Events</properties>
@@ -493,8 +493,8 @@
     </ownedAttribute>
   </ownedMember>
   <ownedMember xmi:type="uml:Class" xmi:id="_12_1_f00036a_1174033756724_517899_606" name="Use Case package customization">
-    <eAnnotations xmi:id="_KVXDLX17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_KVXDLn17Ed-jFKIjxx-Gag" representationText="Use Case Package" keyword="Use Case Package">
+    <eAnnotations xmi:id="_iEwuGH4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_iEwuGX4zEd-rF-5YT_0h4w" representationText="Use Case Package" keyword="Use Case Package">
         <customizationTarget>UseCase Description Profile::useCasePackage</customizationTarget>
         <suggestedOwnedTypes>UseCase Description Profile::requirementUseCase</suggestedOwnedTypes>
         <suggestedOwnedTypes>MagicDraw Profile::useCaseModel</suggestedOwnedTypes>
@@ -512,8 +512,8 @@
     </ownedEnd>
   </ownedMember>
   <ownedMember xmi:type="uml:Class" xmi:id="_12_1_f00036a_1174034260677_999183_652" name="Use Case model customization">
-    <eAnnotations xmi:id="_KWGqBn17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_KWGqB317Ed-jFKIjxx-Gag" representationText="System Boundary" keyword="System Boundary">
+    <eAnnotations xmi:id="_iE54Cn4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_iE54C34zEd-rF-5YT_0h4w" representationText="System Boundary" keyword="System Boundary">
         <customizationTarget>MagicDraw Profile::useCaseModel</customizationTarget>
         <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>SP&lt;/title>&lt;/head>&lt;body>&lt;p>name&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>HP&lt;/title>&lt;/head>&lt;body>&lt;p>APPLIED_PROFILES&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -561,16 +561,16 @@
     </eAnnotations>
   </ownedMember>
   <ownedMember xmi:type="uml:Class" xmi:id="_14_0_8760274_1188455323324_759077_350" name="Use Case owner customization">
-    <eAnnotations xmi:id="_KVp-Hn17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_KVp-H317Ed-jFKIjxx-Gag">
+    <eAnnotations xmi:id="_iDtlNX4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_iDtlNn4zEd-rF-5YT_0h4w">
         <customizationTarget>UseCase Description Profile::useCaseOwner</customizationTarget>
       </contents>
     </eAnnotations>
   </ownedMember>
   <ownedMember xmi:type="uml:Stereotype" xmi:id="_8bb027e_1073897695178_229854_1" name="actorDiagram">
     <ownedAttribute xmi:id="_8bb027e_1073897752240_782641_2" name="actorDiagramID" visibility="private">
-      <eAnnotations xmi:id="_KmyxeX17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Kmyxen17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASd3X4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASd3n4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/JavaPrimitiveTypes.library.uml2#_TBlMg686EdieaYgxtVWN8Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_10_0EAPbeta_62a020a_1120463197468_843023_846" value="1"/>
@@ -582,8 +582,8 @@
   </ownedMember>
   <ownedMember xmi:type="uml:Stereotype" xmi:id="_8bb027e_1073897757778_650674_3" name="useCaseModelDiagram">
     <ownedAttribute xmi:id="_8bb027e_1073897792047_918194_4" name="useCaseModelDiagramID" visibility="private">
-      <eAnnotations xmi:id="_Km8iYn17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Km8iY317Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASeBH4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASeBX4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/JavaPrimitiveTypes.library.uml2#_TBlMg686EdieaYgxtVWN8Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_10_0EAPbeta_62a020a_1120463197480_275054_849" value="1"/>
@@ -602,99 +602,99 @@
       <defaultValue xmi:type="uml:LiteralString" xmi:id="_10_0EAPbeta_62a020a_1120463198021_786770_960" value="1"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_86b026b_1100852264416_278032_17" name="UseCase Complexity" visibility="private" type="_86b026b_1100851337724_79814_2">
-      <eAnnotations xmi:id="_Kmf2cH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_Kmf2cX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Km8iaH17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASeAn4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASeA34zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iBxrgH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_10_0EAPbeta_62a020a_1120463197520_418360_854" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_10_0EAPbeta_62a020a_1120463197519_892636_853" value="1"/>
       <defaultValue xmi:type="uml:InstanceValue" xmi:id="_10_0EAPbeta_62a020a_1120463198045_422611_970" instance="_86b026b_1100851488050_713066_5"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066819978618_241022_86" name="Priority" visibility="private" type="_be00301_1066820016512_136158_88">
-      <eAnnotations xmi:id="_Kk23sH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_Kk23sX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_KmyxiH17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASd334zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASd4H4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iCOXcH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_10_0EAPbeta_62a020a_1120463197524_350107_856" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_10_0EAPbeta_62a020a_1120463197522_765246_855" value="1"/>
       <defaultValue xmi:type="uml:InstanceValue" xmi:id="_10_0EAPbeta_62a020a_1120463197977_961989_944" instance="_be00301_1066820307541_976329_94"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1069345036881_119566_4" name="PreCondition" visibility="private">
-      <eAnnotations xmi:id="_KlAosH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_KlAosX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Kmyxm317Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASd6n4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASd634zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iBL1oH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0beta1_8f90291_1220956710193_55961_700" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1220956710193_888621_699"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1069345036881_177859_3" name="PostCondition" visibility="private">
-      <eAnnotations xmi:id="_KlTjoH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_KlTjoX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_KmyxcX17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASdwn4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASdw34zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iChSYH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0beta1_8f90291_1220956714427_730635_702" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1220956714427_409059_701"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066897101064_466615_101" name="Out-standing Issue" visibility="private">
-      <eAnnotations xmi:id="_Kjgz4H17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_Kjgz4X17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_KmyxZn17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASd934zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASd-H4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iC00YH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0beta1_8f90291_1220956718396_795861_704" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1220956718380_428567_703"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066897101074_628189_103" name="Notes" visibility="private">
-      <eAnnotations xmi:id="_Kj0V4H17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_Kj0V4X17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Kmyxbn17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_h__i6X4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_h__i6n4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iBewkX4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0beta1_8f90291_1220956723849_448820_706" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1220956723849_209479_705"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066897101054_362364_95" name="Non Functional Requirements" visibility="private">
-      <eAnnotations xmi:id="_KlmekH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_KlmekX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Km8iYH17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASd-34zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASd_H4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iC9-UH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0beta1_8f90291_1220956727349_826132_708" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1220956727349_7774_707"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066897101034_150494_93" name="Implementation Issues" visibility="private">
-      <eAnnotations xmi:id="_Kl5ZgH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_Kl5ZgX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Kmyxin17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASeDH4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASeDX4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iCrDYH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0beta1_8f90291_1220956731271_595283_710" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1220956731271_422746_709"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066810372024_418388_155" name="Alternative Flow of Events" visibility="private">
-      <eAnnotations xmi:id="_KmDKgH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_KmDKgX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_KmyxhH17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASd_X4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASd_n4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iBCEoH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0beta1_8f90291_1220956737536_137245_714" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1220956737536_412351_713"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066897101064_364082_97" name="Assumption" visibility="private">
-      <eAnnotations xmi:id="_Kj9f0H17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_Kj9f0X17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Kmyxk317Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASd-X4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASd-n4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iDHvUH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0beta1_8f90291_1220956741224_726089_716" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1220956741224_963732_715"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066810372024_338362_156" name="Alternative Flow of Events Diagrams" visibility="private">
-      <eAnnotations xmi:id="_KkQawH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_KkQawX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Kmyxb317Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASd2n4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASd234zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iB7cgH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <ownedComment xmi:id="_be00301_1066811734313_887107_253" body="References to diagrams." annotatedElement="_be00301_1066810372024_338362_156"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
@@ -702,9 +702,9 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1222761202573_144039_681"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066744391809_291056_1" name="Author" visibility="private">
-      <eAnnotations xmi:id="_KmM7gH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_KmM7gX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Kmyxi317Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASd4X4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASd4n4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iChSYX4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <ownedComment xmi:id="_be00301_1066745889763_249579_35" body="The author of the UseCase." annotatedElement="_be00301_1066744391809_291056_1"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
@@ -712,9 +712,9 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1220956747958_231289_719"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066745578365_161054_31" name="Basic Flow of Events" visibility="private">
-      <eAnnotations xmi:id="_Kkj8wH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_Kkj8wX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Kmyxgn17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASd7H4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASd7X4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iA4Tqn4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <ownedComment xmi:id="_be00301_1066745889773_549973_50" body="Regular/basic flow of activities of the UseCase." annotatedElement="_be00301_1066745578365_161054_31"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
@@ -722,9 +722,9 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_12_5EAPbeta_8ca0285_1174462141340_62197_353"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066745578365_232_29" name="Date" visibility="private">
-      <eAnnotations xmi:id="_KlJyoH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_KlJyoX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Kmyxmn17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASd_34zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASeAH4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iBL1oX4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <ownedComment xmi:id="_be00301_1066745889773_982136_47" body="UseCase creation/modification or other dates." annotatedElement="_be00301_1066745578365_232_29"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
@@ -732,9 +732,9 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1220956751818_509837_721"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066745578365_830651_25" name="Goal" visibility="private">
-      <eAnnotations xmi:id="_KlwPkH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_KlwPkX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Km8iYX17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASeBn4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASeB34zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iCEmcH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <ownedComment xmi:id="_be00301_1066745889763_295886_41" body="Specifies the goal to be achieved by the UseCase." annotatedElement="_be00301_1066745578365_830651_25"/>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
@@ -742,45 +742,45 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_10_0EAPbeta_62a020a_1120463197574_85303_881" value="1"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066813090914_199818_4" name="Exceptional Flow of Events Diagrams" visibility="private">
-      <eAnnotations xmi:id="_KktGsH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_KktGsX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_KmyxnH17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_h__i634zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_h__i7H4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iBohkH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0beta1_8f90291_1222761210807_824722_684" value="-1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1222761210807_139702_683"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066813090914_271384_2" name="Exceptional Flow of Events" visibility="private">
-      <eAnnotations xmi:id="_KkaLwH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_KkaLwX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_KmyxcH17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASdyH4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASdyX4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iA4TqX4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0beta1_8f90291_1220956761333_376709_726" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1220956761333_5257_725"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_be00301_1066808483999_917377_153" name="Basic Flow of Events Diagrams" visibility="private">
-      <eAnnotations xmi:id="_Kjqk4H17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_Kjqk4X17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Kmyxkn17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASd0n4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASd034zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iBewkH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML2_LIBRARIES/UML2PrimitiveTypes.library.uml2#_IXlH8a86EdieaYgxtVWN8Q"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0beta1_8f90291_1222761186057_197097_680" value="-1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_8f90291_1222761186057_652763_679"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_86b026b_1101133929591_761242_5" name="Component Complexity" visibility="private" type="_86b026b_1101133722052_806204_0">
-      <eAnnotations xmi:id="_KmWFcH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_KmWFcX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Km8iZ317Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_h__i734zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_h__i8H4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iCYIcH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_10_0EAPbeta_62a020a_1120463197593_521719_890" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_10_0EAPbeta_62a020a_1120463197591_676137_889" value="1"/>
       <defaultValue xmi:type="uml:InstanceValue" xmi:id="_10_0EAPbeta_62a020a_1120463198048_187621_972" instance="_86b026b_1101133755370_352268_1"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_86b026b_1100852264416_178731_18" name="Component Type" visibility="private" type="_86b026b_1100851680617_991536_7">
-      <eAnnotations xmi:id="_KjXp-317Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_KjXp_H17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_KmyxeH17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_iASd6H4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASd6X4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="UseCaseDescriptionProfile_0:UseCaseDescriptionProfile__grouped" xmi:id="_iDQ5QH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_10_0EAPbeta_62a020a_1120463197596_157678_892" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_10_0EAPbeta_62a020a_1120463197594_845466_891" value="1"/>
@@ -791,9 +791,9 @@
   </ownedMember>
   <ownedMember xmi:type="uml:Stereotype" xmi:id="_9_0_2_be00301_1112964767577_928108_227" name="grouped">
     <ownedAttribute xmi:id="_be00301_1066822235323_902656_106" name="UseCase Property Group" visibility="private" type="_be00301_1066821693263_457671_100">
-      <eAnnotations xmi:id="_KmpAaX17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__tagGroup" xmi:id="_KmpAan17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_Kmyxln17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_h__i234zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__tagGroup" xmi:id="_h__i3H4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_iASd0H4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_10_0EAPbeta_62a020a_1120463197603_916704_898" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_10_0EAPbeta_62a020a_1120463197601_778292_897" value="1"/>
@@ -911,7 +911,7 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_1ff304e3_1219974937446_900892_540"/>
     </ownedAttribute>
   </ownedMember>
-  <ownedMember xmi:type="uml:Extension" xmi:id="_16_0beta1_1ff304e3_1219974937477_919837_551" memberEnd="_16_0beta1_1ff304e3_1219974937477_688210_552 _16_0beta1_1ff304e3_1219974937477_22915_553">
+  <ownedMember xmi:type="uml:Extension" xmi:id="_16_0beta1_1ff304e3_1219974937477_919837_551" memberEnd="_16_0beta1_1ff304e3_1219974937477_22915_553 _16_0beta1_1ff304e3_1219974937477_688210_552">
     <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_16_0beta1_1ff304e3_1219974937477_22915_553" name="extension_useCaseProjectEstimation" visibility="private" type="_16_0beta1_1ff304e3_1219974937336_129049_469" association="_16_0beta1_1ff304e3_1219974937477_919837_551" aggregation="composite">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0beta1_1ff304e3_1219974937477_196495_555" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_1ff304e3_1219974937477_527396_554"/>
@@ -922,9 +922,9 @@
       <type xmi:type="uml:Class" href="pathmap://UML2_METAMODELS/UML2.metamodel.uml2#_m9ndca86EdiEh75YJ_3n8g"/>
     </ownedAttribute>
     <ownedAttribute xmi:id="_16_0beta1_1ff304e3_1219974937414_45335_493" name="Actor Complexity" visibility="private" type="_86b026b_1100851337724_79814_2">
-      <eAnnotations xmi:id="_KabJUH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__grouped" xmi:id="_KabJUX17Ed-jFKIjxx-Gag"/>
-        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_KmyxiX17Ed-jFKIjxx-Gag"/>
+      <eAnnotations xmi:id="_h__i8X4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="MagicDrawProfile_0:MagicDrawProfile__InvisibleStereotype" xmi:id="_h__i8n4zEd-rF-5YT_0h4w"/>
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__grouped" xmi:id="_iHl_oH4zEd-rF-5YT_0h4w"/>
       </eAnnotations>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_16_0beta1_1ff304e3_1219974937446_2241_545" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_16_0beta1_1ff304e3_1219974937446_364529_544" value="1"/>
@@ -952,8 +952,8 @@
     </ownedLiteral>
   </ownedMember>
   <ownedMember xmi:type="uml:Class" xmi:id="_15_5_1ff304e3_1220599009286_486870_495" name="Actor customization">
-    <eAnnotations xmi:id="_KV85CH17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_KV85CX17Ed-jFKIjxx-Gag" representationText="Requirements Actor" keyword="Actor">
+    <eAnnotations xmi:id="_iFpe6H4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_iFpe6X4zEd-rF-5YT_0h4w" representationText="Requirements Actor" keyword="Actor">
         <customizationTarget>UseCase Description Profile::requirementActor</customizationTarget>
         <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>SP&lt;/title>&lt;/head>&lt;body>&lt;p>name&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>SP&lt;/title>&lt;/head>&lt;body>&lt;p>Actor Complexity&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -1019,8 +1019,8 @@
     </eAnnotations>
   </ownedMember>
   <ownedMember xmi:type="uml:Class" xmi:id="_15_5_1ff304e3_1220599729768_373865_561" name="UseCaseProjectEstimation">
-    <eAnnotations xmi:id="_KVp-Fn17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_KVp-F317Ed-jFKIjxx-Gag">
+    <eAnnotations xmi:id="_iEUCJn4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_iEUCJ34zEd-rF-5YT_0h4w">
         <customizationTarget>UseCase Description Profile::useCaseProjectEstimation</customizationTarget>
         <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>SP&lt;/title>&lt;/head>&lt;body>&lt;p>name&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>SP&lt;/title>&lt;/head>&lt;body>&lt;p>E2 Application experience&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -1088,8 +1088,8 @@
     </eAnnotations>
   </ownedMember>
   <ownedMember xmi:type="uml:Class" xmi:id="_15_5_1ff304e3_1220841366921_334261_662" name="Data Model customization">
-    <eAnnotations xmi:id="_KVXDK317Ed-jFKIjxx-Gag" source="appliedStereotypes">
-      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_KVXDLH17Ed-jFKIjxx-Gag" representationText="UseCase Project Estimation">
+    <eAnnotations xmi:id="_iEwuFH4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+      <contents xmi:type="DSLCustomization_0:DSLCustomization__Customization" xmi:id="_iEwuFX4zEd-rF-5YT_0h4w" representationText="UseCase Project Estimation">
         <customizationTarget>UseCase Description Profile::useCaseProjectEstimation</customizationTarget>
         <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>SP&lt;/title>&lt;/head>&lt;body>&lt;p>name&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
         <standardExpertConfiguration>&lt;html>&lt;head>&lt;title>EP&lt;/title>&lt;/head>&lt;body>&lt;p>E1 Familiar with RUP&lt;/p>&lt;/body>&lt;/html></standardExpertConfiguration>
@@ -1156,8 +1156,8 @@
       </contents>
     </eAnnotations>
     <ownedAttribute xmi:id="_15_5_1ff304e3_1220842397582_532636_828" name="Technical Factor" visibility="private">
-      <eAnnotations xmi:id="_KbeSMn17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_KbeSM317Ed-jFKIjxx-Gag">
+      <eAnnotations xmi:id="_iJYIVn4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_iJYIV34zEd-rF-5YT_0h4w">
           <properties>T1 Distributed System</properties>
           <properties>T2 Response adjectives</properties>
           <properties>T3 End-user efficiency</properties>
@@ -1175,8 +1175,8 @@
       </eAnnotations>
     </ownedAttribute>
     <ownedAttribute xmi:id="_15_5_1ff304e3_1220842417786_744790_829" name="Environmental Factor" visibility="private">
-      <eAnnotations xmi:id="_KbUhNn17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-        <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_KbUhN317Ed-jFKIjxx-Gag">
+      <eAnnotations xmi:id="_iJh5Vn4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+        <contents xmi:type="DSLCustomization_0:DSLCustomization__propertyGroup" xmi:id="_iJh5V34zEd-rF-5YT_0h4w">
           <properties>E1 Familiar with RUP</properties>
           <properties>E2 Application experience</properties>
           <properties>E3 Object-oriented experience</properties>
@@ -1190,8 +1190,8 @@
     </ownedAttribute>
   </ownedMember>
   <ownedMember xmi:type="uml:Package" xmi:id="_12_5_1_8f90291_1188999322162_613487_99" name="Use Case domain constraints">
-    <eAnnotations xmi:id="_KbxNOn17Ed-jFKIjxx-Gag" source="appliedStereotypes">
-      <contents xmi:type="ValidationProfile_0:ValidationProfile__validationSuite" xmi:id="_KbxNO317Ed-jFKIjxx-Gag"/>
+    <eAnnotations xmi:id="_h5bzWH4zEd-rF-5YT_0h4w" source="appliedStereotypes">
+      <contents xmi:type="ValidationProfile_0:ValidationProfile__validationSuite" xmi:id="_h5bzWX4zEd-rF-5YT_0h4w"/>
     </eAnnotations>
   </ownedMember>
 </uml:Profile>

@@ -15,6 +15,7 @@ public class FlightDateDaoImpl extends FlightDateDaoBase {
 
         boolean computeArrivalCity = false;
         boolean computeDepartureDate = false;
+        boolean computeDepartureDateMax = false;
 
         try {
             StringBuilder hql = new StringBuilder();
@@ -29,14 +30,20 @@ public class FlightDateDaoImpl extends FlightDateDaoBase {
 
             // filter - arrivalCity
             if (searchCriteria.getArrivalCity() != null) {
-                hql.append("and f.arrivalCity.id = :arrivalCityFk \n");
+                hql.append("and f.destinationCity.id = :arrivalCityFk \n");
                 computeArrivalCity = true;
             }
 
             // filter - departureDate
-            if (searchCriteria.getArrivalCity() != null) {
+            if (searchCriteria.getDepartureDate() != null) {
                 hql.append("and fd.departureDate >= :departureDate \n");
                 computeDepartureDate = true;
+            }
+
+            // filter - departureDate
+            if (searchCriteria.getDepartureDateMax() != null) {
+                hql.append("and fd.departureDate <= :departureDateMax \n");
+                computeDepartureDateMax = true;
             }
 
             // order - default by FlightDate.departureDate
@@ -49,9 +56,12 @@ public class FlightDateDaoImpl extends FlightDateDaoBase {
                 query.setParameter("arrivalCityFk", searchCriteria.getArrivalCity());
             }
             if (computeDepartureDate) {
-                query.setParameter("departureDate", searchCriteria.getDepartureDate());
+                query.setParameter("departureDate", new java.sql.Timestamp(searchCriteria.getDepartureDate()));
             }
-
+            if (computeDepartureDateMax) {
+                query.setParameter("departureDateMax", new java.sql.Timestamp(searchCriteria.getDepartureDateMax()));
+            }
+            
             result = (List<FlightDate>) query.list();
 
         } catch (Exception ex) {
@@ -63,5 +73,15 @@ public class FlightDateDaoImpl extends FlightDateDaoBase {
 
     public FlightDate flightDateVOToEntity(FlightDateVO flightDateVO) {
         throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    public final FlightDateVO toFlightDateVO(final FlightDate entity) {
+        FlightDateVO flightDateVO = new FlightDateVO();
+
+        flightDateVO.setPlane(getPlaneDao().toPlaneVO(entity.getPlane()));
+        flightDateVO.setDepartureDate(entity.getDepartureDate().getTime());
+        flightDateVO.setArrivalDate(entity.getArrivalDate().getTime());
+
+        return flightDateVO;
     }
 }

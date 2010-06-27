@@ -39,6 +39,27 @@
                     </xsd:sequence>
                 </xsd:complexType>
             </xsd:element>
+            <xsd:element name="generateTestData">
+                <xsd:annotation>
+                    <xsd:documentation>
+                        
+                    </xsd:documentation>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="complexity" type="xsd:long" nillable="false">
+                            <xsd:annotation>
+                                <xsd:documentation>
+                                    
+                                </xsd:documentation>
+                            </xsd:annotation>
+                        </xsd:element>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="generateTestDataResponse">
+                <xsd:complexType/>
+            </xsd:element>
             <xsd:element name="getDestinationCitiesByDepartureCity">
                 <xsd:annotation>
                     <xsd:documentation>
@@ -209,6 +230,13 @@
                         </xsd:annotation>
                     </xsd:element>
                     <xsd:element name="departureDate" nillable="true" type="xsd:long">
+                        <xsd:annotation>
+                            <xsd:documentation>
+                                
+                            </xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:element>
+                    <xsd:element name="departureDateMax" nillable="true" type="xsd:long">
                         <xsd:annotation>
                             <xsd:documentation>
                                 
@@ -422,6 +450,12 @@
     <wsdl:message name="createBookingResponse">
         <wsdl:part element="impl:createBookingResponse" name="parameters"/>
     </wsdl:message>
+    <wsdl:message name="generateTestDataRequest">
+        <wsdl:part element="impl:generateTestData" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="generateTestDataResponse">
+        <wsdl:part element="impl:generateTestDataResponse" name="parameters"/>
+    </wsdl:message>
     <wsdl:message name="getDestinationCitiesByDepartureCityRequest">
         <wsdl:part element="impl:getDestinationCitiesByDepartureCity" name="parameters"/>
     </wsdl:message>
@@ -445,6 +479,15 @@
                         name="createBookingRequest"/>
             <wsdl:output message="impl:createBookingResponse"
                          name="createBookingResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="generateTestData">
+            <wsdl:documentation>
+                
+            </wsdl:documentation>
+            <wsdl:input message="impl:generateTestDataRequest"
+                        name="generateTestDataRequest"/>
+            <wsdl:output message="impl:generateTestDataResponse"
+                         name="generateTestDataResponse"/>
         </wsdl:operation>
         <wsdl:operation name="getDestinationCitiesByDepartureCity">
             <wsdl:documentation>
@@ -475,6 +518,15 @@
                 <wsdlsoap:body use="literal"/>
             </wsdl:input>
             <wsdl:output name="createBookingResponse">
+                <wsdlsoap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="generateTestData">
+            <wsdlsoap:operation soapAction="generateTestData" style="document"/>
+            <wsdl:input name="generateTestDataRequest">
+                <wsdlsoap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="generateTestDataResponse">
                 <wsdlsoap:body use="literal"/>
             </wsdl:output>
         </wsdl:operation>

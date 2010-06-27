@@ -29,6 +29,62 @@ public interface PlaneDao
     public void toEntities(final java.util.Collection results);
 
     /**
+     * This constant is used as a transformation flag; entities can be converted automatically into value objects
+     * or other types, different methods in a class implementing this interface support this feature: look for
+     * an <code>int</code> parameter called <code>transform</code>.
+     * <p>
+     * This specific flag denotes entities must be transformed into objects of type
+     * {@link org.iesc.flightws.vo.PlaneVO}.
+     */
+    public final static int TRANSFORM_PLANEVO = 1;
+
+    /**
+     * Copies the fields of the specified entity to the target value object. This method is similar to
+     * toPlaneVO(), but it does not handle any attributes in the target
+     * value object that are "read-only" (as those do not have setter methods exposed).
+     */
+    public void toPlaneVO(
+        org.iesc.flightws.domain.Plane source,
+        org.iesc.flightws.vo.PlaneVO target);
+
+
+    /**
+     * Converts this DAO's entity to an object of type {@link org.iesc.flightws.vo.PlaneVO}.
+     */
+    public org.iesc.flightws.vo.PlaneVO toPlaneVO(org.iesc.flightws.domain.Plane entity);
+
+    /**
+     * Converts this DAO's entity to a Collection of instances of type {@link org.iesc.flightws.vo.PlaneVO}.
+     */
+    public void toPlaneVOCollection(java.util.Collection entities);
+
+    /**
+     * Converts this DAO's entity to an array of instances of type {@link org.iesc.flightws.vo.PlaneVO}.
+     */
+    public org.iesc.flightws.vo.PlaneVO[] toPlaneVOArray(java.util.Collection entities);
+
+    /**
+     * Copies the fields of {@link org.iesc.flightws.vo.PlaneVO} to the specified entity.
+     * @param copyIfNull If FALSE, the value object's field will not be copied to the entity if the value is NULL. If TRUE,
+     * it will be copied regardless of its value.
+     */
+    public void planeVOToEntity(
+        org.iesc.flightws.vo.PlaneVO source,
+        org.iesc.flightws.domain.Plane target,
+        boolean copyIfNull);
+
+    /**
+     * Converts an instance of type {@link org.iesc.flightws.vo.PlaneVO} to this DAO's entity.
+     */
+    public org.iesc.flightws.domain.Plane planeVOToEntity(org.iesc.flightws.vo.PlaneVO planeVO);
+
+    /**
+     * Converts a Collection of instances of type {@link org.iesc.flightws.vo.PlaneVO} to this
+     * DAO's entity.
+     */
+    public void planeVOToEntityCollection(java.util.Collection instances);
+
+    /**
      * Loads an instance of org.iesc.flightws.domain.Plane from the persistent store.
      */
     public org.iesc.flightws.domain.Plane load(java.lang.Long id);

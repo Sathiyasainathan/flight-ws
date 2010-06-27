@@ -20,25 +20,15 @@ public class FlightServiceImpl extends FlightServiceBase {
 
     protected FlightSearchResultsVO handleGetFlightsByCriteria(FlightSearchCriteriaVO searchCriteria) throws Exception {
         FlightSearchResultsVO result = new FlightSearchResultsVO();
-        //1. departureCity
-        // no special treatment
-        //2. arrivalCity
-        // no special treatment
-        //3. departureDate
-        if(searchCriteria.getDepartureDate() == null) {
+
+        if (searchCriteria.getDepartureDate() == null) {
             // If null, replace by current day
             searchCriteria.setDepartureDate(new java.util.Date().getTime());
         }
 
-        //4. arrivalDate
-        // no special treatment
+        List<FlightDate> flightDatesCol = (List<FlightDate>) getFlightDateDao().getFlightDatesByCriteria(searchCriteria);
+        result.setResults(computeFlightVOs(flightDatesCol));
 
-        //5. nrPassengers
-        //TODO: If plane involved in a flight date is fully booked, that flight date must not be returned
-
-        List<FlightDate> flightDatesCol = (List<FlightDate>)getFlightDateDao().getFlightDatesByCriteria(searchCriteria);
-        
-        result.setResults( computeFlightVOs(flightDatesCol) );
         //6. flightType
         // If flightType = FlightConstants.ONE_WAY the system performs only one search
         //
@@ -49,8 +39,6 @@ public class FlightServiceImpl extends FlightServiceBase {
 
         //TODO: add here the inversed search
 
-        
-
         return result;
     }
 
@@ -60,8 +48,8 @@ public class FlightServiceImpl extends FlightServiceBase {
 
         Map<Long, List<FlightDateVO>> flightsMap = new HashMap<Long, List<FlightDateVO>>();
 
-        for(FlightDate fd : flightDatesCol) {
-            if( flightsMap.containsKey(fd.getFlight().getId()) ) {
+        for (FlightDate fd : flightDatesCol) {
+            if (flightsMap.containsKey(fd.getFlight().getId())) {
                 // append this fd to the existing flight id
                 flightsMap.get(fd.getFlight().getId()).add(getFlightDateDao().toFlightDateVO(fd));
             } else {
@@ -75,7 +63,8 @@ public class FlightServiceImpl extends FlightServiceBase {
 
         Flight flight = null;
         FlightVO flightVO = null;
-        for(Long flightId : flightsMap.keySet()) {
+        for (Long flightId : flightsMap.keySet()) {
+            // Create a new FlightVO for each flightId
             flight = getFlightDao().load(flightId);
             flightVO = new FlightVO();
 
@@ -84,12 +73,12 @@ public class FlightServiceImpl extends FlightServiceBase {
             flightVO.setDepartureCity(getCityDao().toCityVO(flight.getDepartureCity()));
             flightVO.setDestinationCity(getCityDao().toCityVO(flight.getDestinationCity()));
 
-            flightVO.setFlightDates( (FlightDateVO[])(flightsMap.get(flightId).toArray(new FlightDateVO[flightsMap.get(flightId).size()])) );
+            flightVO.setFlightDates((FlightDateVO[]) (flightsMap.get(flightId).toArray(new FlightDateVO[flightsMap.get(flightId).size()])));
 
             resultCol.add(flightVO);
         }
 
-        result = (FlightVO[])resultCol.toArray(new FlightVO[resultCol.size()]);
+        result = (FlightVO[]) resultCol.toArray(new FlightVO[resultCol.size()]);
 
         return result;
     }
@@ -99,6 +88,10 @@ public class FlightServiceImpl extends FlightServiceBase {
     }
 
     protected CityVO[] handleGetDestinationCitiesByDepartureCity(CityVO departureCity) throws Exception {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    protected void handleGenerateTestData(Long complexity) throws Exception {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 }

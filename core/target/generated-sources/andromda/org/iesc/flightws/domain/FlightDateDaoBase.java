@@ -18,6 +18,24 @@ public abstract class FlightDateDaoBase
     implements org.iesc.flightws.domain.FlightDateDao
 {
 
+    private org.iesc.flightws.domain.PlaneDao planeDao;
+
+    /**
+     * Sets the reference to <code>planeDao</code>.
+     */
+    public void setPlaneDao(org.iesc.flightws.domain.PlaneDao planeDao)
+    {
+        this.planeDao = planeDao;
+    }
+
+    /**
+     * Gets the reference to <code>planeDao</code>.
+     */
+    protected org.iesc.flightws.domain.PlaneDao getPlaneDao()
+    {
+        return this.planeDao;
+    }
+
     /**
      * @see org.iesc.flightws.domain.FlightDateDao#load(int, java.lang.Long)
      */
