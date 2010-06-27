@@ -1,3 +1,107 @@
+Maven:
+- arhitectura proiectelor
+	- root
+	- common: API
+	- core
+	- web
+- structura fisierelor pom.xml
+- de ce am ales sa folosim pentru construirea binarelor aplicatiei fisiere pom.xml scrise de mana: viteza de build, dependinte inutile catre andromda care nu trebuie sa ajunga in WAR-ul aplicatiei
+- pom.xml si pom.codeGenerator.xml
+- descrierea batch-urilor utilitare:
+	- mvn_clean_services.bat
+	- mvn_andromda.bat
+	- mvn_generate_schema.bat
+- plugin andromda-multi-source-plugin pentru includerea fisierelor generate in /target/generated-sources/andromda
+- administrarea dependintelor in cadrul dependencyManagement: dependinte tranzitive, singurul loc in care se specifica versiuni
+- modului /mda: nu intra in build => nu avem pom.codeGenerator.xml pentru acest modul
+- andromda.xml
+	- locul in care sunt exportate UML2-urile
+	- maparile dintre datatype si tipuri de date SQL sau Java
+	- tipul serviciului: axis sau xfire
+	- adresa WSDL-ului
+	
+AndroMDA:
+- idei principale si restrictii
+	- cartuse: sabloane pe baza carora, prin injectarea valorilor specifice proiectului se generaza codul Java sau XML 
+		- Exemplu: <NumeClasa>DaoImpl.java { <NumeClasa>() { new } }
+			
+			Cartus:
+			public static <NumeCalificatAlClasei> newInstance(<TotalitateaAtributelorClasei>)
+			{
+				final <NumeCalificatAlClasei> entity = new <NumeCalificatAlClasei>();
+
+				<% Start pentru fiecare atribut al clasei %>
+				entity.set<NumeAtributAlClasei>(<NumeAtributAlClasei>);
+				<% Stop pentru fiecare atribut al clasei %>
+				
+				return entity;
+			}
+			
+			Rezultat:
+			public static org.iesc.flightws.domain.City newInstance(java.lang.String name, java.lang.String codeIATA)
+			{
+				final org.iesc.flightws.domain.City entity = new org.iesc.flightws.domain.CityImpl();
+				entity.setName(name);
+				entity.setCodeIATA(codeIATA);
+				return entity;
+			}
+			
+	- cartuse suportate si importanta lor
+		- hibernate: hbm.xml, definirea dataSource in cadrul applicationContext.xml
+		- spring: applicationContext.xml, applicationContext-datasource.xml
+		- webservice: WSDL pe baza intregului API
+	- fisierele din /target/generated-sources/andromda sunt needitabile. Ele sunt rescrise de catre framework-ul AndroMDA la fiecare proces de generare al codului pe baza fisierelor UML2, indiferent daca contin sau nu modificari.
+	- lista fisierelor generate de catre AndroMDA, ca urmare a alegerii tehnologiilor in pasul anterior, cel de generare a proiectului, este urmatoarea:
+		- applicationContext.xml - Spring central blablabla
+		- applicationContext-dataSource.xml - externalizarea definirii datasource-ului
+		- ehcache.xml - definirea proprietatilor nivelului 2 de cache al Hibernate, granularizat la nivel de entitate, colectie si chiar regiune de cache pe apel HQL
+		- engine de search - nefolosit in cadrul proiectului
+		- Entity: clasa abstracta a entitatii, clasa concreta Impl ce extinde clasa abstracta a entitatii, fisier de mapare hibernate, interfata Dao, clasa abstracta DaoBase, clasa concreta DaoImpl ce extinde clasa abstracta DaoBase
+		- 
+			- de ce aceasta arhitectura:
+				- permite diferite implementari in functie de nevoi
+				- permite o extindere usoara a codului generat
+- stereotipuri - fisierele generate vs fisierele editabile
+	- Entity
+		- continand toate proprietatile definite in cadrul clasei UML, cu constructor, getteri, setteri, metoda statica de construire
+	- WebService
+	- ValueObject
+	- Array de ValueObjects - pseudo-stereotip
+	
+	- fisierele generate pentru toate stereotipurile: entity, webservice, vo
+	
+- definirea modelului de date
+	- utilizarea stereotipurilor
+	- adaugarea atributelor
+		- multiplicitate
+		- alegerea tipurilor de date: datatype si nu UML
+		- aplicarea tag-urilor:
+			- @andromda.hibernate.lazy
+			- @andromda.persistence.column.length
+			- @andromda.persistence.column.nullable
+	- asocieri
+		- nume
+		- navigabilitate
+		- proprietar (owner)
+		- definirea proprietarului prin agregare
+		- multiplicitate
+		- vizibilitate
+	- tipuri de asocieri disponibile
+		- one-to-many
+		- many-to-one
+		- many-to-many
+			- @andromda.persistence.table pentru definirea tabelului de legatura in cazul many-to-many
+	- adaugarea operatiilor
+		- metode finder
+		- parametrul return obligatoriu de definit
+		- metode statice -> DAO
+		- metode non-statice -> Entity
+- formatul de export UML2
+
+- definirea dataSource-ului ca resursa JNDI
+
+- utilizarea SoapUI pentru interogare
+
 - inject dependency in Service to DAO
 - inject DAOs inside DAOs by adding a dependency
 - create Entity
