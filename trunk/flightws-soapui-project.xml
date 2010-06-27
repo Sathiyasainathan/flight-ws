@@ -342,7 +342,8 @@
    <soapenv:Body>
       <org:getFlightsByCriteria>
          <org:searchCriteria>
-            <vo:departureCity>1</vo:departureCity>
+            <vo:departureCity>3</vo:departureCity>
+	    <vo:arrivalCity>5</vo:arrivalCity>
             <vo:departureDate>1277238985</vo:departureDate>
          </org:searchCriteria>
       </org:getFlightsByCriteria>

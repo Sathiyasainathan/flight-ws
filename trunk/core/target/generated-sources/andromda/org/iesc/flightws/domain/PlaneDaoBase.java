@@ -266,6 +266,12 @@ public abstract class PlaneDaoBase
      * flag is set to one of the constants defined in <code>org.iesc.flightws.domain.PlaneDao</code>, please note
      * that the {@link #TRANSFORM_NONE} constant denotes no transformation, so the entity itself
      * will be returned.
+     * <p>
+     * This method will return instances of these types:
+     * <ul>
+     *   <li>{@link org.iesc.flightws.domain.Plane} - {@link #TRANSFORM_NONE}</li>
+     *   <li>{@link org.iesc.flightws.vo.PlaneVO} - {@link TRANSFORM_PLANEVO}</li>
+     * </ul>
      *
      * If the integer argument value is unknown {@link #TRANSFORM_NONE} is assumed.
      *
@@ -281,6 +287,9 @@ public abstract class PlaneDaoBase
         {
             switch (transform)
             {
+                case TRANSFORM_PLANEVO :
+                    target = toPlaneVO(entity);
+                    break;
                 case TRANSFORM_NONE : // fall-through
                 default:
                     target = entity;
@@ -304,6 +313,9 @@ public abstract class PlaneDaoBase
     {
         switch (transform)
         {
+            case TRANSFORM_PLANEVO :
+                toPlaneVOCollection(entities);
+                break;
             case TRANSFORM_NONE : // fall-through
                 default:
                 // do nothing;
@@ -361,6 +373,138 @@ public abstract class PlaneDaoBase
             }
         }
         return target;
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.PlaneDao#toPlaneVOCollection(java.util.Collection)
+     */
+    public final void toPlaneVOCollection(java.util.Collection entities)
+    {
+        if (entities != null)
+        {
+            org.apache.commons.collections.CollectionUtils.transform(entities, PLANEVO_TRANSFORMER);
+        }
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.PlaneDao#toPlaneVOArray(java.util.Collection)
+     */
+    public final org.iesc.flightws.vo.PlaneVO[] toPlaneVOArray(java.util.Collection entities)
+    {
+        org.iesc.flightws.vo.PlaneVO[] result = null;
+        if (entities != null)
+        {
+            final java.util.Collection collection = new java.util.ArrayList(entities);
+            this.toPlaneVOCollection(collection);
+            result = (org.iesc.flightws.vo.PlaneVO[]) collection.toArray(new org.iesc.flightws.vo.PlaneVO[0]);
+        }
+        return result;
+    }
+
+    /**
+     * Default implementation for transforming the results of a report query into a value object. This
+     * implementation exists for convenience reasons only. It needs only be overridden in the
+     * {@link PlaneDaoImpl} class if you intend to use reporting queries.
+     * @see org.iesc.flightws.domain.PlaneDao#toPlaneVO(org.iesc.flightws.domain.Plane)
+     */
+    protected org.iesc.flightws.vo.PlaneVO toPlaneVO(java.lang.Object[] row)
+    {
+        return this.toPlaneVO(this.toEntity(row));
+    }
+
+    /**
+     * This anonymous transformer is designed to transform entities or report query results
+     * (which result in an array of objects) to {@link org.iesc.flightws.vo.PlaneVO}
+     * using the Jakarta Commons-Collections Transformation API.
+     */
+    private org.apache.commons.collections.Transformer PLANEVO_TRANSFORMER =
+        new org.apache.commons.collections.Transformer()
+        {
+            public java.lang.Object transform(java.lang.Object input)
+            {
+                java.lang.Object result = null;
+                if (input instanceof org.iesc.flightws.domain.Plane)
+                {
+                    result = toPlaneVO((org.iesc.flightws.domain.Plane)input);
+                }
+                else if (input instanceof java.lang.Object[])
+                {
+                    result = toPlaneVO((java.lang.Object[])input);
+                }
+                return result;
+            }
+        };
+
+    /**
+     * @see org.iesc.flightws.domain.PlaneDao#planeVOToEntityCollection(java.util.Collection)
+     */
+    public final void planeVOToEntityCollection(java.util.Collection instances)
+    {
+        if (instances != null)
+        {
+            for (final java.util.Iterator iterator = instances.iterator(); iterator.hasNext();)
+            {
+                // - remove an objects that are null or not of the correct instance
+                if (!(iterator.next() instanceof org.iesc.flightws.vo.PlaneVO))
+                {
+                    iterator.remove();
+                }
+            }
+            org.apache.commons.collections.CollectionUtils.transform(instances, PlaneVOToEntityTransformer);
+        }
+    }
+
+    private final org.apache.commons.collections.Transformer PlaneVOToEntityTransformer =
+        new org.apache.commons.collections.Transformer()
+        {
+            public java.lang.Object transform(java.lang.Object input)
+            {
+                return planeVOToEntity((org.iesc.flightws.vo.PlaneVO)input);
+            }
+        };
+
+
+    /**
+     * @see org.iesc.flightws.domain.PlaneDao#toPlaneVO(org.iesc.flightws.domain.Plane, org.iesc.flightws.vo.PlaneVO)
+     */
+    public void toPlaneVO(
+        org.iesc.flightws.domain.Plane source,
+        org.iesc.flightws.vo.PlaneVO target)
+    {
+        target.setType(source.getType());
+        target.setCapacity(source.getCapacity());
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.PlaneDao#toPlaneVO(org.iesc.flightws.domain.Plane)
+     */
+    public org.iesc.flightws.vo.PlaneVO toPlaneVO(final org.iesc.flightws.domain.Plane entity)
+    {
+        org.iesc.flightws.vo.PlaneVO target = null;
+        if (entity != null)
+        {
+            target = new org.iesc.flightws.vo.PlaneVO();
+            this.toPlaneVO(entity, target);
+        }
+        return target;
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.PlaneDao#planeVOToEntity(org.iesc.flightws.vo.PlaneVO, org.iesc.flightws.domain.Plane)
+     */
+    public void planeVOToEntity(
+        org.iesc.flightws.vo.PlaneVO source,
+        org.iesc.flightws.domain.Plane target,
+        boolean copyIfNull)
+    {
+        if (copyIfNull || source.getType() != null)
+        {
+            target.setType(source.getType());
+        }
+        if (copyIfNull || source.getCapacity() != null)
+        {
+            target.setCapacity(source.getCapacity());
+        }
     }
 
     /**

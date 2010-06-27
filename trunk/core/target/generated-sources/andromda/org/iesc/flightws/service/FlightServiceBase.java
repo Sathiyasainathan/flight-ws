@@ -276,6 +276,34 @@ public abstract class FlightServiceBase
         throws java.lang.Exception;
 
     /**
+     * @see org.iesc.flightws.service.FlightService#generateTestData(java.lang.Long)
+     */
+    public void generateTestData(final java.lang.Long complexity)
+    {
+        if (complexity == null)
+        {
+            throw new IllegalArgumentException(
+                "org.iesc.flightws.service.FlightService.generateTestData(java.lang.Long complexity) - 'complexity' can not be null");
+        }
+        try
+        {
+            this.handleGenerateTestData(complexity);
+        }
+        catch (Throwable th)
+        {
+            throw new org.iesc.flightws.service.FlightServiceException(
+                "Error performing 'org.iesc.flightws.service.FlightService.generateTestData(java.lang.Long complexity)' --> " + th,
+                th);
+        }
+    }
+
+     /**
+      * Performs the core logic for {@link #generateTestData(java.lang.Long)}
+      */
+    protected abstract void handleGenerateTestData(java.lang.Long complexity)
+        throws java.lang.Exception;
+
+    /**
      * Gets the current <code>principal</code> if one has been set,
      * otherwise returns <code>null</code>.
      *

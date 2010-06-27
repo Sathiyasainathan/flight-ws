@@ -140,6 +140,7 @@
         <property name="target">
             <bean class="org.iesc.flightws.domain.FlightDateDaoImpl">
                 <property name="sessionFactory"><ref local="sessionFactory"/></property>
+                <property name="planeDao"><ref bean="planeDao"/></property>
                 <!-- FlightDate entity property merge-point -->
             </bean>
         </property>
@@ -199,6 +200,7 @@
                 org.iesc.flightws.service.FlightService.getFlightsByCriteria=PROPAGATION_REQUIRED
                 org.iesc.flightws.service.FlightService.createBooking=PROPAGATION_REQUIRED
                 org.iesc.flightws.service.FlightService.getDestinationCitiesByDepartureCity=PROPAGATION_REQUIRED
+                org.iesc.flightws.service.FlightService.generateTestData=PROPAGATION_REQUIRED
             </value>
         </property>
     <!-- applicationContext serviceTransactionInterceptor merge-point -->

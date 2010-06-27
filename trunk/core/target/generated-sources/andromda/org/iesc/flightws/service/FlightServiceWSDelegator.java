@@ -79,6 +79,22 @@ public class FlightServiceWSDelegator
     }
 
     /**
+     * @see org.iesc.flightws.service.FlightService#generateTestData(java.lang.Long)
+     */
+    public void generateTestData(java.lang.Long complexity)
+    {
+        try
+        {
+            getFlightService().generateTestData(complexity);
+        }
+        catch (Exception exception)
+        {
+            final Throwable cause = getRootCause(exception);
+            throw new java.lang.RuntimeException(cause);
+        }
+    }
+
+    /**
      * Finds the root cause of the parent exception
      * by traveling up the exception tree.
      */
