@@ -18,6 +18,7 @@
           <xsd:element minOccurs="0" name="arrivalCity" nillable="true" type="xsd:long"/>
           <xsd:element minOccurs="0" name="departureCity" nillable="true" type="xsd:long"/>
           <xsd:element minOccurs="0" name="departureDate" nillable="true" type="xsd:long"/>
+          <xsd:element minOccurs="0" name="departureDateMax" nillable="true" type="xsd:long"/>
           <xsd:element minOccurs="0" name="flightType" nillable="true" type="xsd:long"/>
           <xsd:element minOccurs="0" name="nrPassengers" nillable="true" type="xsd:long"/>
         </xsd:sequence>
@@ -134,6 +135,16 @@
           </xsd:sequence>
         </xsd:complexType>
       </xsd:element>
+      <xsd:element name="generateTestData">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="complexity" nillable="true" type="xsd:long"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="generateTestDataResponse">
+        <xsd:complexType/>
+      </xsd:element>
       <xsd:element name="createBooking">
         <xsd:complexType>
           <xsd:sequence>
@@ -163,6 +174,9 @@
   <wsdl:message name="setBeanRefFactoryResponse">
     <wsdl:part name="parameters" element="tns:setBeanRefFactoryResponse"></wsdl:part>
   </wsdl:message>
+  <wsdl:message name="generateTestDataRequest">
+    <wsdl:part name="parameters" element="tns:generateTestData"></wsdl:part>
+  </wsdl:message>
   <wsdl:message name="getFlightsByCriteriaResponse">
     <wsdl:part name="parameters" element="tns:getFlightsByCriteriaResponse"></wsdl:part>
   </wsdl:message>
@@ -187,6 +201,9 @@
   <wsdl:message name="createBookingRequest">
     <wsdl:part name="parameters" element="tns:createBooking"></wsdl:part>
   </wsdl:message>
+  <wsdl:message name="generateTestDataResponse">
+    <wsdl:part name="parameters" element="tns:generateTestDataResponse"></wsdl:part>
+  </wsdl:message>
   <wsdl:message name="getFlightsByCriteriaRequest">
     <wsdl:part name="parameters" element="tns:getFlightsByCriteria"></wsdl:part>
   </wsdl:message>
@@ -202,6 +219,10 @@
     <wsdl:operation name="getBeanRefFactory">
       <wsdl:input name="getBeanRefFactoryRequest" message="tns:getBeanRefFactoryRequest"></wsdl:input>
       <wsdl:output name="getBeanRefFactoryResponse" message="tns:getBeanRefFactoryResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="generateTestData">
+      <wsdl:input name="generateTestDataRequest" message="tns:generateTestDataRequest"></wsdl:input>
+      <wsdl:output name="generateTestDataResponse" message="tns:generateTestDataResponse"></wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="createBooking">
       <wsdl:input name="createBookingRequest" message="tns:createBookingRequest"></wsdl:input>
@@ -238,6 +259,15 @@
         <wsdlsoap:body use="literal"/>
       </wsdl:input>
       <wsdl:output name="getBeanRefFactoryResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="generateTestData">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="generateTestDataRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="generateTestDataResponse">
         <wsdlsoap:body use="literal"/>
       </wsdl:output>
     </wsdl:operation>
@@ -355,4 +385,11 @@
          <org:beanRefFactory>?</org:beanRefFactory>
       </org:setBeanRefFactory>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://org.iesc.flightws.service/FlightServicePortType/setBeanRefFactoryRequest"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/></con:soapui-project>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://org.iesc.flightws.service/FlightServicePortType/setBeanRefFactoryRequest"/></con:call></con:operation><con:operation isOneWay="false" action="" name="generateTestData" bindingOperationName="generateTestData" type="Request-Response" outputName="generateTestDataResponse" inputName="generateTestDataRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:org="http://org.iesc.flightws.service">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <org:generateTestData>
+         <org:complexity>?</org:complexity>
+      </org:generateTestData>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://org.iesc.flightws.service/FlightServicePortType/generateTestDataRequest"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/></con:soapui-project>
