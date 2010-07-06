@@ -272,6 +272,12 @@ public abstract class PassengerDaoBase
      * flag is set to one of the constants defined in <code>org.iesc.flightws.domain.PassengerDao</code>, please note
      * that the {@link #TRANSFORM_NONE} constant denotes no transformation, so the entity itself
      * will be returned.
+     * <p>
+     * This method will return instances of these types:
+     * <ul>
+     *   <li>{@link org.iesc.flightws.domain.Passenger} - {@link #TRANSFORM_NONE}</li>
+     *   <li>{@link org.iesc.flightws.vo.PassengerVO} - {@link TRANSFORM_PASSENGERVO}</li>
+     * </ul>
      *
      * If the integer argument value is unknown {@link #TRANSFORM_NONE} is assumed.
      *
@@ -287,6 +293,9 @@ public abstract class PassengerDaoBase
         {
             switch (transform)
             {
+                case TRANSFORM_PASSENGERVO :
+                    target = toPassengerVO(entity);
+                    break;
                 case TRANSFORM_NONE : // fall-through
                 default:
                     target = entity;
@@ -310,6 +319,9 @@ public abstract class PassengerDaoBase
     {
         switch (transform)
         {
+            case TRANSFORM_PASSENGERVO :
+                toPassengerVOCollection(entities);
+                break;
             case TRANSFORM_NONE : // fall-through
                 default:
                 // do nothing;
@@ -367,6 +379,149 @@ public abstract class PassengerDaoBase
             }
         }
         return target;
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.PassengerDao#toPassengerVOCollection(java.util.Collection)
+     */
+    public final void toPassengerVOCollection(java.util.Collection entities)
+    {
+        if (entities != null)
+        {
+            org.apache.commons.collections.CollectionUtils.transform(entities, PASSENGERVO_TRANSFORMER);
+        }
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.PassengerDao#toPassengerVOArray(java.util.Collection)
+     */
+    public final org.iesc.flightws.vo.PassengerVO[] toPassengerVOArray(java.util.Collection entities)
+    {
+        org.iesc.flightws.vo.PassengerVO[] result = null;
+        if (entities != null)
+        {
+            final java.util.Collection collection = new java.util.ArrayList(entities);
+            this.toPassengerVOCollection(collection);
+            result = (org.iesc.flightws.vo.PassengerVO[]) collection.toArray(new org.iesc.flightws.vo.PassengerVO[0]);
+        }
+        return result;
+    }
+
+    /**
+     * Default implementation for transforming the results of a report query into a value object. This
+     * implementation exists for convenience reasons only. It needs only be overridden in the
+     * {@link PassengerDaoImpl} class if you intend to use reporting queries.
+     * @see org.iesc.flightws.domain.PassengerDao#toPassengerVO(org.iesc.flightws.domain.Passenger)
+     */
+    protected org.iesc.flightws.vo.PassengerVO toPassengerVO(java.lang.Object[] row)
+    {
+        return this.toPassengerVO(this.toEntity(row));
+    }
+
+    /**
+     * This anonymous transformer is designed to transform entities or report query results
+     * (which result in an array of objects) to {@link org.iesc.flightws.vo.PassengerVO}
+     * using the Jakarta Commons-Collections Transformation API.
+     */
+    private org.apache.commons.collections.Transformer PASSENGERVO_TRANSFORMER =
+        new org.apache.commons.collections.Transformer()
+        {
+            public java.lang.Object transform(java.lang.Object input)
+            {
+                java.lang.Object result = null;
+                if (input instanceof org.iesc.flightws.domain.Passenger)
+                {
+                    result = toPassengerVO((org.iesc.flightws.domain.Passenger)input);
+                }
+                else if (input instanceof java.lang.Object[])
+                {
+                    result = toPassengerVO((java.lang.Object[])input);
+                }
+                return result;
+            }
+        };
+
+    /**
+     * @see org.iesc.flightws.domain.PassengerDao#passengerVOToEntityCollection(java.util.Collection)
+     */
+    public final void passengerVOToEntityCollection(java.util.Collection instances)
+    {
+        if (instances != null)
+        {
+            for (final java.util.Iterator iterator = instances.iterator(); iterator.hasNext();)
+            {
+                // - remove an objects that are null or not of the correct instance
+                if (!(iterator.next() instanceof org.iesc.flightws.vo.PassengerVO))
+                {
+                    iterator.remove();
+                }
+            }
+            org.apache.commons.collections.CollectionUtils.transform(instances, PassengerVOToEntityTransformer);
+        }
+    }
+
+    private final org.apache.commons.collections.Transformer PassengerVOToEntityTransformer =
+        new org.apache.commons.collections.Transformer()
+        {
+            public java.lang.Object transform(java.lang.Object input)
+            {
+                return passengerVOToEntity((org.iesc.flightws.vo.PassengerVO)input);
+            }
+        };
+
+
+    /**
+     * @see org.iesc.flightws.domain.PassengerDao#toPassengerVO(org.iesc.flightws.domain.Passenger, org.iesc.flightws.vo.PassengerVO)
+     */
+    public void toPassengerVO(
+        org.iesc.flightws.domain.Passenger source,
+        org.iesc.flightws.vo.PassengerVO target)
+    {
+        target.setType(source.getType());
+        target.setName(source.getName());
+        target.setSurname(source.getSurname());
+        target.setPassportCode(source.getPassportCode());
+        target.setId(source.getId());
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.PassengerDao#toPassengerVO(org.iesc.flightws.domain.Passenger)
+     */
+    public org.iesc.flightws.vo.PassengerVO toPassengerVO(final org.iesc.flightws.domain.Passenger entity)
+    {
+        org.iesc.flightws.vo.PassengerVO target = null;
+        if (entity != null)
+        {
+            target = new org.iesc.flightws.vo.PassengerVO();
+            this.toPassengerVO(entity, target);
+        }
+        return target;
+    }
+
+    /**
+     * @see org.iesc.flightws.domain.PassengerDao#passengerVOToEntity(org.iesc.flightws.vo.PassengerVO, org.iesc.flightws.domain.Passenger)
+     */
+    public void passengerVOToEntity(
+        org.iesc.flightws.vo.PassengerVO source,
+        org.iesc.flightws.domain.Passenger target,
+        boolean copyIfNull)
+    {
+        if (copyIfNull || source.getType() != null)
+        {
+            target.setType(source.getType());
+        }
+        if (copyIfNull || source.getName() != null)
+        {
+            target.setName(source.getName());
+        }
+        if (copyIfNull || source.getSurname() != null)
+        {
+            target.setSurname(source.getSurname());
+        }
+        if (copyIfNull || source.getPassportCode() != null)
+        {
+            target.setPassportCode(source.getPassportCode());
+        }
     }
 
     /**

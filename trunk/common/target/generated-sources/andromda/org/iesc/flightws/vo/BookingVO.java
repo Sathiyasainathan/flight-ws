@@ -14,16 +14,16 @@ public class BookingVO
     /**
      * The serial version UID of this class. Needed for serialization.
      */
-    private static final long serialVersionUID = 5560227618236153155L;
+    private static final long serialVersionUID = -1449284686714616366L;
 
     public BookingVO()
     {
     }
 
-    public BookingVO(org.iesc.flightws.vo.UserVO user, org.iesc.flightws.vo.FlightDateVO[] flightDates, org.iesc.flightws.vo.PassengerVO[] passengers)
+    public BookingVO(java.lang.Long userId, java.lang.Long flightDateId, org.iesc.flightws.vo.PassengerVO[] passengers)
     {
-        this.user = user;
-        this.flightDates = flightDates;
+        this.userId = userId;
+        this.flightDateId = flightDateId;
         this.passengers = passengers;
     }
 
@@ -35,7 +35,7 @@ public class BookingVO
      */
     public BookingVO(BookingVO otherBean)
     {
-        this(otherBean.getUser(), otherBean.getFlightDates(), otherBean.getPassengers());
+        this(otherBean.getUserId(), otherBean.getFlightDateId(), otherBean.getPassengers());
     }
 
     /**
@@ -45,40 +45,40 @@ public class BookingVO
     {
         if (otherBean != null)
         {
-            this.setUser(otherBean.getUser());
-            this.setFlightDates(otherBean.getFlightDates());
+            this.setUserId(otherBean.getUserId());
+            this.setFlightDateId(otherBean.getFlightDateId());
             this.setPassengers(otherBean.getPassengers());
         }
     }
 
-    private org.iesc.flightws.vo.UserVO user;
+    private java.lang.Long userId;
 
     /**
      * 
      */
-    public org.iesc.flightws.vo.UserVO getUser()
+    public java.lang.Long getUserId()
     {
-        return this.user;
+        return this.userId;
     }
 
-    public void setUser(org.iesc.flightws.vo.UserVO user)
+    public void setUserId(java.lang.Long userId)
     {
-        this.user = user;
+        this.userId = userId;
     }
 
-    private org.iesc.flightws.vo.FlightDateVO[] flightDates;
+    private java.lang.Long flightDateId;
 
     /**
      * 
      */
-    public org.iesc.flightws.vo.FlightDateVO[] getFlightDates()
+    public java.lang.Long getFlightDateId()
     {
-        return this.flightDates;
+        return this.flightDateId;
     }
 
-    public void setFlightDates(org.iesc.flightws.vo.FlightDateVO[] flightDates)
+    public void setFlightDateId(java.lang.Long flightDateId)
     {
-        this.flightDates = flightDates;
+        this.flightDateId = flightDateId;
     }
 
     private org.iesc.flightws.vo.PassengerVO[] passengers;

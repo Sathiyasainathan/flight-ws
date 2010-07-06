@@ -63,9 +63,9 @@
       </xsd:complexType>
       <xsd:complexType name="BookingVO">
         <xsd:sequence>
-          <xsd:element minOccurs="0" name="flightDates" nillable="true" type="ns1:ArrayOfFlightDateVO"/>
+          <xsd:element minOccurs="0" name="flightDateId" nillable="true" type="xsd:long"/>
           <xsd:element minOccurs="0" name="passengers" nillable="true" type="ns1:ArrayOfPassengerVO"/>
-          <xsd:element minOccurs="0" name="user" nillable="true" type="ns1:UserVO"/>
+          <xsd:element minOccurs="0" name="userId" nillable="true" type="xsd:long"/>
         </xsd:sequence>
       </xsd:complexType>
       <xsd:complexType name="ArrayOfPassengerVO">
@@ -79,20 +79,6 @@
           <xsd:element minOccurs="0" name="passportCode" nillable="true" type="xsd:string"/>
           <xsd:element minOccurs="0" name="surname" nillable="true" type="xsd:string"/>
           <xsd:element minOccurs="0" name="type" nillable="true" type="xsd:long"/>
-        </xsd:sequence>
-      </xsd:complexType>
-      <xsd:complexType name="UserVO">
-        <xsd:sequence>
-          <xsd:element minOccurs="0" name="bookings" nillable="true" type="ns1:ArrayOfBookingVO"/>
-          <xsd:element minOccurs="0" name="email" nillable="true" type="xsd:string"/>
-          <xsd:element minOccurs="0" name="name" nillable="true" type="xsd:string"/>
-          <xsd:element minOccurs="0" name="password" nillable="true" type="xsd:string"/>
-          <xsd:element minOccurs="0" name="surname" nillable="true" type="xsd:string"/>
-        </xsd:sequence>
-      </xsd:complexType>
-      <xsd:complexType name="ArrayOfBookingVO">
-        <xsd:sequence>
-          <xsd:element maxOccurs="unbounded" minOccurs="0" name="BookingVO" nillable="true" type="ns1:BookingVO"/>
         </xsd:sequence>
       </xsd:complexType>
     </xsd:schema>
@@ -295,62 +281,34 @@
       <wsdlsoap:address location="http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService"/>
     </wsdl:port>
   </wsdl:service>
-</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService</con:endpoint></con:endpoints><con:operation isOneWay="false" action="" name="createBooking" bindingOperationName="createBooking" type="Request-Response" outputName="createBookingResponse" inputName="createBookingRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:org="http://org.iesc.flightws.service" xmlns:vo="http://vo.flightws.iesc.org">
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService</con:endpoint></con:endpoints><con:operation isOneWay="false" action="" name="createBooking" bindingOperationName="createBooking" type="Request-Response" outputName="createBookingResponse" inputName="createBookingRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:org="http://org.iesc.flightws.service" xmlns:vo="http://vo.flightws.iesc.org">
    <soapenv:Header/>
    <soapenv:Body>
       <org:createBooking>
          <org:booking>
-            <!--Optional:-->
-            <vo:flightDates>
-               <!--Zero or more repetitions:-->
-               <vo:FlightDateVO>
-                  <!--Optional:-->
-                  <vo:arrivalDate>?</vo:arrivalDate>
-                  <!--Optional:-->
-                  <vo:departureDate>?</vo:departureDate>
-                  <!--Optional:-->
-                  <vo:plane>
-                     <!--Optional:-->
-                     <vo:capacity>?</vo:capacity>
-                     <!--Optional:-->
-                     <vo:type>?</vo:type>
-                  </vo:plane>
-               </vo:FlightDateVO>
-            </vo:flightDates>
-            <!--Optional:-->
+
+            <vo:flightDateId>1</vo:flightDateId>
             <vo:passengers>
-               <!--Zero or more repetitions:-->
                <vo:PassengerVO>
-                  <!--Optional:-->
-                  <vo:name>?</vo:name>
-                  <!--Optional:-->
-                  <vo:passportCode>?</vo:passportCode>
-                  <!--Optional:-->
-                  <vo:surname>?</vo:surname>
-                  <!--Optional:-->
-                  <vo:type>?</vo:type>
+                  <vo:name>BALAN</vo:name>
+                  <vo:passportCode>123123</vo:passportCode>
+                  <vo:surname>George</vo:surname>
+                  <vo:type>1</vo:type>
+               </vo:PassengerVO>
+               <vo:PassengerVO>
+                  <vo:name>CRACIUN</vo:name>
+                  <vo:passportCode>321321</vo:passportCode>
+                  <vo:surname>Sofia</vo:surname>
+                  <vo:type>1</vo:type>
                </vo:PassengerVO>
             </vo:passengers>
-            <!--Optional:-->
-            <vo:user>
-               <!--Optional:-->
-               <vo:bookings>
-                  <!--Zero or more repetitions:-->
-                  <vo:BookingVO/>
-               </vo:bookings>
-               <!--Optional:-->
-               <vo:email>?</vo:email>
-               <!--Optional:-->
-               <vo:name>?</vo:name>
-               <!--Optional:-->
-               <vo:password>?</vo:password>
-               <!--Optional:-->
-               <vo:surname>?</vo:surname>
-            </vo:user>
+
+            <vo:userId>1</vo:userId>
+
          </org:booking>
       </org:createBooking>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://org.iesc.flightws.service/FlightServicePortType/createBookingRequest"/></con:call></con:operation><con:operation isOneWay="false" action="" name="getBeanRefFactory" bindingOperationName="getBeanRefFactory" type="Request-Response" outputName="getBeanRefFactoryResponse" inputName="getBeanRefFactoryRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:org="http://org.iesc.flightws.service">
+</soapenv:Envelope>]]></con:request><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://org.iesc.flightws.service/FlightServicePortType/createBookingRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="getBeanRefFactory" bindingOperationName="getBeanRefFactory" type="Request-Response" outputName="getBeanRefFactoryResponse" inputName="getBeanRefFactoryRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/flightws-web-1.0.1-SNAPSHOT/services/FlightService</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:org="http://org.iesc.flightws.service">
    <soapenv:Header/>
    <soapenv:Body>
       <org:getBeanRefFactory/>

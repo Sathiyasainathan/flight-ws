@@ -29,6 +29,62 @@ public interface PassengerDao
     public void toEntities(final java.util.Collection results);
 
     /**
+     * This constant is used as a transformation flag; entities can be converted automatically into value objects
+     * or other types, different methods in a class implementing this interface support this feature: look for
+     * an <code>int</code> parameter called <code>transform</code>.
+     * <p>
+     * This specific flag denotes entities must be transformed into objects of type
+     * {@link org.iesc.flightws.vo.PassengerVO}.
+     */
+    public final static int TRANSFORM_PASSENGERVO = 1;
+
+    /**
+     * Copies the fields of the specified entity to the target value object. This method is similar to
+     * toPassengerVO(), but it does not handle any attributes in the target
+     * value object that are "read-only" (as those do not have setter methods exposed).
+     */
+    public void toPassengerVO(
+        org.iesc.flightws.domain.Passenger source,
+        org.iesc.flightws.vo.PassengerVO target);
+
+
+    /**
+     * Converts this DAO's entity to an object of type {@link org.iesc.flightws.vo.PassengerVO}.
+     */
+    public org.iesc.flightws.vo.PassengerVO toPassengerVO(org.iesc.flightws.domain.Passenger entity);
+
+    /**
+     * Converts this DAO's entity to a Collection of instances of type {@link org.iesc.flightws.vo.PassengerVO}.
+     */
+    public void toPassengerVOCollection(java.util.Collection entities);
+
+    /**
+     * Converts this DAO's entity to an array of instances of type {@link org.iesc.flightws.vo.PassengerVO}.
+     */
+    public org.iesc.flightws.vo.PassengerVO[] toPassengerVOArray(java.util.Collection entities);
+
+    /**
+     * Copies the fields of {@link org.iesc.flightws.vo.PassengerVO} to the specified entity.
+     * @param copyIfNull If FALSE, the value object's field will not be copied to the entity if the value is NULL. If TRUE,
+     * it will be copied regardless of its value.
+     */
+    public void passengerVOToEntity(
+        org.iesc.flightws.vo.PassengerVO source,
+        org.iesc.flightws.domain.Passenger target,
+        boolean copyIfNull);
+
+    /**
+     * Converts an instance of type {@link org.iesc.flightws.vo.PassengerVO} to this DAO's entity.
+     */
+    public org.iesc.flightws.domain.Passenger passengerVOToEntity(org.iesc.flightws.vo.PassengerVO passengerVO);
+
+    /**
+     * Converts a Collection of instances of type {@link org.iesc.flightws.vo.PassengerVO} to this
+     * DAO's entity.
+     */
+    public void passengerVOToEntityCollection(java.util.Collection instances);
+
+    /**
      * Loads an instance of org.iesc.flightws.domain.Passenger from the persistent store.
      */
     public org.iesc.flightws.domain.Passenger load(java.lang.Long id);

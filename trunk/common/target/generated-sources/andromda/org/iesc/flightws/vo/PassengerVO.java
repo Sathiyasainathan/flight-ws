@@ -14,18 +14,19 @@ public class PassengerVO
     /**
      * The serial version UID of this class. Needed for serialization.
      */
-    private static final long serialVersionUID = 6183420556622458936L;
+    private static final long serialVersionUID = 2480800821738876323L;
 
     public PassengerVO()
     {
     }
 
-    public PassengerVO(java.lang.Long type, java.lang.String name, java.lang.String surname, java.lang.String passportCode)
+    public PassengerVO(java.lang.Long type, java.lang.String name, java.lang.String surname, java.lang.String passportCode, java.lang.Long id)
     {
         this.type = type;
         this.name = name;
         this.surname = surname;
         this.passportCode = passportCode;
+        this.id = id;
     }
 
     /**
@@ -36,7 +37,7 @@ public class PassengerVO
      */
     public PassengerVO(PassengerVO otherBean)
     {
-        this(otherBean.getType(), otherBean.getName(), otherBean.getSurname(), otherBean.getPassportCode());
+        this(otherBean.getType(), otherBean.getName(), otherBean.getSurname(), otherBean.getPassportCode(), otherBean.getId());
     }
 
     /**
@@ -50,6 +51,7 @@ public class PassengerVO
             this.setName(otherBean.getName());
             this.setSurname(otherBean.getSurname());
             this.setPassportCode(otherBean.getPassportCode());
+            this.setId(otherBean.getId());
         }
     }
 
@@ -111,6 +113,21 @@ public class PassengerVO
     public void setPassportCode(java.lang.String passportCode)
     {
         this.passportCode = passportCode;
+    }
+
+    private java.lang.Long id;
+
+    /**
+     * 
+     */
+    public java.lang.Long getId()
+    {
+        return this.id;
+    }
+
+    public void setId(java.lang.Long id)
+    {
+        this.id = id;
     }
 
     // org.iesc.flightws.vo.PassengerVO value-object java merge-point
