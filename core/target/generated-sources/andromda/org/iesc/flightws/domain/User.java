@@ -156,13 +156,11 @@ public abstract class User
          * Constructs a new instance of {@link org.iesc.flightws.domain.User}, taking all required and/or
          * read-only properties as arguments.
          */
-        public static org.iesc.flightws.domain.User newInstance(java.lang.String email, java.lang.String password, java.lang.String name, java.lang.String surname)
+        public static org.iesc.flightws.domain.User newInstance(java.lang.String email, java.lang.String password)
         {
             final org.iesc.flightws.domain.User entity = new org.iesc.flightws.domain.UserImpl();
             entity.setEmail(email);
             entity.setPassword(password);
-            entity.setName(name);
-            entity.setSurname(surname);
             return entity;
         }
 

@@ -159,11 +159,11 @@ public abstract class BookingDaoBase
      * @see org.iesc.flightws.domain.BookingDao#create(org.iesc.flightws.domain.FlightDate, org.iesc.flightws.domain.Passenger, org.iesc.flightws.domain.User)
      */
     public org.iesc.flightws.domain.Booking create(
-        java.util.Collection flightDates,
+        org.iesc.flightws.domain.FlightDate flightDate,
         java.util.Collection passengers,
         org.iesc.flightws.domain.User user)
     {
-        return (org.iesc.flightws.domain.Booking)this.create(TRANSFORM_NONE, flightDates, passengers, user);
+        return (org.iesc.flightws.domain.Booking)this.create(TRANSFORM_NONE, flightDate, passengers, user);
     }
 
     /**
@@ -171,12 +171,12 @@ public abstract class BookingDaoBase
      */
     public java.lang.Object create(
         final int transform,
-        java.util.Collection flightDates,
+        org.iesc.flightws.domain.FlightDate flightDate,
         java.util.Collection passengers,
         org.iesc.flightws.domain.User user)
     {
         org.iesc.flightws.domain.Booking entity = new org.iesc.flightws.domain.BookingImpl();
-        entity.setFlightDates(flightDates);
+        entity.setFlightDate(flightDate);
         entity.setPassengers(passengers);
         entity.setUser(user);
         return this.create(transform, entity);
@@ -474,8 +474,6 @@ public abstract class BookingDaoBase
         org.iesc.flightws.domain.Booking source,
         org.iesc.flightws.vo.BookingVO target)
     {
-        // No conversion for target.user (can't convert source.getUser():org.iesc.flightws.domain.User to org.iesc.flightws.vo.UserVO)
-        // No conversion for target.flightDates (can't convert source.getFlightDates():org.iesc.flightws.domain.FlightDate to org.iesc.flightws.vo.FlightDateVO[])
         // No conversion for target.passengers (can't convert source.getPassengers():org.iesc.flightws.domain.Passenger to org.iesc.flightws.vo.PassengerVO[])
     }
 

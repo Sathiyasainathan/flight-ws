@@ -204,15 +204,15 @@ public abstract class FlightServiceBase
             throw new IllegalArgumentException(
                 "org.iesc.flightws.service.FlightService.createBooking(org.iesc.flightws.vo.BookingVO booking) - 'booking' can not be null");
         }
-        if (booking.getUser() == null)
+        if (booking.getUserId() == null)
         {
             throw new IllegalArgumentException(
-                "org.iesc.flightws.service.FlightService.createBooking(org.iesc.flightws.vo.BookingVO booking) - 'booking.user' can not be null");
+                "org.iesc.flightws.service.FlightService.createBooking(org.iesc.flightws.vo.BookingVO booking) - 'booking.userId' can not be null");
         }
-        if (booking.getFlightDates() == null)
+        if (booking.getFlightDateId() == null)
         {
             throw new IllegalArgumentException(
-                "org.iesc.flightws.service.FlightService.createBooking(org.iesc.flightws.vo.BookingVO booking) - 'booking.flightDates' can not be null");
+                "org.iesc.flightws.service.FlightService.createBooking(org.iesc.flightws.vo.BookingVO booking) - 'booking.flightDateId' can not be null");
         }
         if (booking.getPassengers() == null)
         {

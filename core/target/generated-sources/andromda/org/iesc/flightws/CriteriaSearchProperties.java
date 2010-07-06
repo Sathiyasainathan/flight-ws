@@ -163,7 +163,7 @@ package org.iesc.flightws;
                 new PropertyType[] 
                 {
                     new PropertyType("user", org.iesc.flightws.domain.UserImpl.class), 
-                    new PropertyType("flightDates", org.iesc.flightws.domain.FlightDateImpl.class), 
+                    new PropertyType("flightDate", org.iesc.flightws.domain.FlightDateImpl.class), 
                     new PropertyType("passengers", org.iesc.flightws.domain.PassengerImpl.class)
                 }
             )

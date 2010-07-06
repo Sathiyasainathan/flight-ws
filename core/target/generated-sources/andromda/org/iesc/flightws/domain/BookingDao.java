@@ -203,7 +203,7 @@ public interface BookingDao
      * </p>
      */
     public org.iesc.flightws.domain.Booking create(
-        java.util.Collection flightDates,
+        org.iesc.flightws.domain.FlightDate flightDate,
         java.util.Collection passengers,
         org.iesc.flightws.domain.User user);
 
@@ -219,7 +219,7 @@ public interface BookingDao
      */
     public Object create(
         int transform,
-        java.util.Collection flightDates,
+        org.iesc.flightws.domain.FlightDate flightDate,
         java.util.Collection passengers,
         org.iesc.flightws.domain.User user);
 

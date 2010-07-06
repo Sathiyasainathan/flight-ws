@@ -46,19 +46,19 @@ public abstract class Booking
         this.user = user;
     }
 
-    private java.util.Collection flightDates = new java.util.HashSet();
+    private org.iesc.flightws.domain.FlightDate flightDate;
 
     /**
      * 
      */
-    public java.util.Collection getFlightDates()
+    public org.iesc.flightws.domain.FlightDate getFlightDate()
     {
-        return this.flightDates;
+        return this.flightDate;
     }
 
-    public void setFlightDates(java.util.Collection flightDates)
+    public void setFlightDate(org.iesc.flightws.domain.FlightDate flightDate)
     {
-        this.flightDates = flightDates;
+        this.flightDate = flightDate;
     }
 
     private java.util.Collection passengers = new java.util.HashSet();
@@ -127,11 +127,11 @@ public abstract class Booking
          * Constructs a new instance of {@link org.iesc.flightws.domain.Booking}, taking all possible properties
          * (except the identifier(s))as arguments.
          */
-        public static org.iesc.flightws.domain.Booking newInstance(org.iesc.flightws.domain.User user, java.util.Collection flightDates, java.util.Collection passengers)
+        public static org.iesc.flightws.domain.Booking newInstance(org.iesc.flightws.domain.User user, org.iesc.flightws.domain.FlightDate flightDate, java.util.Collection passengers)
         {
             final org.iesc.flightws.domain.Booking entity = new org.iesc.flightws.domain.BookingImpl();
             entity.setUser(user);
-            entity.setFlightDates(flightDates);
+            entity.setFlightDate(flightDate);
             entity.setPassengers(passengers);
             return entity;
         }
