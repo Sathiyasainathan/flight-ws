@@ -1,0 +1,1 @@
+It's a project built with AndroMDA that represents a flight availability and booking webservice.
